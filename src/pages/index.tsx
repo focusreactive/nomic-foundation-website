@@ -8,7 +8,9 @@ const Home: NextPage = () => {
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',
       }}
-    ></LandingLayout>
+    >
+      page
+    </LandingLayout>
   );
 };
 

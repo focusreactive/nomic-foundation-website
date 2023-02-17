@@ -11,10 +11,14 @@
     "lint": "eslint src -f unix"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.18.6",
     "@callstack/react-theme-provider": "^3.0.8",
+    "@linaria/babel-preset": "^4.4.1",
+    "@linaria/core": "^4.2.6",
+    "@linaria/react": "^4.3.4",
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
-    "@types/react": "18.0.28",
+    "@types/react": "^18.0.28",
     "@types/react-dom": "18.0.10",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
@@ -26,6 +30,7 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "@next/bundle-analyzer": "^13.1.6",
     "next-compose-plugins": "^2.2.1",
     "next-remote-watch": "^2.0.0"
