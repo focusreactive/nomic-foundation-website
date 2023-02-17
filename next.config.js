@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-/** @type {import('next').NextConfig} */
-const path = require('path');
+
 const withLinaria = require('next-linaria');
 const withPlugins = require('next-compose-plugins');
 
@@ -8,6 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
+// @ts-ignore
 const linariaConfig = withLinaria({
   reactStrictMode: true,
   linaria: {
@@ -16,12 +16,12 @@ const linariaConfig = withLinaria({
         ? '.next/cache/.linaria-cache'
         : '.linaria-cache',
   },
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
   images: {
     dangerouslyAllowSVG: true,
-    domains: ['img.shields.io', 'hardhat.org'],
   },
 });
 
 module.exports = withPlugins([linariaConfig, withBundleAnalyzer]);
+
 module.exports.linariaConfig = linariaConfig;

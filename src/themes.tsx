@@ -1,8 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createTheming } from '@callstack/react-theme-provider';
 
-export { styled } from 'linaria/react';
-
 export enum ThemesEnum {
   LIGHT = 'LIGHT',
   DARK = 'DARK',
@@ -16,11 +14,11 @@ export const breakpoints = {
 };
 
 export const media = {
-  xs: `@media screen and (min-width: ${breakpoints.xs}px)`,
-  sm: `@media screen and (min-width: ${breakpoints.sm}px)`,
-  smd: `@media screen and (min-width: ${breakpoints.smd}px)`,
-  md: `@media screen and (min-width: ${breakpoints.md}px)`,
-  lg: `@media screen and (min-width: ${breakpoints.lg}px)`,
+  xs: `@media screen and (max-width: ${breakpoints.xs}px)`,
+  sm: `@media screen and (max-width: ${breakpoints.sm}px)`,
+  smd: `@media screen and (max-width: ${breakpoints.smd}px)`,
+  md: `@media screen and (max-width: ${breakpoints.md}px)`,
+  lg: `@media screen and (max-width: ${breakpoints.lg}px)`,
   mqDark: '@media (prefers-color-scheme: dark)',
 };
 
@@ -28,9 +26,17 @@ export const tmSelectors = {
   dark: 'body.DARK &',
 };
 
-export const lightPalette = {};
+export const lightPalette = {
+  bg100: '#F7F7FA',
+  font50: '#888890',
+  font100: '#1B182D',
+};
 
-export const darkPalette = {} as Palette;
+export const darkPalette = {
+  bg100: '#13141A',
+  font50: '#888890',
+  font100: '#888890',
+} as Palette;
 
 type Palette = typeof lightPalette;
 
@@ -99,11 +105,3 @@ export const ThemeProvider = ({
     </ThemeContext.Provider>
   );
 };
-
-type ThemeSelect<T> = (tm: T) => string;
-
-export const tm = (cb: ThemeSelect<{ colors: Palette }>) => () =>
-  ((fn) => fn(theming.useTheme().light))(cb);
-
-export const tmDark = (cb: ThemeSelect<{ colors: Palette }>) => () =>
-  ((fn) => fn(theming.useTheme().dark))(cb);

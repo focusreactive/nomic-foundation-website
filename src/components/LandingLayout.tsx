@@ -1,6 +1,9 @@
 import { SEOType } from '../types/commonTypes';
 import { styled } from 'linaria/react';
 import SEO from './SEO';
+import { bannerContent } from '../config';
+import TopBanner from './ui/TopBanner';
+import { ThemeProvider } from '../themes';
 
 const Container = styled.div`
   position: relative;
@@ -28,10 +31,13 @@ type Props = React.PropsWithChildren<{
 
 const LandingLayout = ({ children, seo }: Props) => {
   return (
-    <Container className='landing'>
-      <SEO seo={seo} />
-      <main>{children}</main>
-    </Container>
+    <ThemeProvider>
+      <Container className='landing'>
+        <TopBanner content={bannerContent} />
+        <SEO seo={seo} />
+        <main>{children}</main>
+      </Container>
+    </ThemeProvider>
   );
 };
 
