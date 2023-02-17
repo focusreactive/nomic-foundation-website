@@ -6,6 +6,7 @@
     "dev": "next-remote-watch ./src/content",
     "dev:debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "build:test": "ANALYZE=true next build",
     "start": "next start",
     "lint": "eslint src -f unix"
