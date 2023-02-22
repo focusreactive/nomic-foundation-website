@@ -3,7 +3,9 @@ import { styled } from 'linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
-import { ThemeProvider } from '../themes';
+import { appTheme, ThemeProvider, tmSelectors } from '../themes';
+import { Header } from './ui/styled/DesktopMenu.styled';
+import LandingNavigation from './LandingNavigation';
 
 const Container = styled.div`
   position: relative;
@@ -12,6 +14,9 @@ const Container = styled.div`
   justify-content: flex-start;
   align-items: center;
   -webkit-font-smoothing: antialiased;
+  transition: all 0.25s ease-in-out;
+  background: ${appTheme.light.colors.pageBackground};
+  height: 100vh;
   main {
     overflow-x: hidden;
     padding-top: 136px;
@@ -23,6 +28,9 @@ const Container = styled.div`
     width: 100%;
   }
   min-width: 320px;
+  ${tmSelectors.dark} {
+    background: ${appTheme.dark.colors.pageBackground};
+  }
 `;
 
 type Props = React.PropsWithChildren<{
@@ -33,7 +41,10 @@ const LandingLayout = ({ children, seo }: Props) => {
   return (
     <ThemeProvider>
       <Container className='landing'>
-        <TopBanner content={bannerContent} />
+        <Header>
+          <TopBanner content={bannerContent} />
+          <LandingNavigation />
+        </Header>
         <SEO seo={seo} />
         <main>{children}</main>
       </Container>

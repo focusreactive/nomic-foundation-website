@@ -38,14 +38,15 @@ export const BannerContainer = styled.a`
   }
   ${tmSelectors.dark} {
     background-color: ${appTheme.dark.colors.bg100};
-    color: ${appTheme.light.colors.font100};
+    color: ${appTheme.dark.colors.font100};
   }
 `;
 
 export const BannerDecorator = styled.span`
   color: ${appTheme.light.colors.font50};
-  font-size: 24px;
-  margin: 0 3px;
+  font-size: 22px;
+  margin: 0px 3px;
+
   ${tmSelectors.dark} {
     color: ${appTheme.light.colors.font50};
   }
