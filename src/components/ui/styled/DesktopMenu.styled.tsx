@@ -64,4 +64,10 @@ export const SocialItem = styled.div`
       fill: ${appTheme.dark.colors.font100};
     }
   }
+  ${media.smd} {
+    & svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
 `;

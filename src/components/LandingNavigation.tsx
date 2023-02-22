@@ -16,6 +16,8 @@ import {
 import { ThemeContext } from '../themes';
 import DesktopMenu from './ui/DesktopMenu';
 import HamburgerIcon from '../assets/icons/hamburger';
+import CrossIcon from '../assets/icons/cross';
+import MobileMenu from './ui/MobileMenu';
 
 const LandingNavigation: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -46,22 +48,21 @@ const LandingNavigation: FC = () => {
             )}
           </LogoContainer>
         </Link>
-        {/* <Hamburger
-          isOpen={isMobileMenuOpen}
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        /> */}
+
         <DesktopMenu menuItems={menuItemsList} socialsItems={socialsItems} />
-        <HamburgerWrapper>
-          <HamburgerIcon />
+        <HamburgerWrapper
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          {isMobileMenuOpen ? <CrossIcon /> : <HamburgerIcon />}
         </HamburgerWrapper>
       </ControlsContainer>
 
-      {/* <MobileMenu
+      <MobileMenu
         menuItems={menuItemsList}
         socialsItems={socialsItems}
         isOpen={isMobileMenuOpen}
         closeMobileMenu={() => setIsMobileMenuOpen(false)}
-      /> */}
+      />
     </Navigation>
   );
 };

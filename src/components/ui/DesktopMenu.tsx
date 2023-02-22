@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import { socialsItems } from '../../config';
 import { MenuItemType } from '../../types/commonTypes';
+import Socials from '../Socials';
 import ThemeSwitcher from '../ThemeSwitcher';
 import {
   DesktopMenuContainer,
   MenuItem,
   MenuItemsContainer,
-  SocialItem,
-  SocialsContainer,
 } from './styled/DesktopMenu.styled';
 
 type Props = {
@@ -26,18 +25,8 @@ const DesktopMenu = ({ menuItems }: Props) => (
         );
       })}
     </MenuItemsContainer>
-    <SocialsContainer>
-      {socialsItems.map((socialItem) => {
-        const { Icon } = socialItem;
-        return (
-          <Link key={socialItem.name} href={socialItem.href}>
-            <SocialItem>
-              <Icon />
-            </SocialItem>
-          </Link>
-        );
-      })}
-    </SocialsContainer>
+    <Socials />
+
     <div style={{ marginLeft: ' 24px' }}>
       <ThemeSwitcher />
     </div>
