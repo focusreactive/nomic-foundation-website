@@ -27,15 +27,27 @@ export const tmSelectors = {
 };
 
 export const lightPalette = {
+  pageBackground:
+    'linear-gradient(179.59deg, #EDEDF0 3.37%, #EDEEF1 11.26%, #F3FBFE 18.4%, #FEFCFA 30.72%, #FFFFFF 59.29%, #FFFFFF 100.12%)',
+  transparent: 'transparent',
   bg100: '#F7F7FA',
   font50: '#888890',
   font100: '#1B182D',
+  themeIndicator: '#888890',
+  themeBg: '#20232A',
+  hamburger: '#404146',
 };
 
 export const darkPalette = {
+  pageBackground:
+    'linear-gradient(180deg, #191B22 0.21%, #23262E 22.86%, #191B22 39.11%, #1C1E26 100.14%)',
+  transparent: 'transparent',
   bg100: '#13141A',
   font50: '#888890',
-  font100: '#888890',
+  font100: '#EDEDF0',
+  themeIndicator: '#EDEDF0',
+  themeBg: '#DCDCE1',
+  hamburger: '#EDEDF0',
 } as Palette;
 
 type Palette = typeof lightPalette;
