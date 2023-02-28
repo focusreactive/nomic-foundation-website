@@ -1,8 +1,8 @@
 export const HERO_BLOCK_CONTENT = {
   cta: {
-    href: '/',
+    href: '/what-we-do',
     label: 'View more',
   },
-  title: 'Empowering developers to decentralize the world',
+  title: 'Empowering developers\nto decentralize the world',
   subtitle: 'Independent non-profit organization.',
 };
