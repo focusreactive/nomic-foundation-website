@@ -3,11 +3,9 @@ import Link from 'next/link';
 
 import NomicFoundationLogo from '../assets/nomic-foundation-logo';
 import NomicFoundationLogoDark from '../assets/nomic-foundation-logo_dark';
-// import Hamburger from './ui/Hamburger';
-// import MobileMenu from './ui/MobileMenu';
-// import DesktopMenu from './ui/DesktopMenu';
 import { menuItemsList, socialsItems } from '../config';
 import {
+  BlurBg,
   ControlsContainer,
   HamburgerWrapper,
   LogoContainer,
@@ -23,21 +21,8 @@ const LandingNavigation: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { theme } = useContext(ThemeContext);
 
-  useEffect(() => {
-    const body = document.querySelector('body');
-    if (!body) return;
-
-    if (isMobileMenuOpen) {
-      // Disable scroll
-      body.style.overflow = 'hidden';
-    } else {
-      // Enable scroll
-      body.style.overflow = 'auto';
-    }
-  }, [isMobileMenuOpen]);
-
   return (
-    <Navigation>
+    <Navigation onClick={(e) => e.stopPropagation()}>
       <ControlsContainer>
         <Link href='/' passHref>
           <LogoContainer aria-label='home page'>
@@ -51,7 +36,9 @@ const LandingNavigation: FC = () => {
 
         <DesktopMenu menuItems={menuItemsList} socialsItems={socialsItems} />
         <HamburgerWrapper
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          onClick={() => {
+            setIsMobileMenuOpen(!isMobileMenuOpen);
+          }}
         >
           {isMobileMenuOpen ? <CrossIcon /> : <HamburgerIcon />}
         </HamburgerWrapper>

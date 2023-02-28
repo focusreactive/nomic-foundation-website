@@ -46,7 +46,7 @@ const LandingLayout = ({ children, seo }: Props) => {
           <LandingNavigation />
         </Header>
         <SEO seo={seo} />
-        <main>{children}</main>
+        <main id={'main'}>{children}</main>
       </Container>
     </ThemeProvider>
   );

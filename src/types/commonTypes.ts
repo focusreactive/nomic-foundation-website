@@ -14,3 +14,8 @@ export type MenuItemType = {
   icon?: React.FC<any>;
   iconDark?: React.FC<any>;
 };
+
+export type CTAContent = {
+  href: string;
+  label: string;
+};

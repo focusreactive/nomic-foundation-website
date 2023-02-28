@@ -1,3 +1,4 @@
+import { css } from '@linaria/core';
 import { styled } from 'linaria/react';
 import { appTheme, media, tmSelectors } from '../../themes';
 
@@ -6,21 +7,27 @@ export const Navigation = styled.nav`
   height: 96px;
   box-sizing: border-box;
   transition: all ease-in-out 0.5s;
-  background-color: ${appTheme.light.colors.transparent};
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 120px;
-  ${media.smd} {
+
+  ${media.md} {
     padding: 0 56px;
   }
-  ${media.sm} {
+  ${media.smd} {
     padding: 0 48px;
   }
-  ${media.xs} {
+  ${media.sm} {
     padding: 0 24px;
   }
+`;
+
+export const BlurBg = css`
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
 `;
 
 export const ControlsContainer = styled.section`
@@ -42,11 +49,15 @@ export const LogoContainer = styled.div`
   background-color: ${appTheme.light.colors.transparent};
   border: none;
   cursor: pointer;
+  z-index: 100;
+  isolation: isolate;
 `;
 
 export const HamburgerWrapper = styled.div`
   display: none;
   cursor: pointer;
+  z-index: 100;
+  isolation: 'isolate';
   & svg {
     stroke: ${appTheme.light.colors.font50};
   }

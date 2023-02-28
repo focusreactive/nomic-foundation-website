@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 import { socialsItems } from '../../config';
 import { MenuItemType } from '../../types/commonTypes';
 import Socials from '../Socials';
@@ -21,8 +22,23 @@ type Props = {
 const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
   const router = useRouter();
 
+  useEffect(() => {
+    const listener = () => closeMobileMenu();
+
+    window.addEventListener('click', listener);
+
+    return () => {
+      window.removeEventListener('click', listener);
+    };
+  }, [closeMobileMenu]);
+
   return (
-    <MobileMenuContainer isOpen={isOpen}>
+    <MobileMenuContainer
+      isOpen={isOpen}
+      onClick={(e) => {
+        e.stopPropagation();
+      }}
+    >
       <MobileMenuItemsList>
         {menuItems.map((menuItem) => {
           const isLinkActive = router.asPath.includes(menuItem.href);

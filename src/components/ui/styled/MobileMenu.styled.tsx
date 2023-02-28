@@ -6,13 +6,13 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   flex-direction: column;
   justify-content: space-between;
   width: min(100%, 360px);
-  height: calc(100vh - 126px);
-  top: 126px;
+  height: calc(100vh - 46px);
+  top: 46px;
   position: absolute;
   transition: all 0.25s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? '0px' : '-120%')};
   background: ${appTheme.light.colors.mobileMenuBackground};
-
+  z-index: -1;
   ${tmSelectors.dark} {
     background: ${appTheme.dark.colors.mobileMenuBackground};
   }
@@ -23,7 +23,7 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
 
 export const MobileMenuItemsList = styled.ul`
   list-style-type: none;
-  padding: 34px 24px 0 32px;
+  padding: 114px 24px 0 32px;
   display: flex;
   flex-direction: column;
 `;

@@ -1,5 +1,7 @@
 import type { NextPage } from 'next';
+import HeroBlock from '../components/landingBlocks/HeroBlock';
 import LandingLayout from '../components/LandingLayout';
+import { HERO_BLOCK_CONTENT } from '../content/landing';
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +11,7 @@ const Home: NextPage = () => {
         description: 'Empowering developers to decentralize the world',
       }}
     >
-      page
+      <HeroBlock content={HERO_BLOCK_CONTENT} />
     </LandingLayout>
   );
 };
