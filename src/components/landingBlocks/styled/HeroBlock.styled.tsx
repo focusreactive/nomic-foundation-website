@@ -5,7 +5,6 @@ export const HeroBlockContainer = styled.section`
   display: flex;
   position: relative;
   width: 100%;
-  min-height: 830px;
 `;
 
 export const HeroBlockContentSection = styled.section`
@@ -94,7 +93,6 @@ export const HeroBlockSubtitle = styled.h1`
 export const HeroBlockPictureSection = styled.section`
   position: absolute;
   width: 100%;
-  min-height: 830px;
 `;
 
 export const HeroBlockPictureWrapper = styled.section`
@@ -106,7 +104,7 @@ export const HeroBlockPictureWrapper = styled.section`
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: calc(var(--k)* -400px);
+  margin-top: calc(var(--k)* -420px);
   margin-right: calc(var(--k)* -875px);
   & .light {
     display: block;
@@ -125,16 +123,17 @@ export const HeroBlockPictureWrapper = styled.section`
   }
   transform-origin: top right;
   transform: scale(var(--k));
-  ${media.md} {
+  ${media.lg} {
     --k: 0.9;
   }
-  ${media.smd} {
+  ${media.md} {
     --k: 0.8;
   }
-  ${media.sm} {
+  ${media.smd} {
     --k: 0.6;
   }
-  ${media.xs} {
+
+  ${media.sm} {
     display: none;
   }
 `;
@@ -161,7 +160,7 @@ export const HeroBlockMobilePictureWrapper = styled.section`
       display: block;
     }
   }
-  ${media.xs} {
+  ${media.sm} {
     display: block;
   }
 `;
