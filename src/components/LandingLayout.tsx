@@ -1,11 +1,13 @@
 import { SEOType } from '../types/commonTypes';
-import { styled } from 'linaria/react';
+import { styled } from '@linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
 import { appTheme, ThemeProvider, tmSelectors } from '../themes';
 import { Header } from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
+import LandingFooter from './ui/LandingFooter';
+import { FOOTER_CONTENT } from '../content/landing';
 
 const Container = styled.div`
   position: relative;
@@ -47,6 +49,7 @@ const LandingLayout = ({ children, seo }: Props) => {
         </Header>
         <SEO seo={seo} />
         <main id={'main'}>{children}</main>
+        <LandingFooter content={FOOTER_CONTENT} />
       </Container>
     </ThemeProvider>
   );

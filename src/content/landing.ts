@@ -14,3 +14,11 @@ export const WHO_WE_ARE_BLOCK_CONTENT = {
   },
   text: 'The <b>Nomic Foundation</b> is an independent non-profit organization dedicated to building public good infrastructure to empower Ethereum developers to build decentralized software.',
 };
+
+export const FOOTER_CONTENT = {
+  copyright: 'Copyright 2022 Nomic Foundation',
+  privacy: {
+    text: 'Privacy Policy',
+    href: '/',
+  },
+};

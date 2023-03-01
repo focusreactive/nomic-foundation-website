@@ -5,7 +5,6 @@ import NomicFoundationLogo from '../assets/nomic-foundation-logo';
 import NomicFoundationLogoDark from '../assets/nomic-foundation-logo_dark';
 import { menuItemsList, socialsItems } from '../config';
 import {
-  BlurBg,
   ControlsContainer,
   HamburgerWrapper,
   LogoContainer,

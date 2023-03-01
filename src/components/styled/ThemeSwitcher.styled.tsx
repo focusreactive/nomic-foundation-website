@@ -1,4 +1,4 @@
-import { styled } from 'linaria/react';
+import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../themes';
 
 export const ThemeSwitcherContainer = styled.div`

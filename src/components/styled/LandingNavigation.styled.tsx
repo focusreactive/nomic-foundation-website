@@ -1,5 +1,5 @@
 import { css } from '@linaria/core';
-import { styled } from 'linaria/react';
+import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../themes';
 
 export const Navigation = styled.nav`
@@ -11,8 +11,10 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 120px;
-
+  padding: 0 176px;
+  ${media.xlg} {
+    padding: 0px 120px;
+  }
   ${media.md} {
     padding: 0 56px;
   }
