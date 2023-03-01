@@ -16,7 +16,6 @@ export const StyledButton = styled.button`
   box-shadow: ${appTheme.light.colors.ctaShadow};
   background-origin: border-box;
   background-clip: content-box, border-box;
-  transition: all 0.1s ease-in-out;
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font200};
     background: ${appTheme.dark.colors.ctaBg};
@@ -26,7 +25,7 @@ export const StyledButton = styled.button`
     cursor: pointer;
     margin-top: -2px;
     margin-left: -2px;
-    border: solid 3px transparent;
+    border: solid 2px transparent;
   }
 
   ${media.xlg} {
