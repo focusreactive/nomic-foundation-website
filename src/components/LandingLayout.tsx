@@ -48,8 +48,10 @@ const LandingLayout = ({ children, seo }: Props) => {
           <LandingNavigation />
         </Header>
         <SEO seo={seo} />
-        <main id={'main'}>{children}</main>
-        <LandingFooter content={FOOTER_CONTENT} />
+        <main id={'main'}>
+          {children}
+          <LandingFooter content={FOOTER_CONTENT} />
+        </main>
       </Container>
     </ThemeProvider>
   );

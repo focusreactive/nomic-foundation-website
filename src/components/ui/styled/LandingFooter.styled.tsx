@@ -2,6 +2,8 @@ import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
 export const StyledLandingFooter = styled.footer`
+  margin-top: 60vh;
+  z-index: 100;
   width: 100%;
   background: ${appTheme.light.colors.footerBg};
   padding: 36px 176px;
