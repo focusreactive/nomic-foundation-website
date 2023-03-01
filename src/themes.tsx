@@ -33,6 +33,7 @@ export const lightPalette = {
     'linear-gradient(179.59deg, #EDEDF0 3.37%, #EDEEF1 11.26%, #F3FBFE 18.4%, #FEFCFA 30.72%, #FFFFFF 59.29%, #FFFFFF 100.12%)',
   transparent: 'transparent',
   bg100: '#F7F7FA',
+  font0: '#000000',
   font50: '#888890',
   font100: '#1B182D',
   font150: '#2B2B2F',
@@ -50,6 +51,7 @@ export const lightPalette = {
   ctaBg:
     'linear-gradient(71.28deg, #fff4ee -21.07%, #ffffff 67.73%), linear-gradient(101deg, #fadeca, #c8e9fc)',
   ctaShadow: '1px 1000px 1px #fff inset;',
+  footerBg: 'linear-gradient(70.45deg, #EDEDF0 0%, #FAFAFA 104.52%)',
 };
 
 export const darkPalette = {
@@ -57,6 +59,7 @@ export const darkPalette = {
     'linear-gradient(180deg, #191B22 0.21%, #23262E 22.86%, #191B22 39.11%, #1C1E26 100.14%)',
   transparent: 'transparent',
   bg100: '#13141A',
+  font0: '#FFFFFF',
   font50: '#888890',
   font100: '#EDEDF0',
   font150: '#2B2B2F',
@@ -73,6 +76,7 @@ export const darkPalette = {
     'linear-gradient(227.05deg, rgba(196, 196, 196, 0) 16.93%, #C4C4C4 43.54%, rgba(196, 196, 196, 0) 74.26%)',
   ctaBg: 'linear-gradient(90.65deg, #F7CEB1 17.08%, #BEE4FA 87.78%)',
   ctaShadow: '1px 1000px 1px #13141a inset',
+  footerBg: '#24262E',
 } as Palette;
 
 type Palette = typeof lightPalette;

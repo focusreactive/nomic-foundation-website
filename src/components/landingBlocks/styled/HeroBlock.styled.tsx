@@ -1,4 +1,4 @@
-import { styled } from 'linaria/react';
+import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
 export const HeroBlockContainer = styled.section`
@@ -16,9 +16,6 @@ export const HeroBlockContentSection = styled.section`
   min-width: min-content;
   max-width: 50%;
   ${media.xlg} {
-    padding: 40px 120px 0px;
-  }
-  ${media.lg} {
     padding: 40px 120px 0px;
   }
   ${media.md} {
