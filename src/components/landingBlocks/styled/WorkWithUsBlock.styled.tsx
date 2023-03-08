@@ -96,7 +96,7 @@ export const WorkWithUsPicture = styled.section`
 export const WorkWithUsPictureWrapper = styled.section`
   position: absolute;
   left: 0%;
-  bottom: -360px;
+  bottom: -320px;
   z-index: 1;
   margin-top: -20%;
   & svg {
