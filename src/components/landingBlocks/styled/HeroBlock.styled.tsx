@@ -33,12 +33,12 @@ export const HeroBlockTitle = styled.h1`
   font-weight: 400;
   font-size: 100px;
   line-height: 120%;
-  background: ${appTheme.light.colors.bgHero};
+  background: ${appTheme.light.colors.titleBg};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   ${tmSelectors.dark} {
-    background: ${appTheme.dark.colors.bgHero};
+    background: ${appTheme.dark.colors.titleBg};
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
