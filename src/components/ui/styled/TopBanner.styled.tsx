@@ -24,10 +24,8 @@ export const BannerContainer = styled.a`
   & .banner-text {
     margin: 0 18px;
   }
-
   cursor: pointer;
-
-  ${media.sm} {
+  ${media.smd} {
     font-size: 12px;
     line-height: 130%;
     letter-spacing: 0.15em;

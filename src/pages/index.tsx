@@ -1,9 +1,11 @@
 import type { NextPage } from 'next';
 import HeroBlock from '../components/landingBlocks/HeroBlock';
+import ProjectsBlock from '../components/landingBlocks/PrjectsBlock';
 import WhoWeAre from '../components/landingBlocks/WhoWeAreBlock';
 import LandingLayout from '../components/LandingLayout';
 import {
   HERO_BLOCK_CONTENT,
+  PROJECTS_BLOCK_CONTENT,
   WHO_WE_ARE_BLOCK_CONTENT,
 } from '../content/landing';
 
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
     >
       <HeroBlock content={HERO_BLOCK_CONTENT} />
       <WhoWeAre content={WHO_WE_ARE_BLOCK_CONTENT} />
+      <ProjectsBlock content={PROJECTS_BLOCK_CONTENT} />
     </LandingLayout>
   );
 };

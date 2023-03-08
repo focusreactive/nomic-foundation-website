@@ -18,4 +18,6 @@ export type MenuItemType = {
 export type CTAContent = {
   href: string;
   label: string;
+  color?: string;
+  isCentered?: boolean;
 };

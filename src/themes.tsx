@@ -33,7 +33,7 @@ export const lightPalette = {
     'linear-gradient(179.59deg, #EDEDF0 3.37%, #EDEEF1 11.26%, #F3FBFE 18.4%, #FEFCFA 30.72%, #FFFFFF 59.29%, #FFFFFF 100.12%)',
   transparent: 'transparent',
   bg100: '#F7F7FA',
-  font0: '#000000',
+  font0: '#0A0A0A',
   font50: '#888890',
   font100: '#1B182D',
   font150: '#2B2B2F',
@@ -45,13 +45,17 @@ export const lightPalette = {
     'linear-gradient(179.76deg, #edeef1 4.01%,    #f3fbfe 45.82%,    #fefcfa 112.58% )',
   menuItemActive:
     'linear-gradient(90deg, #CACAD2 1.5%, rgba(202, 202, 210, 0) 91.74%)',
-  bgHero: 'linear-gradient(93.28deg, #404146 29%, #ecbb97 221.41%)',
+  titleBg: 'linear-gradient(93.28deg, #404146 29%, #ecbb97 221.41%)',
   bgTexture:
     'linear-gradient(227.05deg, rgba(196, 196, 196, 0) 16.93%, #C4C4C4 43.54%, rgba(196, 196, 196, 0) 74.26%);',
   ctaBg:
     'linear-gradient(71.28deg, #fff4ee -21.07%, #ffffff 67.73%), linear-gradient(101deg, #fadeca, #c8e9fc)',
-  ctaShadow: '1px 1000px 1px #fff inset;',
+
+  ctaShadow: '#fff ',
   footerBg: 'linear-gradient(70.45deg, #EDEDF0 0%, #FAFAFA 104.52%)',
+  hardhatMain: '#EDCF00',
+  slangMain: '#F7CEB1',
+  rethnetMain: '#BEE4FA',
 };
 
 export const darkPalette = {
@@ -71,12 +75,16 @@ export const darkPalette = {
     'linear-gradient(180deg, #191B22 6.7%, #23262E 37.01%, #191B22 63.98%, #1C1E26 100.14%)',
   menuItemActive:
     ' linear-gradient(90deg, #696B73 1.35%, rgba(64, 65, 70, 0) 100.18%)',
-  bgHero: 'linear-gradient(89.7deg, #EDEDF0 -0.64%, #CACAD2 101.89%)',
+  titleBg: 'linear-gradient(89.7deg, #EDEDF0 -0.64%, #CACAD2 101.89%)',
   bgTexture:
     'linear-gradient(227.05deg, rgba(196, 196, 196, 0) 16.93%, #C4C4C4 43.54%, rgba(196, 196, 196, 0) 74.26%)',
-  ctaBg: 'linear-gradient(90.65deg, #F7CEB1 17.08%, #BEE4FA 87.78%)',
-  ctaShadow: '1px 1000px 1px #13141a inset',
+  ctaBg:
+    'linear-gradient(71.28deg, #191B22 -21.07%, #20232A 67.73%),linear-gradient(90.65deg, #FADECA 17.08%, #BEE4FA 87.78%)',
+  ctaShadow: '#13141A',
   footerBg: '#24262E',
+  hardhatMain: '#EDCF00',
+  slangMain: '#F7CEB1',
+  rethnetMain: '#BEE4FA',
 } as Palette;
 
 type Palette = typeof lightPalette;
