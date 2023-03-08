@@ -1,7 +1,7 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const StyledProjectsBlock = styled.section`
+export const StyledProjects = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -117,12 +117,21 @@ export const ProjectItemContainer = styled.section`
   width: 100%;
   position: relative;
   flex-direction: column;
-  margin-bottom: 220px;
+  margin-bottom: 400px;
+  ${media.xlg} {
+    margin-bottom: 320px;
+  }
+  ${media.lg} {
+    margin-bottom: 220px;
+  }
   ${media.smd} {
     margin-bottom: 100px;
   }
   ${media.sm} {
     margin-bottom: 42px;
+  }
+  &:last-child {
+    margin-bottom: unset;
   }
 `;
 
@@ -203,17 +212,17 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
-    width: 8vw;
+    width: 5.3vw;
     height: 10vw;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
     left: unset;
     right: 0;
-    margin-top: -23%;
+    margin-top: -14%;
 
-    margin-right: -15%;
-    transform: skewY(-33deg);
+    margin-right: -4%;
+    transform: skewY(-30deg);
   }
   ${media.smd} {
     display: none;
@@ -230,7 +239,7 @@ export const ProjectItemPicWrapper = styled.div`
 
   .reversed & {
     left: unset;
-    right: 15%;
+    right: 4%;
   }
 
   & .light {
