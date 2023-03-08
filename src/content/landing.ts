@@ -99,3 +99,12 @@ export const PROJECTS_BLOCK_CONTENT = {
     },
   ],
 };
+
+export const WORK_WITH_US_CONTENT = {
+  title: 'Work with us',
+  text: 'Work for us, from anywhere. We are hiring for hundreds of open positions across more than 96 countries.',
+  cta: {
+    href: '/',
+    label: 'View more',
+  },
+};

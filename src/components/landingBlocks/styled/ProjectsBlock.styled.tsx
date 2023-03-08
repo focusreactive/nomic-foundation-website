@@ -1,7 +1,7 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const StyledProjectsBlock = styled.section`
+export const StyledProjects = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -129,6 +129,9 @@ export const ProjectItemContainer = styled.section`
   }
   ${media.sm} {
     margin-bottom: 42px;
+  }
+  &:last-child {
+    margin-bottom: unset;
   }
 `;
 

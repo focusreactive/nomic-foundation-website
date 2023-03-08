@@ -7,7 +7,7 @@ import {
   ProjectsContainer,
   ProjectsSubtitle,
   ProjectsTitle,
-  StyledProjectsBlock,
+  StyledProjects,
   ProjectItemInnerSection,
   ProjectItemPicWrapper,
   ProjectItemMobilePicWrapper,
@@ -86,10 +86,10 @@ const ProjectItem = ({
   );
 };
 
-const ProjectsBlock = ({ content }: Props) => {
+const Projects = ({ content }: Props) => {
   const { title, subtitle, projects } = content;
   return (
-    <StyledProjectsBlock>
+    <StyledProjects>
       <ProjectsTitle>{title}</ProjectsTitle>
       <ProjectsSubtitle>{subtitle}</ProjectsSubtitle>
       <ProjectsContainer>
@@ -104,8 +104,8 @@ const ProjectsBlock = ({ content }: Props) => {
           );
         })}
       </ProjectsContainer>
-    </StyledProjectsBlock>
+    </StyledProjects>
   );
 };
 
-export default ProjectsBlock;
+export default Projects;
