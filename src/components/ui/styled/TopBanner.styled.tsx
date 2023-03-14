@@ -18,9 +18,6 @@ export const BannerContainer = styled.a`
   letter-spacing: 0.02em;
   white-space: nowrap;
   width: 100%;
-  position: sticky;
-  top: 0;
-  left: 0;
   & .banner-text {
     margin: 0 18px;
   }

@@ -56,6 +56,8 @@ export const lightPalette = {
   hardhatMain: '#EDCF00',
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
+  navbarBlur: '#ffffffb2',
+  navbarFill: '#F7F7FA',
 };
 
 export const darkPalette = {
@@ -85,6 +87,8 @@ export const darkPalette = {
   hardhatMain: '#EDCF00',
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
+  navbarBlur: '#13141ACC',
+  navbarFill: '#13141ACC',
 } as Palette;
 
 type Palette = typeof lightPalette;
