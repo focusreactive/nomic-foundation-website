@@ -72,12 +72,10 @@ export const SupportersPictureWrapper = styled.section`
     }
     & .dark {
       display: block;
-      margin-top: -4%;
 
       ${media.xlg} {
         margin-top: -2%;
       }
-      margin-top: -3%;
     }
   }
 
