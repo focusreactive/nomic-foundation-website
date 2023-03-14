@@ -8,7 +8,7 @@ export const SupportersBlockContainer = styled.section`
   align-items: center;
   margin-top: 520px;
   width: 100%;
-  ${media.smd} {
+  ${media.xlg} {
     margin-top: 344px;
   }
   ${media.smd} {
