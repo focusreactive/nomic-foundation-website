@@ -19,6 +19,12 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   ${media.smd} {
     display: flex;
   }
+  ${media.sm} {
+    width: 100%;
+  }
+  .fill & {
+    height: 100vh;
+  }
 `;
 
 export const MobileMenuItemsList = styled.ul`

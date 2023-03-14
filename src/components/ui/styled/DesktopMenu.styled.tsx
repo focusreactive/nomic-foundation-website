@@ -9,6 +9,40 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   z-index: 199;
+  margin-top: 0;
+  transition: all 0.25s ease-in-out;
+
+  &.blur {
+    background: ${appTheme.light.colors.navbarBlur};
+    backdrop-filter: blur(9px);
+    mix-blend-mode: normal;
+    transition: all 0.25s ease-in-out;
+  }
+  &.fill {
+    background: ${appTheme.light.colors.navbarFill};
+    backdrop-filter: blur(9px);
+    mix-blend-mode: normal;
+    margin-top: -55px;
+    transition: all 0.25s ease-in-out;
+  }
+  ${tmSelectors.dark} {
+    &.blur {
+      background: ${appTheme.dark.colors.navbarBlur};
+      backdrop-filter: blur(9px);
+      mix-blend-mode: normal;
+    }
+    &.fill {
+      background: ${appTheme.dark.colors.navbarFill};
+      backdrop-filter: blur(9px);
+      mix-blend-mode: normal;
+    }
+  }
+
+  ${media.smd} {
+    &.fill {
+      margin-top: -46px;
+    }
+  }
 `;
 
 export const DesktopMenuContainer = styled.menu`
