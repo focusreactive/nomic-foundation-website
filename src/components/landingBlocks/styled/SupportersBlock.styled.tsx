@@ -57,9 +57,8 @@ export const SupportersPictureWrapper = styled.section`
   right: -10%;
   z-index: 1;
   width: 120%;
-  margin-top: -2%;
-  & svg {
-  }
+  margin-top: -4%;
+
   & .light {
     display: block;
   }
@@ -73,8 +72,17 @@ export const SupportersPictureWrapper = styled.section`
     }
     & .dark {
       display: block;
+      margin-top: -4%;
+
+      ${media.xlg} {
+        margin-top: -2%;
+      }
       margin-top: -3%;
     }
+  }
+
+  ${media.xlg} {
+    margin-top: -2%;
   }
   ${media.smd} {
     display: none;
