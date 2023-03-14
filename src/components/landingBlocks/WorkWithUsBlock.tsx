@@ -27,10 +27,6 @@ const WorkWithUs = ({ content }: Props) => {
           <WorkWithUsDesk className='light' />
           <WorkWithUsDeskDark className='dark' />
         </WorkWithUsPictureWrapper>
-        {/* <WorkWithUsMobilePictureWrapper>
-          <WorkWithUsMobilePicture className='light' />
-          <WorkWithUsMobilePictureDark className='dark' />
-        </WorkWithUsMobilePictureWrapper> */}
       </WorkWithUsPicture>
       <WorkWithUsTitle>{content.title}</WorkWithUsTitle>
       <WorkWithUsText>{content.text}</WorkWithUsText>

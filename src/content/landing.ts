@@ -2,6 +2,20 @@ import HardhatAssets from '../assets/projects/hardhat';
 import SlangAssets from '../assets/projects/slang';
 import RethnetAssets from '../assets/projects/rethnet';
 import { appTheme } from '../themes';
+import EthereumFoundationLogo from '../assets/supporters/ethereum-foundation-logo';
+import VitalikButerinLogo from '../assets/supporters/vitalik-buterin-logo';
+import AndreesenHorowitzLogo from '../assets/supporters/andreesen-horowitz-logo';
+import ChainlinkLogo from '../assets/supporters/chainlink-logo';
+import KaszekLogo from '../assets/supporters/kaszek-logo';
+import TheGraphLogo from '../assets/supporters/the-graph-logo';
+import ACapitalLogo from '../assets/supporters/a-capital-logo';
+import DecentralandLogo from '../assets/supporters/decentraland-logo';
+import PolygonLogo from '../assets/supporters/polygon-logo';
+import ConsensysLogo from '../assets/supporters/consensys-logo';
+import CoinbaseLogo from '../assets/supporters/coinbase-logo';
+import GnosisLogo from '../assets/supporters/gnosis-logo';
+import YearnLogo from '../assets/supporters/yearn-logo';
+import UniswapLogo from '../assets/supporters/uniswap-logo';
 
 const {
   HardhatIcon,
@@ -107,4 +121,24 @@ export const WORK_WITH_US_CONTENT = {
     href: '/',
     label: 'View more',
   },
+};
+
+export const SUPPORTERS_CONTENT = {
+  title: 'Supporters',
+  logos: [
+    EthereumFoundationLogo,
+    VitalikButerinLogo,
+    AndreesenHorowitzLogo,
+    ChainlinkLogo,
+    KaszekLogo,
+    TheGraphLogo,
+    ACapitalLogo,
+    DecentralandLogo,
+    PolygonLogo,
+    ConsensysLogo,
+    CoinbaseLogo,
+    GnosisLogo,
+    YearnLogo,
+    UniswapLogo,
+  ],
 };

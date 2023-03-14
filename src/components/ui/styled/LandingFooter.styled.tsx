@@ -2,7 +2,6 @@ import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
 export const StyledLandingFooter = styled.footer`
-  margin-top: 60vh;
   z-index: 100;
   width: 100%;
   background: ${appTheme.light.colors.footerBg};
@@ -10,6 +9,7 @@ export const StyledLandingFooter = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 240px;
   ${tmSelectors.dark} {
     background: ${appTheme.dark.colors.footerBg};
   }
@@ -21,6 +21,7 @@ export const StyledLandingFooter = styled.footer`
   }
   ${media.smd} {
     padding: 36px 48px;
+    margin-top: 100px;
   }
   ${media.sm} {
     padding: 36px 24px;
