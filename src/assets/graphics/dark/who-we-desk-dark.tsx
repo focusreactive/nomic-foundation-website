@@ -4,8 +4,7 @@ import { SVGProps } from 'react';
 const WhoWeAreDeskDarkTexture = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={1921}
-    height={1286}
+    viewBox='0 0 1921 1286'
     fill='none'
     {...props}
   >

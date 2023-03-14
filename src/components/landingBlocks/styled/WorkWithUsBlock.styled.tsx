@@ -96,6 +96,7 @@ export const WorkWithUsPicture = styled.section`
 export const WorkWithUsPictureWrapper = styled.section`
   position: absolute;
   left: 0%;
+  right: 0%;
   bottom: -320px;
   z-index: 1;
   margin-top: -20%;
