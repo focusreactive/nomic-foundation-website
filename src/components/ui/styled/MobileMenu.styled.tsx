@@ -44,6 +44,10 @@ export const MobileMenuItem = styled.li`
   color: ${appTheme.light.colors.font50};
   padding: 10px 0;
   margin-bottom: 2px;
+  & a {
+    width: 100%;
+    height: 100%;
+  }
   &:last-child {
     margin-bottom: unset;
   }
