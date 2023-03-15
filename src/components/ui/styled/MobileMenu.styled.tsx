@@ -6,7 +6,7 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   flex-direction: column;
   justify-content: space-between;
   width: min(100%, 412px);
-  height: calc(100vh - 46px);
+  height: calc(100vh - 126px);
   top: 46px;
   position: absolute;
   transition: all 0.25s ease-in-out;
@@ -23,7 +23,7 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
     width: 100%;
   }
   .fill & {
-    height: 100vh;
+    height: calc(100vh - 76px);
   }
 `;
 
@@ -79,5 +79,5 @@ export const MobileMenuFooter = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px 30px;
+  padding: 0 24px 46px;
 `;
