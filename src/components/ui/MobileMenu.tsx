@@ -43,15 +43,14 @@ const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
         {menuItems.map((menuItem) => {
           const isLinkActive = router.asPath.includes(menuItem.href);
           return (
-            <Link
-              href={menuItem.href}
+            <MobileMenuItem
+              className={isLinkActive ? 'active' : ''}
               key={menuItem.label}
-              onClick={closeMobileMenu}
             >
-              <MobileMenuItem className={isLinkActive ? 'active' : ''}>
+              <Link href={menuItem.href} onClick={closeMobileMenu}>
                 {menuItem.label}
-              </MobileMenuItem>
-            </Link>
+              </Link>
+            </MobileMenuItem>
           );
         })}
       </MobileMenuItemsList>
