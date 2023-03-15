@@ -88,7 +88,7 @@ export const darkPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#13141ACC',
-  navbarFill: '#13141ACC',
+  navbarFill: '#13141A',
 } as Palette;
 
 type Palette = typeof lightPalette;
