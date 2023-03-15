@@ -55,7 +55,7 @@ export const ProjectsTitle = styled.h2`
 `;
 
 export const ProjectsSubtitle = styled.h3`
-  font-weight: 400;
+  font-weight: 300;
   font-size: 40px;
   line-height: 150%;
   text-align: center;
