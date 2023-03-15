@@ -87,6 +87,7 @@ export const SocialsContainer = styled.section`
 `;
 
 export const SocialItem = styled.div`
+  font-size: 0px;
   & svg {
     fill: ${appTheme.light.colors.font50};
   }
