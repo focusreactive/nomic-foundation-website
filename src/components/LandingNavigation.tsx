@@ -23,8 +23,8 @@ const LandingNavigation: FC = () => {
   return (
     <Navigation onClick={(e) => e.stopPropagation()}>
       <ControlsContainer>
-        <Link href='/' passHref>
-          <LogoContainer aria-label='home page'>
+        <Link href='/' passHref aria-label='Nomic Foundation' role='link'>
+          <LogoContainer>
             {theme === 'LIGHT' ? (
               <NomicFoundationLogo />
             ) : (

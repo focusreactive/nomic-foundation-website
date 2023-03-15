@@ -8,9 +8,14 @@ const Socials = () => {
       {socialsItems.map((socialItem) => {
         const { Icon } = socialItem;
         return (
-          <Link key={socialItem.name} href={socialItem.href}>
+          <Link
+            key={socialItem.name}
+            href={socialItem.href}
+            aria-label={socialItem.name}
+          >
             <SocialItem>
               <Icon />
+              {socialItem.name}
             </SocialItem>
           </Link>
         );

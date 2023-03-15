@@ -72,10 +72,6 @@ export const SupportersPictureWrapper = styled.section`
     }
     & .dark {
       display: block;
-
-      ${media.xlg} {
-        margin-top: -2%;
-      }
     }
   }
 
@@ -127,9 +123,9 @@ export const LogoItemWrapper = styled.div`
     margin-left: unset;
     margin: 0 12px;
     & svg {
-      height: 24px;
+      height: 40px;
       max-width: 60px;
     }
-    height: 24px;
+    height: 40px;
   }
 `;
