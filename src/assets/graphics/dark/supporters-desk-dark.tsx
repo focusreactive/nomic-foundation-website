@@ -43,16 +43,7 @@ const SupportersDeskDark = (props: SVGProps<SVGSVGElement>) => (
       strokeLinejoin='round'
       d='M638.52 500.117H331.702'
     />
-    <path
-      stroke='#13141A'
-      strokeMiterlimit={10}
-      d='M517.02 32.035h122.4v122.4h-122.4zM1834.58 250.703H638.77v124.8h1195.81z'
-    />
-    <path
-      stroke='#13141A'
-      strokeMiterlimit={10}
-      d='M1834.58 375.25H638.77v124.8h1195.81zM1834.58 500.121H638.77v124.8h1195.81zM1834.58 32.035h122.4v122.4h-122.4zM517.02 92.309h62.4v62.4h-62.4zM639.363 154.703h62.4v62.4h-62.4zM1772.51 154.703h62.4v62.4h-62.4z'
-    />
+
     <path
       stroke='#13141A'
       strokeMiterlimit={10}

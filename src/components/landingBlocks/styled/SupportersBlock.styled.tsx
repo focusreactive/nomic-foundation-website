@@ -87,13 +87,13 @@ export const SupportersBlockLogosContainer = styled.section`
   z-index: 5;
   margin-top: 4%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 50%;
   justify-content: center;
   align-items: center;
   ${media.md} {
     margin-top: 4vw;
-    width: 65%;
+    width: 80%;
   }
   ${media.smd} {
     width: 90%;
@@ -103,13 +103,43 @@ export const SupportersBlockLogosContainer = styled.section`
   }
 `;
 
+export const LogosRow = styled.div`
+  --border-color: ${appTheme.light.colors.border100};
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: nowrap;
+  border: 1px solid var(--border-color);
+  border-bottom: unset;
+  padding: 0 32px;
+  flex: 1;
+  &:last-child {
+    border-bottom: 1px solid var(--border-color);
+  }
+  ${tmSelectors.dark} {
+    --border-color: ${appTheme.dark.colors.border100};
+    ${media.smd} {
+      --border-color: transparent;
+      justify-content: space-evenly;
+    }
+  }
+
+  ${media.smd} {
+    --border-color: transparent;
+  }
+
+  ${media.sm} {
+    justify-content: center;
+  }
+`;
+
 export const LogoItemWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 32px;
   height: 4%;
   height: 132px;
+  padding: 0 10px;
   & svg {
     height: 100%;
   }
@@ -120,8 +150,6 @@ export const LogoItemWrapper = styled.div`
     height: 70px;
   }
   ${media.sm} {
-    margin-left: unset;
-    margin: 0 12px;
     & svg {
       height: 40px;
       max-width: 60px;
