@@ -58,6 +58,7 @@ export const lightPalette = {
   rethnetMain: '#BEE4FA',
   navbarBlur: '#ffffffb2',
   navbarFill: '#F7F7FA',
+  border100: '#DCDCE1',
 };
 
 export const darkPalette = {
@@ -89,6 +90,7 @@ export const darkPalette = {
   rethnetMain: '#BEE4FA',
   navbarBlur: '#13141ACC',
   navbarFill: '#13141A',
+  border100: '#13141A',
 } as Palette;
 
 type Palette = typeof lightPalette;

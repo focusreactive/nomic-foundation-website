@@ -46,16 +46,6 @@ const SupportersDesk = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#DCDCE1'
       strokeMiterlimit={10}
-      d='M516.637 32.199h122.4v122.4h-122.4zM1834.24 250.602H638.43v124.8h1195.81z'
-    />
-    <path
-      stroke='#DCDCE1'
-      strokeMiterlimit={10}
-      d='M1834.24 375.398H638.43v124.8h1195.81zM1834.24 500.203H638.43v124.8h1195.81zM1834.24 32.199h122.4v122.4h-122.4zM516.637 92.199h62.4v62.4h-62.4zM639.035 154.602h62.4v62.4h-62.4zM1771.83 154.602h62.4v62.4h-62.4z'
-    />
-    <path
-      stroke='#DCDCE1'
-      strokeMiterlimit={10}
       d='M1771.83 154.602h31.2v31.2h-31.2zM607.23 625h31.2v31.2h-31.2zM1834.24 625h31.2v31.2h-31.2zM1803.04 1h31.2v31.2h-31.2z'
     />
     <defs>

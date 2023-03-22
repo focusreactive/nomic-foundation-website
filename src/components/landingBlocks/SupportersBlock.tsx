@@ -1,8 +1,11 @@
 import { SVGProps } from 'react';
 import SupportersDeskDark from '../../assets/graphics/dark/supporters-desk-dark';
 import SupportersDesk from '../../assets/graphics/light/supporters-desk';
+import useWindowSize from '../../hooks/useWindowSize';
+import { breakpoints } from '../../themes';
 import {
   LogoItemWrapper,
+  LogosRow,
   SupportersBlockContainer,
   SupportersBlockLogosContainer,
   SupportersBlockTitle,
@@ -16,7 +19,24 @@ type Props = {
   };
 };
 
+const splitIntoChunks = (
+  array: Array<any>,
+  chunkSize: number
+): Array<Array<any>> => {
+  const arrayOfChunks = [];
+  for (let i = 0; i < array.length; i += chunkSize) {
+    const chunk = array.slice(i, i + chunkSize);
+    arrayOfChunks.push(chunk);
+  }
+
+  return arrayOfChunks;
+};
+
 const SupportersBlock = ({ content }: Props) => {
+  const { width } = useWindowSize();
+
+  const chunkSize = width >= breakpoints.smd ? 5 : 3;
+
   return (
     <SupportersBlockContainer>
       <SupportersPictureWrapper>
@@ -25,11 +45,17 @@ const SupportersBlock = ({ content }: Props) => {
       </SupportersPictureWrapper>
       <SupportersBlockTitle>{content.title}</SupportersBlockTitle>
       <SupportersBlockLogosContainer>
-        {content.logos.map((Logo) => (
-          <LogoItemWrapper key={Logo.name}>
-            <Logo />
-          </LogoItemWrapper>
-        ))}
+        {splitIntoChunks(content.logos, chunkSize).map((chunkLogos, index) => {
+          return (
+            <LogosRow key={index}>
+              {chunkLogos.map((Logo) => (
+                <LogoItemWrapper key={Logo.name}>
+                  <Logo />
+                </LogoItemWrapper>
+              ))}
+            </LogosRow>
+          );
+        })}
       </SupportersBlockLogosContainer>
     </SupportersBlockContainer>
   );
