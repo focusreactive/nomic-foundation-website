@@ -88,7 +88,6 @@ export const SupportersBlockLogosContainer = styled.section`
   margin-top: 4%;
   display: flex;
   flex-direction: column;
-  width: 50%;
   justify-content: center;
   align-items: center;
   ${media.md} {
