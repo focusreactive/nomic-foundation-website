@@ -6,12 +6,12 @@ export enum ThemesEnum {
   DARK = 'DARK',
 }
 export const breakpoints = {
-  xs: 360,
-  sm: 768,
-  smd: 1024,
-  md: 1280,
-  lg: 1440,
-  xlg: 1792,
+  xs: 359,
+  sm: 767,
+  smd: 1023,
+  md: 1279,
+  lg: 1439,
+  xlg: 1791,
 };
 
 export const media = {
@@ -57,8 +57,9 @@ export const lightPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#ffffffb2',
-  navbarFill: '#F7F7FA',
+  navbarFill: '#ffffffb2',
   border100: '#DCDCE1',
+  buttonShadow: '#EFEFEF',
 };
 
 export const darkPalette = {
@@ -89,8 +90,9 @@ export const darkPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#13141ACC',
-  navbarFill: '#13141A',
+  navbarFill: '#13141ACC',
   border100: '#13141A',
+  buttonShadow: '#13141A7F',
 } as Palette;
 
 type Palette = typeof lightPalette;

@@ -7,13 +7,15 @@ export const StyledButton = styled.button<{ color?: string }>`
   position: relative;
   height: fit-content;
   cursor: pointer;
-  line-height: 140%;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.02em;
   font-size: 19px;
   color: ${appTheme.light.colors.font200};
   border: unset;
   padding: 24px 56px;
+  height: 75px;
+
   border-radius: 40px;
   background-color: transparent;
 
@@ -26,11 +28,12 @@ export const StyledButton = styled.button<{ color?: string }>`
     content: ' ';
     display: block;
     border-radius: 40px;
-    width: 100%;
+    width: 99%;
     height: 100%;
     z-index: -1;
     top: 0;
     left: 0;
+    box-shadow: 0px 4px 4px ${appTheme.light.colors.buttonShadow};
   }
 
   &:hover {
@@ -46,17 +49,26 @@ export const StyledButton = styled.button<{ color?: string }>`
     letter-spacing: 0.01em;
     font-size: 14px;
     padding: 24px 40px;
+    height: 62px;
   }
   ${media.lg} {
+    height: 54px;
     padding: 20px 40px;
+  }
+  ${media.md} {
+    height: 54px;
   }
   ${media.smd} {
     font-size: 12px;
     padding: 16px 24px;
+    height: 44px;
   }
-  ${tmSelectors.dark} {
-    background-color: transparent;
 
+  ${tmSelectors.dark} {
+    &:before {
+      box-shadow: 0px 4px 4px ${appTheme.dark.colors.buttonShadow};
+    }
+    background-color: transparent;
     color: ${appTheme.dark.colors.font200};
     --bgColor: ${appTheme.dark.colors.ctaBg};
   }

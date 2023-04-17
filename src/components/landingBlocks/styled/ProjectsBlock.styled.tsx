@@ -7,7 +7,7 @@ export const StyledProjects = styled.section`
   width: 100%;
   align-items: center;
   margin-top: 360px;
-  z-index: 1;
+  z-index: 2;
   ${media.lg} {
     margin-top: 372px;
   }

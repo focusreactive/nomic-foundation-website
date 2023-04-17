@@ -49,6 +49,20 @@ export const LandingFooterContent = styled.section`
   }
 `;
 
+export const SocialsWrapper = styled.div`
+  & svg {
+    fill: ${appTheme.light.colors.font50};
+  }
+  ${tmSelectors.dark} {
+    & svg {
+      fill: ${appTheme.dark.colors.font100};
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+`;
+
 export const LogoWrapper = styled.span`
   width: 36px;
   height: 32px;
