@@ -9,7 +9,7 @@ export const ThemeSwitcherContainer = styled.div`
   height: var(--itemSize);
   position: relative;
   cursor: pointer;
-  ${media.smd} {
+  ${media.brp1024} {
     --itemSize: 20px;
   }
 `;
@@ -37,7 +37,7 @@ export const ThemeSwitcherItem = styled.div`
       background-color: unset;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     --itemSize: 20px;
   }
 `;
@@ -58,7 +58,7 @@ export const ActiveThemeIndicator = styled.div`
     transform: translateX(var(--itemSize));
     border-color: ${appTheme.dark.colors.themeIndicator};
   }
-  ${media.smd} {
+  ${media.brp1024} {
     --itemSize: 20px;
   }
 `;

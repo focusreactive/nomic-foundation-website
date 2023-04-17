@@ -15,7 +15,7 @@ export const WhoWeAreContent = styled.section`
   align-items: center;
   padding: 0 24px;
   z-index: 1;
-  ${media.sm} {
+  ${media.brp768} {
     align-items: flex-start;
   }
 `;
@@ -28,20 +28,20 @@ export const WhoWeAreText = styled.p`
   color: ${appTheme.light.colors.font150};
   max-width: 1080px;
   margin-top: 400px;
-  ${media.lg} {
+  ${media.brp1440} {
     max-width: 870px;
     font-size: 33px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     max-width: 714px;
     font-size: 28px;
     margin-top: 350px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     max-width: 544px;
     font-size: 23px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 19px;
     margin-top: 312px;
     text-align: start;
@@ -87,19 +87,19 @@ export const WhoWeArePictureWrapper = styled.section`
     }
   }
   transform-origin: center center;
-  ${media.lg} {
+  ${media.brp1440} {
     --k: 0.9;
   margin-top: -100px;
 
   }
-  ${media.md} {
+  ${media.brp1280} {
     --k: 0.8;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     --k: 0.6;
   }
 
-  ${media.sm} {
+  ${media.brp768} {
     display: none;
   }
 `;
@@ -125,14 +125,14 @@ export const WhoWeAreMobilePictureWrapper = styled.section`
       display: block;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     display: block;
   }
 `;
 
 export const CTAWrapper = styled.div`
   margin-top: 40px;
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 24px;
   }
 `;

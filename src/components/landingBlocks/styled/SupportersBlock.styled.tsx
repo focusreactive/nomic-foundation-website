@@ -8,13 +8,13 @@ export const SupportersBlockContainer = styled.section`
   align-items: center;
   margin-top: 520px;
   width: 100%;
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-top: 344px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 280px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 144px;
     padding: 0 24px;
   }
@@ -34,17 +34,17 @@ export const SupportersBlockTitle = styled.h2`
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 69px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 58px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 28px;
     letter-spacing: 0.03em;
   }
@@ -75,10 +75,10 @@ export const SupportersPictureWrapper = styled.section`
     }
   }
 
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-top: -2%;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -90,14 +90,14 @@ export const SupportersBlockLogosContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  ${media.md} {
+  ${media.brp1280} {
     margin-top: 4vw;
     width: 80%;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     width: 90%;
   }
-  ${media.sm} {
+  ${media.brp768} {
     width: 100%;
   }
 `;
@@ -117,17 +117,17 @@ export const LogosRow = styled.div`
   }
   ${tmSelectors.dark} {
     --border-color: ${appTheme.dark.colors.border100};
-    ${media.smd} {
+    ${media.brp1024} {
       --border-color: transparent;
       justify-content: space-evenly;
     }
   }
 
-  ${media.smd} {
+  ${media.brp1024} {
     --border-color: transparent;
   }
 
-  ${media.sm} {
+  ${media.brp768} {
     justify-content: center;
   }
 `;
@@ -142,13 +142,13 @@ export const LogoItemWrapper = styled.div`
   & svg {
     height: 100%;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     height: 100px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     height: 70px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     & svg {
       height: 40px;
       max-width: 60px;

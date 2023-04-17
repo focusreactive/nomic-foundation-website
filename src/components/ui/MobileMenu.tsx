@@ -7,6 +7,7 @@ import Socials from '../Socials';
 import ThemeSwitcher from '../ThemeSwitcher';
 import {
   MobileMenuContainer,
+  MobileMenuContent,
   MobileMenuFooter,
   MobileMenuItem,
   MobileMenuItemsList,
@@ -39,25 +40,27 @@ const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
         e.stopPropagation();
       }}
     >
-      <MobileMenuItemsList>
-        {menuItems.map((menuItem) => {
-          const isLinkActive = router.asPath.includes(menuItem.href);
-          return (
-            <MobileMenuItem
-              className={isLinkActive ? 'active' : ''}
-              key={menuItem.label}
-            >
-              <Link href={menuItem.href} onClick={closeMobileMenu}>
-                {menuItem.label}
-              </Link>
-            </MobileMenuItem>
-          );
-        })}
-      </MobileMenuItemsList>
-      <MobileMenuFooter>
-        <Socials />
-        <ThemeSwitcher />
-      </MobileMenuFooter>
+      <MobileMenuContent>
+        <MobileMenuItemsList>
+          {menuItems.map((menuItem) => {
+            const isLinkActive = router.asPath.includes(menuItem.href);
+            return (
+              <MobileMenuItem
+                className={isLinkActive ? 'active' : ''}
+                key={menuItem.label}
+              >
+                <Link href={menuItem.href} onClick={closeMobileMenu}>
+                  {menuItem.label}
+                </Link>
+              </MobileMenuItem>
+            );
+          })}
+        </MobileMenuItemsList>
+        <MobileMenuFooter>
+          <Socials />
+          <ThemeSwitcher />
+        </MobileMenuFooter>
+      </MobileMenuContent>
     </MobileMenuContainer>
   );
 };

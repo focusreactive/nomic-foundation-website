@@ -8,10 +8,10 @@ export const WorkWithUsContainer = styled.section`
   align-items: center;
   margin-top: 360px;
   position: relative;
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 180px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 144px;
     padding: 0 24px;
   }
@@ -31,17 +31,17 @@ export const WorkWithUsTitle = styled.h2`
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 69px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 58px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 28px;
     letter-spacing: 0.03em;
   }
@@ -56,19 +56,19 @@ export const WorkWithUsText = styled.p`
   color: ${appTheme.light.colors.font150};
   max-width: 870px;
   margin-top: 32px;
-  ${media.lg} {
+  ${media.brp1440} {
     font-size: 33px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     max-width: 714px;
     font-size: 28px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 16px;
     max-width: 544px;
     font-size: 23px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 19px;
   }
 
@@ -80,7 +80,7 @@ export const WorkWithUsText = styled.p`
 export const CTAWrapper = styled.div`
   z-index: 1;
   margin-top: 32px;
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 16px;
   }
 `;
@@ -119,7 +119,7 @@ export const WorkWithUsPictureWrapper = styled.section`
       margin-top: -14%;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     bottom: -420px;
     width: 200%;
     left: -50%;

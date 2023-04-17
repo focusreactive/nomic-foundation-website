@@ -6,21 +6,25 @@ export enum ThemesEnum {
   DARK = 'DARK',
 }
 export const breakpoints = {
-  xs: 359,
-  sm: 767,
-  smd: 1023,
-  md: 1279,
-  lg: 1439,
-  xlg: 1791,
+  brp360: 359,
+  brp428: 427,
+  brp500: 499,
+  brp768: 767,
+  brp1024: 1023,
+  brp1280: 1279,
+  brp1440: 1439,
+  brp1792: 1791,
 };
 
 export const media = {
-  xs: `@media screen and (max-width: ${breakpoints.xs}px)`,
-  sm: `@media screen and (max-width: ${breakpoints.sm}px)`,
-  smd: `@media screen and (max-width: ${breakpoints.smd}px)`,
-  md: `@media screen and (max-width: ${breakpoints.md}px)`,
-  lg: `@media screen and (max-width: ${breakpoints.lg}px)`,
-  xlg: `@media screen and (max-width: ${breakpoints.xlg}px)`,
+  brp360: `@media screen and (max-width: ${breakpoints.brp360}px)`,
+  brp428: `@media screen and (max-width: ${breakpoints.brp428}px)`,
+  brp500: `@media screen and (max-width: ${breakpoints.brp500}px)`,
+  brp768: `@media screen and (max-width: ${breakpoints.brp768}px)`,
+  brp1024: `@media screen and (max-width: ${breakpoints.brp1024}px)`,
+  brp1280: `@media screen and (max-width: ${breakpoints.brp1280}px)`,
+  brp1440: `@media screen and (max-width: ${breakpoints.brp1440}px)`,
+  brp1792: `@media screen and (max-width: ${breakpoints.brp1792}px)`,
   mqDark: '@media (prefers-color-scheme: dark)',
 };
 

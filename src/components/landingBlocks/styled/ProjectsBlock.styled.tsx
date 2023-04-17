@@ -8,16 +8,16 @@ export const StyledProjects = styled.section`
   align-items: center;
   margin-top: 360px;
   z-index: 2;
-  ${media.lg} {
+  ${media.brp1440} {
     margin-top: 372px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 372px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     margin-top: 240px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 300px;
     align-items: flex-start;
     padding: 0 24px;
@@ -38,17 +38,17 @@ export const ProjectsTitle = styled.h2`
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 69px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 58px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 28px;
     letter-spacing: 0.03em;
   }
@@ -66,21 +66,21 @@ export const ProjectsSubtitle = styled.h3`
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font100};
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 33px;
     max-width: 720px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 28px;
     max-width: 680px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 23px;
     letter-spacing: 0.03em;
     max-width: 520px;
     margin-top: 16px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 16px;
     max-width: 200px;
     text-align: start;
@@ -93,21 +93,21 @@ export const ProjectsContainer = styled.section`
   padding: 0 176px;
   margin-top: 112px;
   width: 100%;
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-top: 88px;
     padding: 0 120px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     margin-top: 80px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     padding: 0 66px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 16px;
     padding: 0 48px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     padding: 0;
   }
 `;
@@ -118,16 +118,16 @@ export const ProjectItemContainer = styled.section`
   position: relative;
   flex-direction: column;
   margin-bottom: 400px;
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-bottom: 320px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     margin-bottom: 220px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-bottom: 100px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-bottom: 42px;
   }
   &:last-child {
@@ -143,7 +143,7 @@ export const ProjectItemTopDecoration = styled.div<{ color: string }>`
   display: flex;
   justify-content: space-between;
 
-  ${media.smd} {
+  ${media.brp1024} {
     visibility: hidden;
   }
 `;
@@ -170,13 +170,13 @@ export const ProjectItemInnerSection = styled.div<{ color: string }>`
     border-left: 1px solid ${({ color }) => color};
     border-right: unset;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     border-right: unset;
     .reversed & {
       border-left: unset;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     flex-direction: column;
     .reversed & {
       flex-direction: column;
@@ -191,7 +191,7 @@ export const ProjectItemPictureSection = styled.section<{ color: string }>`
   & svg {
     width: 90%;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     width: 100%;
     & svg {
       width: 100%;
@@ -224,7 +224,7 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
     margin-right: -4%;
     transform: skewY(-30deg);
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -256,7 +256,7 @@ export const ProjectItemPicWrapper = styled.div`
       display: block;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -290,10 +290,10 @@ export const ProjectItemMobilePicWrapper = styled.div`
       display: block;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: block;
   }
-  ${media.sm} {
+  ${media.brp768} {
     top: -15%;
     transform: scale(1.2);
     .reversed & {
@@ -318,7 +318,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
     padding: 20px 64px 94px;
   }
 
-  ${media.smd} {
+  ${media.brp1024} {
     margin-left: unset;
     border-bottom: unset;
     padding-bottom: 48px;
@@ -326,7 +326,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
       margin-right: unset;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     padding: 0 0 48px 0;
     .reversed & {
       padding: 0 0 48px 0;
@@ -347,7 +347,7 @@ export const ProjectItemSectionsDivider = styled.section<{ color: string }>`
     right: 0;
     left: unset;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -365,13 +365,13 @@ export const ProjectItemContentSectionTitle = styled.h4`
   font-weight: 500;
   color: ${appTheme.light.colors.font0};
 
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 40px;
     & svg {
       width: 76px;
     }
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 23px;
     letter-spacing: 0.03em;
     & svg {
@@ -394,13 +394,13 @@ export const ProjectItemContentSectionText = styled.p`
   margin-top: 24px;
   color: ${appTheme.light.colors.font150};
 
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 19px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 16px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     max-width: 400px;
   }
   ${tmSelectors.dark} {
@@ -415,7 +415,7 @@ export const ButtonWrapper = styled.div`
   .reversed & {
     align-self: flex-end;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     .reversed & {
       align-self: flex-start;
     }

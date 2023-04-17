@@ -12,18 +12,38 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   transition: all 0.25s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? '0px' : '-120%')};
   background: ${appTheme.light.colors.mobileMenuBackground};
-  z-index: -1;
   ${tmSelectors.dark} {
     background: ${appTheme.dark.colors.mobileMenuBackground};
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: flex;
   }
-  ${media.sm} {
+  ${media.brp768} {
     width: 100%;
   }
   .fill & {
     height: calc(100vh - 76px);
+  }
+`;
+
+export const MobileMenuContent = styled.div`
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  ${media.brp1024} {
+    max-width: 672px;
+  }
+  ${media.brp768} {
+    max-width: 452px;
+  }
+  ${media.brp500} {
+    max-width: 380px;
+  }
+  ${media.brp428} {
+    max-width: 312px;
   }
 `;
 

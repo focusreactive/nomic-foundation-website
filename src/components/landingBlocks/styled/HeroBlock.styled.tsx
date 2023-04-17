@@ -11,21 +11,21 @@ export const HeroBlockContentSection = styled.section`
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding: 42px 176px 0px;
+  padding: 42px 0px 0px;
   width: 100%;
   min-width: min-content;
   max-width: 50%;
-  ${media.xlg} {
-    padding: 40px 120px 0px;
+  ${media.brp1792} {
+    padding: 40px 0px 0px;
   }
-  ${media.md} {
-    padding: 32px 56px 0px;
+  ${media.brp1280} {
+    padding: 32px 0px 0px;
   }
-  ${media.smd} {
-    padding: 16px 48px 0px;
+  ${media.brp1024} {
+    padding: 16p 0px 0px;
   }
-  ${media.sm} {
-    padding: 16px 24px 0px;
+  ${media.brp768} {
+    padding: 16px 0px 0px;
   }
 `;
 
@@ -43,18 +43,18 @@ export const HeroBlockTitle = styled.h1`
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 83px;
     line-height: 115%;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     font-size: 69px;
     line-height: 125%;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 58px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 33px;
     line-height: 130%;
   }
@@ -71,18 +71,18 @@ export const HeroBlockSubtitle = styled.h1`
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font100};
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 33px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     font-size: 28px;
     letter-spacing: 0.03em;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 23px;
     margin-top: 8px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 16px;
   }
 `;
@@ -120,17 +120,17 @@ export const HeroBlockPictureWrapper = styled.section`
   }
   transform-origin: top right;
   transform: scale(var(--k));
-  ${media.lg} {
+  ${media.brp1440} {
     --k: 0.9;
   }
-  ${media.md} {
+  ${media.brp1280} {
     --k: 0.8;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     --k: 0.6;
   }
 
-  ${media.sm} {
+  ${media.brp768} {
     display: none;
   }
 `;
@@ -157,14 +157,14 @@ export const HeroBlockMobilePictureWrapper = styled.section`
       display: block;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     display: block;
   }
 `;
 
 export const CTAWrapper = styled.div`
   margin-top: 40px;
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 16px;
   }
 `;

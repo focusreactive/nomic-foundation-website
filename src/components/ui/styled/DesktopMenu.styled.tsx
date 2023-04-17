@@ -38,7 +38,7 @@ export const Header = styled.header`
     }
   }
 
-  ${media.smd} {
+  ${media.brp1024} {
     &.fill {
       margin-top: -46px;
     }
@@ -48,7 +48,8 @@ export const Header = styled.header`
 export const DesktopMenuContainer = styled.menu`
   display: flex;
   align-items: center;
-  ${media.smd} {
+
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -99,7 +100,7 @@ export const SocialItem = styled.div`
       fill: ${appTheme.dark.colors.font100};
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     & svg {
       width: 32px;
       height: 32px;

@@ -11,19 +11,6 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 176px;
-  ${media.xlg} {
-    padding: 0px 120px;
-  }
-  ${media.md} {
-    padding: 0 56px;
-  }
-  ${media.smd} {
-    padding: 0 48px;
-  }
-  ${media.sm} {
-    padding: 0 24px;
-  }
 `;
 
 export const BlurBg = css`
@@ -40,6 +27,27 @@ export const ControlsContainer = styled.section`
   align-items: center;
   background-color: ${appTheme.light.colors.transparent};
   box-sizing: border-box;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 1440px;
+  ${media.brp1792} {
+    max-width: 1200px;
+  }
+  ${media.brp1280} {
+    max-width: 912px;
+  }
+  ${media.brp1024} {
+    max-width: 672px;
+  }
+  ${media.brp768} {
+    max-width: 452px;
+  }
+  ${media.brp500} {
+    max-width: 380px;
+  }
+  ${media.brp428} {
+    max-width: 312px;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -52,14 +60,13 @@ export const LogoContainer = styled.div`
   border: none;
   cursor: pointer;
   z-index: 100;
-  isolation: isolate;
+  /* isolation: isolate; */
 `;
 
 export const HamburgerWrapper = styled.div`
   display: none;
   cursor: pointer;
   z-index: 100;
-  isolation: 'isolate';
   & svg {
     stroke: ${appTheme.light.colors.font50};
   }
@@ -71,7 +78,7 @@ export const HamburgerWrapper = styled.div`
       fill: ${appTheme.dark.colors.hamburger};
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: block;
   }
 `;

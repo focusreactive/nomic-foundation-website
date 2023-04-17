@@ -45,20 +45,20 @@ export const StyledButton = styled.button<{ color?: string }>`
     }
   }
 
-  ${media.xlg} {
+  ${media.brp1792} {
     letter-spacing: 0.01em;
     font-size: 14px;
     padding: 24px 40px;
     height: 62px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     height: 54px;
     padding: 20px 40px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     height: 54px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 12px;
     padding: 16px 24px;
     height: 44px;

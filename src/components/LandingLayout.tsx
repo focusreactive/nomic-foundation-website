@@ -3,7 +3,7 @@ import { styled } from '@linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
-import { appTheme, ThemeProvider, tmSelectors } from '../themes';
+import { appTheme, media, ThemeProvider, tmSelectors } from '../themes';
 import { Header } from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
@@ -18,9 +18,8 @@ const Container = styled.div`
   align-items: center;
   -webkit-font-smoothing: antialiased;
   transition: all 0.25s ease-in-out;
-  background: ${appTheme.light.colors.pageBackground};
-  height: 100vh;
   main {
+    background: ${appTheme.light.colors.pageBackground};
     overflow-x: hidden;
     padding-top: 136px;
     flex: 1 1 auto;
@@ -29,21 +28,45 @@ const Container = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    ${tmSelectors.dark} {
+      background: ${appTheme.dark.colors.pageBackground};
+    }
   }
+
   & #anchor {
     visibility: hidden;
     top: 0;
     left: 0;
   }
   min-width: 320px;
-  ${tmSelectors.dark} {
-    background: ${appTheme.dark.colors.pageBackground};
-  }
 `;
 
 type Props = React.PropsWithChildren<{
   seo: SEOType;
 }>;
+
+const ContentContainer = styled.div`
+  margin: 0 auto;
+  max-width: 1440px;
+  ${media.brp1792} {
+    max-width: 1200px;
+  }
+  ${media.brp1280} {
+    max-width: 912px;
+  }
+  ${media.brp1024} {
+    max-width: 672px;
+  }
+  ${media.brp768} {
+    max-width: 452px;
+  }
+  ${media.brp500} {
+    max-width: 380px;
+  }
+  ${media.brp428} {
+    max-width: 312px;
+  }
+`;
 
 const LandingLayout = ({ children, seo }: Props) => {
   const [headerClass, setHeaderClass] = useState<'blur' | 'fill' | ''>('');
@@ -78,8 +101,10 @@ const LandingLayout = ({ children, seo }: Props) => {
         </Header>
         <SEO seo={seo} />
         <main id='main'>
-          <div id='anchor' />
-          {children}
+          <ContentContainer>
+            <div id='anchor' />
+            {children}
+          </ContentContainer>
           <LandingFooter content={FOOTER_CONTENT} />
         </main>
       </Container>
