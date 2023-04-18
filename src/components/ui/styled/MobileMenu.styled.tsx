@@ -61,23 +61,29 @@ export const MobileMenuItem = styled.li`
   font-size: 23px;
   line-height: 150%;
   letter-spacing: 0.03em;
-  color: ${appTheme.light.colors.font50};
+  color: ${appTheme.light.colors.font250};
   padding: 10px 0;
   margin-bottom: 2px;
   & a {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    & svg {
+      margin-left: 10px;
+      margin-bottom: -4px;
+    }
   }
   &:last-child {
     margin-bottom: unset;
   }
   ${tmSelectors.dark} {
-    color: ${appTheme.dark.colors.font50};
+    color: ${appTheme.dark.colors.font250};
   }
   & svg {
-    stroke: ${appTheme.light.colors.font50};
+    stroke: ${appTheme.light.colors.font250};
     ${tmSelectors.dark} {
-      stroke: ${appTheme.dark.colors.font50};
+      stroke: ${appTheme.dark.colors.font250};
     }
   }
   &:after {
@@ -104,4 +110,7 @@ export const MobileMenuFooter = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 0 24px 46px;
+  ${media.brp428} {
+    padding: 0 24px 32px;
+  }
 `;

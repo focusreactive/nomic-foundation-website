@@ -11,6 +11,9 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  ${media.brp768} {
+    height: 80px;
+  }
 `;
 
 export const BlurBg = css`
@@ -21,7 +24,7 @@ export const BlurBg = css`
 
 export const ControlsContainer = styled.section`
   width: 100%;
-  height: 96px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,7 +63,12 @@ export const LogoContainer = styled.div`
   border: none;
   cursor: pointer;
   z-index: 100;
-  /* isolation: isolate; */
+  ${media.brp768} {
+    & svg {
+      height: 32px;
+      margin-left: -25%;
+    }
+  }
 `;
 
 export const HamburgerWrapper = styled.div`

@@ -12,6 +12,7 @@ import {
   MobileMenuItem,
   MobileMenuItemsList,
 } from './styled/MobileMenu.styled';
+import ExternalLinkIcon from '../../assets/icons/ExternalLinkIcon';
 
 type Props = {
   menuItems: MenuItemType[];
@@ -44,6 +45,7 @@ const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
         <MobileMenuItemsList>
           {menuItems.map((menuItem) => {
             const isLinkActive = router.asPath.includes(menuItem.href);
+            const isExternal = menuItem.href.startsWith('http');
             return (
               <MobileMenuItem
                 className={isLinkActive ? 'active' : ''}
@@ -51,6 +53,7 @@ const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
               >
                 <Link href={menuItem.href} onClick={closeMobileMenu}>
                   {menuItem.label}
+                  {isExternal && <ExternalLinkIcon />}
                 </Link>
               </MobileMenuItem>
             );

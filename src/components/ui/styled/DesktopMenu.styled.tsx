@@ -85,6 +85,12 @@ export const MenuItem = styled.li`
 export const SocialsContainer = styled.section`
   display: flex;
   align-items: center;
+  & a {
+    margin-right: 8px;
+    &:last-child {
+      margin-right: unset;
+    }
+  }
 `;
 
 export const SocialItem = styled.div`

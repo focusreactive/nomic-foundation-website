@@ -79,6 +79,13 @@ export const LogoWrapper = styled.span`
     display: none;
   }
 
+  ${media.brp768} {
+    margin-right: 10px;
+    & svg {
+      height: 30px;
+    }
+  }
+
   ${tmSelectors.dark} {
     & .light {
       display: none;
