@@ -72,12 +72,11 @@ const LandingLayout = ({ children, seo }: Props) => {
   const [headerClass, setHeaderClass] = useState<'blur' | 'fill' | ''>('');
 
   useEffect(() => {
-    const main = document.getElementById('main');
-    const anchor = document.getElementById('anchor');
+    const anchor = document.getElementById('anchor') as HTMLDivElement;
 
-    if (!main || !anchor) return;
     const changeBgState = () => {
       const rect = anchor.getBoundingClientRect();
+
       if (rect.y >= 100) {
         setHeaderClass('');
       } else if (rect.y <= -600) {
@@ -87,24 +86,23 @@ const LandingLayout = ({ children, seo }: Props) => {
       }
     };
 
-    main.addEventListener('scroll', changeBgState);
+    window.addEventListener('scroll', changeBgState);
     return () => {
-      main.removeEventListener('scroll', changeBgState);
+      window.removeEventListener('scroll', changeBgState);
     };
   }, []);
   return (
     <ThemeProvider>
       <Container className='landing'>
+        <div id='anchor' />
+
         <Header className={headerClass}>
           <TopBanner content={bannerContent} />
           <LandingNavigation />
         </Header>
         <SEO seo={seo} />
         <main id='main'>
-          <ContentContainer>
-            <div id='anchor' />
-            {children}
-          </ContentContainer>
+          <ContentContainer>{children}</ContentContainer>
           <LandingFooter content={FOOTER_CONTENT} />
         </main>
       </Container>

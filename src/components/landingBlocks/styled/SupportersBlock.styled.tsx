@@ -15,8 +15,7 @@ export const SupportersBlockContainer = styled.section`
     margin-top: 280px;
   }
   ${media.brp768} {
-    margin-top: 144px;
-    padding: 0 24px;
+    margin-top: 220px;
   }
 `;
 
@@ -90,16 +89,7 @@ export const SupportersBlockLogosContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  ${media.brp1280} {
-    margin-top: 4vw;
-    width: 80%;
-  }
-  ${media.brp1024} {
-    width: 90%;
-  }
-  ${media.brp768} {
-    width: 100%;
-  }
+  width: 100%;
 `;
 
 export const LogosRow = styled.div`
@@ -110,7 +100,6 @@ export const LogosRow = styled.div`
   flex-wrap: nowrap;
   border: 1px solid var(--border-color);
   border-bottom: unset;
-  padding: 0 32px;
   flex: 1;
   &:last-child {
     border-bottom: 1px solid var(--border-color);
@@ -119,7 +108,7 @@ export const LogosRow = styled.div`
     --border-color: ${appTheme.dark.colors.border100};
     ${media.brp1024} {
       --border-color: transparent;
-      justify-content: space-evenly;
+      justify-content: center;
     }
   }
 
@@ -152,7 +141,8 @@ export const LogoItemWrapper = styled.div`
     & svg {
       height: 40px;
       max-width: 60px;
+      height: 60px;
+      width: 120%;
     }
-    height: 40px;
   }
 `;

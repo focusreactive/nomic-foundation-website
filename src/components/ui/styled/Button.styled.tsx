@@ -13,7 +13,7 @@ export const StyledButton = styled.button<{ color?: string }>`
   font-size: 19px;
   color: ${appTheme.light.colors.font200};
   border: unset;
-  padding: 24px 56px;
+  padding: 0px 56px;
   height: 75px;
 
   border-radius: 40px;
@@ -48,19 +48,19 @@ export const StyledButton = styled.button<{ color?: string }>`
   ${media.brp1792} {
     letter-spacing: 0.01em;
     font-size: 14px;
-    padding: 24px 40px;
-    height: 62px;
+    padding: 0px 40px;
+    height: 64px;
   }
   ${media.brp1440} {
-    height: 54px;
-    padding: 20px 40px;
+    height: 64px;
+    padding: 0px 40px;
   }
   ${media.brp1280} {
     height: 54px;
   }
   ${media.brp1024} {
     font-size: 12px;
-    padding: 16px 24px;
+    padding: 0px 24px;
     height: 44px;
   }
 

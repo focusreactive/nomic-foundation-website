@@ -3,23 +3,29 @@ import { SVGProps } from 'react';
 
 const RethnetIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 65 65'
+    width={35}
+    height={34}
+    viewBox='0 0 35 34'
     fill='none'
+    xmlns='http://www.w3.org/2000/svg'
     {...props}
   >
     <path
+      d='M15.8127 4.71094V17.631L0.888672 32.7795V4.71094H15.8127ZM1.58315 33.4995L16.522 18.336L29.6501 18.3397V33.4995H1.58315Z'
       fill='#CFECFC'
       stroke='#AED7F2'
-      strokeWidth={1.90588}
-      d='M55.769 34.953v28.892H.953V8.978h28.444v25.967h.952l25.42.008Z'
     />
     <path
+      d='M33.8887 1.19668L16.5393 18.3339L29.9334 18.3198L33.8887 14.4636V1.19668ZM15.82 17.6388L33.171 0.5H19.7159L15.8165 4.42038L15.82 17.6388Z'
+      fill='none'
       stroke='#AED7F2'
-      strokeWidth={1.90588}
-      d='M63.844.953H36.832L29.4 8.425l.008 26.519 26.898-.029 7.538-7.349V.953Z'
     />
-    <path fill='#AED7F2' d='M64.797 0H36.436v27.798h28.36z' />
+    <rect
+      width={14.8809}
+      height={14.5852}
+      transform='matrix(-1 0 0 1 34.3887 0)'
+      fill='#AED7F2'
+    />
   </svg>
 );
 

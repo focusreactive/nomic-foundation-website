@@ -7,6 +7,7 @@ export const StyledProjects = styled.section`
   width: 100%;
   align-items: center;
   margin-top: 360px;
+  position: relative;
   z-index: 2;
   ${media.brp1440} {
     margin-top: 372px;
@@ -55,7 +56,7 @@ export const ProjectsTitle = styled.h2`
 `;
 
 export const ProjectsSubtitle = styled.h3`
-  font-weight: 300;
+  font-weight: 100;
   font-size: 40px;
   line-height: 150%;
   text-align: center;
@@ -90,25 +91,17 @@ export const ProjectsSubtitle = styled.h3`
 export const ProjectsContainer = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 0 176px;
   margin-top: 112px;
   width: 100%;
   ${media.brp1792} {
     margin-top: 88px;
-    padding: 0 120px;
   }
   ${media.brp1440} {
     margin-top: 80px;
   }
-  ${media.brp1280} {
-    padding: 0 66px;
-  }
+
   ${media.brp1024} {
     margin-top: 16px;
-    padding: 0 48px;
-  }
-  ${media.brp768} {
-    padding: 0;
   }
 `;
 
@@ -203,23 +196,23 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: -11%;
+  margin-top: -11.5%;
   margin-left: -10%;
-  width: 4vw;
-  height: 13vw;
+  width: 3.4vw;
+  height: 11vw;
   transform: skewY(30deg);
   transform-origin: bottom right;
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
-    width: 5.3vw;
-    height: 10vw;
+    width: 4.5vw;
+    height: 11vw;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
     left: unset;
     right: 0;
-    margin-top: -14%;
+    margin-top: -30%;
 
     margin-right: -4%;
     transform: skewY(-30deg);
@@ -294,11 +287,12 @@ export const ProjectItemMobilePicWrapper = styled.div`
     display: block;
   }
   ${media.brp768} {
-    top: -15%;
-    transform: scale(1.2);
+    top: 5%;
+    transform: scale(1.75);
+    left: 35%;
     .reversed & {
       right: unset;
-      left: 11%;
+      left: 20%;
     }
   }
 `;
@@ -358,6 +352,7 @@ export const ProjectItemContentSectionTitle = styled.h4`
   & svg {
     margin-right: 20px;
     width: 112px;
+    height: 112px;
   }
   font-size: 48px;
   line-height: 150%;
@@ -369,6 +364,7 @@ export const ProjectItemContentSectionTitle = styled.h4`
     font-size: 40px;
     & svg {
       width: 76px;
+      height: 76px;
     }
   }
   ${media.brp1280} {
@@ -376,7 +372,8 @@ export const ProjectItemContentSectionTitle = styled.h4`
     letter-spacing: 0.03em;
     & svg {
       margin-right: 14px;
-      width: 54px;
+      width: 34px;
+      height: 34px;
     }
   }
 
@@ -404,7 +401,7 @@ export const ProjectItemContentSectionText = styled.p`
     max-width: 400px;
   }
   ${tmSelectors.dark} {
-    color: ${appTheme.dark.colors.font100};
+    color: ${appTheme.dark.colors.font250};
   }
 `;
 
