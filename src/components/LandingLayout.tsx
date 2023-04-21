@@ -32,12 +32,6 @@ const Container = styled.div`
       background: ${appTheme.dark.colors.pageBackground};
     }
   }
-
-  & #anchor {
-    visibility: hidden;
-    top: 0;
-    left: 0;
-  }
   min-width: 320px;
 `;
 
@@ -75,14 +69,12 @@ const LandingLayout = ({ children, seo }: Props) => {
   const [headerClass, setHeaderClass] = useState<'blur' | 'fill' | ''>('');
 
   useEffect(() => {
-    const anchor = document.getElementById('anchor') as HTMLDivElement;
-
     const changeBgState = () => {
-      const rect = anchor.getBoundingClientRect();
+      console.log(window.scrollY);
 
-      if (rect.y >= -50) {
+      if (window.scrollY <= 50) {
         setHeaderClass('');
-      } else if (rect.y <= -600) {
+      } else if (window.scrollY >= 500) {
         setHeaderClass('fill');
       } else {
         setHeaderClass('blur');
@@ -97,8 +89,6 @@ const LandingLayout = ({ children, seo }: Props) => {
   return (
     <ThemeProvider>
       <Container className='landing'>
-        <div id='anchor' />
-
         <Header className={headerClass}>
           <TopBanner content={bannerContent} />
           <LandingNavigation />
