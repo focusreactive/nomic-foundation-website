@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const HardhatIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={55}
-    height={38}
     fill='none'
     viewBox='0 0 55 38'
     {...props}

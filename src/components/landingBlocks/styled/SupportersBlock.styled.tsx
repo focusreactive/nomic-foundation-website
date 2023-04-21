@@ -15,7 +15,7 @@ export const SupportersBlockContainer = styled.section`
     margin-top: 280px;
   }
   ${media.brp768} {
-    margin-top: 220px;
+    margin-top: 210px;
   }
 `;
 
@@ -51,12 +51,14 @@ export const SupportersBlockTitle = styled.h2`
 
 export const SupportersPictureWrapper = styled.section`
   position: absolute;
-  top: -4%;
-  left: -10%;
-  right: -10%;
+  top: -17%;
+  left: -14.5%;
   z-index: 1;
-  width: 120%;
-  margin-top: -4%;
+  width: 129%;
+
+  & svg {
+    width: 100%;
+  }
 
   & .light {
     display: block;
@@ -73,9 +75,14 @@ export const SupportersPictureWrapper = styled.section`
       display: block;
     }
   }
-
   ${media.brp1792} {
-    margin-top: -2%;
+    top: -17%;
+  }
+  ${media.brp1440} {
+    top: -13%;
+  }
+  ${media.brp1280} {
+    top: -15.5%;
   }
   ${media.brp1024} {
     display: none;
@@ -84,12 +91,23 @@ export const SupportersPictureWrapper = styled.section`
 
 export const SupportersBlockLogosContainer = styled.section`
   z-index: 5;
-  margin-top: 4%;
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  ${media.brp1792} {
+    margin-top: 73px;
+  }
+
+  ${media.brp1280} {
+    margin-top: 48px;
+  }
+  ${media.brp1024} {
+    margin-top: 32px;
+  }
 `;
 
 export const LogosRow = styled.div`
@@ -101,6 +119,7 @@ export const LogosRow = styled.div`
   border: 1px solid var(--border-color);
   border-bottom: unset;
   flex: 1;
+  padding: 13px 0px;
   &:last-child {
     border-bottom: 1px solid var(--border-color);
   }
@@ -108,12 +127,15 @@ export const LogosRow = styled.div`
     --border-color: ${appTheme.dark.colors.border100};
     ${media.brp1024} {
       --border-color: transparent;
-      justify-content: center;
     }
+  }
+  ${media.brp1792} {
+    padding: 16px 0px;
   }
 
   ${media.brp1024} {
     --border-color: transparent;
+    justify-content: center;
   }
 
   ${media.brp768} {
@@ -125,22 +147,29 @@ export const LogoItemWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4%;
-  height: 132px;
+  height: 124px;
   padding: 0 10px;
   & svg {
     height: 100%;
+    width: 80%;
   }
   ${media.brp1792} {
-    height: 100px;
+    height: 96px;
   }
   ${media.brp1440} {
-    height: 70px;
+    height: 74px;
+    & svg {
+      width: 100%;
+    }
+  }
+  ${media.brp1280} {
+    height: 64px;
   }
   ${media.brp768} {
+    height: 40px;
+
     & svg {
-      height: 40px;
-      max-width: 60px;
+      max-width: 90px;
       height: 60px;
       width: 120%;
     }

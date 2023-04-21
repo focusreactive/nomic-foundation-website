@@ -13,7 +13,7 @@ export const BannerContainer = styled.a`
   background-color: ${appTheme.light.colors.bg100};
   mix-blend-mode: normal;
   color: ${appTheme.light.colors.font100};
-  font-size: 19px;
+  font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -21,6 +21,7 @@ export const BannerContainer = styled.a`
   & .banner-text {
     margin: 0 18px;
   }
+
   cursor: pointer;
   ${media.brp1024} {
     font-size: 12px;

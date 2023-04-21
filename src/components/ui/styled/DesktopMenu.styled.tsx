@@ -11,6 +11,7 @@ export const Header = styled.header`
   z-index: 199;
   margin-top: 0;
   transition: all 0.25s ease-in-out;
+  background: ${appTheme.light.colors.transparent};
 
   &.blur {
     background: ${appTheme.light.colors.navbarBlur};

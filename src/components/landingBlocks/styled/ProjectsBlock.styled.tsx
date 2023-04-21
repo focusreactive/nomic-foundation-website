@@ -21,7 +21,6 @@ export const StyledProjects = styled.section`
   ${media.brp768} {
     margin-top: 300px;
     align-items: flex-start;
-    padding: 0 24px;
   }
 `;
 
@@ -196,26 +195,43 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: -11.5%;
-  margin-left: -10%;
-  width: 3.4vw;
-  height: 11vw;
+  margin-top: -8%;
+  margin-left: -8.3%;
+  width: 4.4vw;
+  height: 14vw;
   transform: skewY(30deg);
   transform-origin: bottom right;
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
-    width: 4.5vw;
-    height: 11vw;
+    width: 4.4vw;
+    height: 10vw;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
     left: unset;
     right: 0;
-    margin-top: -30%;
-
-    margin-right: -4%;
+    margin-top: -5%;
+    margin-right: 3.3%;
     transform: skewY(-30deg);
+  }
+  ${media.brp1792} {
+    margin-top: -5%;
+
+    width: 4vw;
+    height: 12.8vw;
+    .reversed & {
+      width: 4vw;
+      height: 10.4vw;
+    }
+  }
+  ${media.brp1440} {
+    width: 4.2vw;
+    height: 13.4vw;
+    .reversed & {
+      width: 4vw;
+      height: 10vw;
+    }
   }
   ${media.brp1024} {
     display: none;
@@ -224,15 +240,15 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
 
 export const ProjectItemPicWrapper = styled.div`
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 10%;
   display: block;
-  width: 100%;
+  width: 120%;
   height: 100%;
 
   .reversed & {
     left: unset;
-    right: 4%;
+    right: -4%;
   }
 
   & .light {
@@ -285,6 +301,14 @@ export const ProjectItemMobilePicWrapper = styled.div`
   }
   ${media.brp1024} {
     display: block;
+    width: 135%;
+    .reversed & {
+      width: 140%;
+
+      left: unset;
+      right: -40%;
+      top: 25%;
+    }
   }
   ${media.brp768} {
     top: 5%;
@@ -351,8 +375,7 @@ export const ProjectItemContentSectionTitle = styled.h4`
   align-items: center;
   & svg {
     margin-right: 20px;
-    width: 112px;
-    height: 112px;
+    height: 64px;
   }
   font-size: 48px;
   line-height: 150%;
@@ -363,8 +386,7 @@ export const ProjectItemContentSectionTitle = styled.h4`
   ${media.brp1792} {
     font-size: 40px;
     & svg {
-      width: 76px;
-      height: 76px;
+      height: 52px;
     }
   }
   ${media.brp1280} {
@@ -384,12 +406,16 @@ export const ProjectItemContentSectionTitle = styled.h4`
 
 export const ProjectItemContentSectionText = styled.p`
   font-weight: 400;
-  font-size: 23px;
+  font-size: 28px;
   line-height: 150%;
   letter-spacing: 0.03em;
   max-width: 660px;
   margin-top: 24px;
   color: ${appTheme.light.colors.font150};
+
+  ${media.brp1792} {
+    font-size: 23px;
+  }
 
   ${media.brp1280} {
     font-size: 19px;

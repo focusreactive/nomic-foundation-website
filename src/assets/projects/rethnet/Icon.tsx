@@ -3,8 +3,6 @@ import { SVGProps } from 'react';
 
 const RethnetIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={35}
-    height={34}
     viewBox='0 0 35 34'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'

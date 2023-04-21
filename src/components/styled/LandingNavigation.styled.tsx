@@ -11,7 +11,7 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${media.brp768} {
+  ${media.brp1024} {
     height: 80px;
   }
 `;
@@ -36,8 +36,11 @@ export const ControlsContainer = styled.section`
   ${media.brp1792} {
     max-width: 1200px;
   }
+  ${media.brp1440} {
+    max-width: 1044px;
+  }
   ${media.brp1280} {
-    max-width: 912px;
+    max-width: 896px;
   }
   ${media.brp1024} {
     max-width: 672px;
@@ -63,7 +66,7 @@ export const LogoContainer = styled.div`
   border: none;
   cursor: pointer;
   z-index: 100;
-  ${media.brp768} {
+  ${media.brp1024} {
     & svg {
       height: 32px;
       margin-left: -25%;

@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const PolygonLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={133}
-    height={70}
     viewBox='0 0 133 70'
     fill='none'
     {...props}

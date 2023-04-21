@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const EthereumFoundationLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={135}
-    height={70}
     viewBox='0 0 135 70'
     fill='none'
     {...props}

@@ -51,8 +51,11 @@ const ContentContainer = styled.div`
   ${media.brp1792} {
     max-width: 1200px;
   }
+  ${media.brp1440} {
+    max-width: 1044px;
+  }
   ${media.brp1280} {
-    max-width: 912px;
+    max-width: 896px;
   }
   ${media.brp1024} {
     max-width: 672px;
@@ -77,7 +80,7 @@ const LandingLayout = ({ children, seo }: Props) => {
     const changeBgState = () => {
       const rect = anchor.getBoundingClientRect();
 
-      if (rect.y >= 100) {
+      if (rect.y >= -50) {
         setHeaderClass('');
       } else if (rect.y <= -600) {
         setHeaderClass('fill');

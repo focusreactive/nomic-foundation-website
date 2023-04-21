@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const KaszekLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={88}
-    height={70}
     viewBox='0 0 88 70'
     fill='none'
     {...props}

@@ -99,7 +99,7 @@ export const HeroBlockPictureWrapper = styled.section`
   --widthPercent: calc( var(--pictureWidth) / 100);
   --heightPercent: calc( var(--picHeight) / 100);
   position: absolute;
-  right: 0;
+  right: -14%;
   top: 0;
   margin-top: calc(var(--k)* -420px);
   margin-right: calc(var(--k)* -875px);
@@ -128,6 +128,7 @@ export const HeroBlockPictureWrapper = styled.section`
   }
   ${media.brp1024} {
     --k: 0.6;
+    right: -100px
   }
 
   ${media.brp768} {
