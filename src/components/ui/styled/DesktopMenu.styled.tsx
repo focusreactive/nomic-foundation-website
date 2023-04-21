@@ -11,6 +11,7 @@ export const Header = styled.header`
   z-index: 199;
   margin-top: 0;
   transition: all 0.25s ease-in-out;
+  background: ${appTheme.light.colors.transparent};
 
   &.blur {
     background: ${appTheme.light.colors.navbarBlur};
@@ -38,7 +39,7 @@ export const Header = styled.header`
     }
   }
 
-  ${media.smd} {
+  ${media.brp1024} {
     &.fill {
       margin-top: -46px;
     }
@@ -48,7 +49,8 @@ export const Header = styled.header`
 export const DesktopMenuContainer = styled.menu`
   display: flex;
   align-items: center;
-  ${media.smd} {
+
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -84,6 +86,12 @@ export const MenuItem = styled.li`
 export const SocialsContainer = styled.section`
   display: flex;
   align-items: center;
+  & a {
+    margin-right: 8px;
+    &:last-child {
+      margin-right: unset;
+    }
+  }
 `;
 
 export const SocialItem = styled.div`
@@ -99,7 +107,7 @@ export const SocialItem = styled.div`
       fill: ${appTheme.dark.colors.font100};
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     & svg {
       width: 32px;
       height: 32px;

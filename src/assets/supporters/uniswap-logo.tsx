@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const UniswapLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={137}
-    height={68}
     viewBox='0 0 137 68'
     fill='none'
     {...props}

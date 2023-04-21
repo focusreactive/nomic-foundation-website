@@ -8,6 +8,7 @@ import {
   Divider,
   LandingFooterContent,
   LogoWrapper,
+  SocialsWrapper,
   StyledLandingFooter,
 } from './styled/LandingFooter.styled';
 
@@ -24,7 +25,9 @@ type Props = {
 const LandingFooter = ({ content }: Props) => {
   return (
     <StyledLandingFooter>
-      <Socials />
+      <SocialsWrapper>
+        <Socials />
+      </SocialsWrapper>
       <LandingFooterContent>
         <CopyrightWrapper>
           <LogoWrapper>

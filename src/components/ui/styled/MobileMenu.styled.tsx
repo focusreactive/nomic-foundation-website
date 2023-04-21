@@ -12,18 +12,38 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   transition: all 0.25s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? '0px' : '-120%')};
   background: ${appTheme.light.colors.mobileMenuBackground};
-  z-index: -1;
   ${tmSelectors.dark} {
     background: ${appTheme.dark.colors.mobileMenuBackground};
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: flex;
   }
-  ${media.sm} {
+  ${media.brp768} {
     width: 100%;
   }
   .fill & {
     height: calc(100vh - 76px);
+  }
+`;
+
+export const MobileMenuContent = styled.div`
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  ${media.brp1024} {
+    max-width: 672px;
+  }
+  ${media.brp768} {
+    max-width: 452px;
+  }
+  ${media.brp500} {
+    max-width: 380px;
+  }
+  ${media.brp428} {
+    max-width: 312px;
   }
 `;
 
@@ -41,23 +61,29 @@ export const MobileMenuItem = styled.li`
   font-size: 23px;
   line-height: 150%;
   letter-spacing: 0.03em;
-  color: ${appTheme.light.colors.font50};
+  color: ${appTheme.light.colors.font250};
   padding: 10px 0;
   margin-bottom: 2px;
   & a {
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    & svg {
+      margin-left: 10px;
+      margin-bottom: -4px;
+    }
   }
   &:last-child {
     margin-bottom: unset;
   }
   ${tmSelectors.dark} {
-    color: ${appTheme.dark.colors.font50};
+    color: ${appTheme.dark.colors.font250};
   }
   & svg {
-    stroke: ${appTheme.light.colors.font50};
+    stroke: ${appTheme.light.colors.font250};
     ${tmSelectors.dark} {
-      stroke: ${appTheme.dark.colors.font50};
+      stroke: ${appTheme.dark.colors.font250};
     }
   }
   &:after {
@@ -84,4 +110,7 @@ export const MobileMenuFooter = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 0 24px 46px;
+  ${media.brp428} {
+    padding: 0 24px 32px;
+  }
 `;

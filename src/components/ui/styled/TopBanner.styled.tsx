@@ -13,7 +13,7 @@ export const BannerContainer = styled.a`
   background-color: ${appTheme.light.colors.bg100};
   mix-blend-mode: normal;
   color: ${appTheme.light.colors.font100};
-  font-size: 19px;
+  font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -21,8 +21,9 @@ export const BannerContainer = styled.a`
   & .banner-text {
     margin: 0 18px;
   }
+
   cursor: pointer;
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 12px;
     line-height: 130%;
     letter-spacing: 0.15em;
@@ -40,13 +41,15 @@ export const BannerContainer = styled.a`
 export const BannerDecorator = styled.span`
   color: ${appTheme.light.colors.font50};
   font-size: 22px;
-  margin: 0px 3px;
+  margin: 0px 8px;
 
   ${tmSelectors.dark} {
     color: ${appTheme.light.colors.font50};
   }
-  ${media.sm} {
+  ${media.brp1024} {
     font-size: 15px;
+    margin: 0px 3px;
+
     &.optional {
       display: none;
     }

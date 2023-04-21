@@ -6,21 +6,25 @@ export enum ThemesEnum {
   DARK = 'DARK',
 }
 export const breakpoints = {
-  xs: 360,
-  sm: 768,
-  smd: 1024,
-  md: 1280,
-  lg: 1440,
-  xlg: 1792,
+  brp360: 359,
+  brp428: 427,
+  brp500: 499,
+  brp768: 767,
+  brp1024: 1023,
+  brp1280: 1279,
+  brp1440: 1439,
+  brp1792: 1791,
 };
 
 export const media = {
-  xs: `@media screen and (max-width: ${breakpoints.xs}px)`,
-  sm: `@media screen and (max-width: ${breakpoints.sm}px)`,
-  smd: `@media screen and (max-width: ${breakpoints.smd}px)`,
-  md: `@media screen and (max-width: ${breakpoints.md}px)`,
-  lg: `@media screen and (max-width: ${breakpoints.lg}px)`,
-  xlg: `@media screen and (max-width: ${breakpoints.xlg}px)`,
+  brp360: `@media screen and (max-width: ${breakpoints.brp360}px)`,
+  brp428: `@media screen and (max-width: ${breakpoints.brp428}px)`,
+  brp500: `@media screen and (max-width: ${breakpoints.brp500}px)`,
+  brp768: `@media screen and (max-width: ${breakpoints.brp768}px)`,
+  brp1024: `@media screen and (max-width: ${breakpoints.brp1024}px)`,
+  brp1280: `@media screen and (max-width: ${breakpoints.brp1280}px)`,
+  brp1440: `@media screen and (max-width: ${breakpoints.brp1440}px)`,
+  brp1792: `@media screen and (max-width: ${breakpoints.brp1792}px)`,
   mqDark: '@media (prefers-color-scheme: dark)',
 };
 
@@ -38,6 +42,7 @@ export const lightPalette = {
   font100: '#1B182D',
   font150: '#2B2B2F',
   font200: '#404146',
+  font250: '#888890',
   themeIndicator: '#888890',
   themeBg: '#20232A',
   hamburger: '#404146',
@@ -57,8 +62,9 @@ export const lightPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#ffffffb2',
-  navbarFill: '#F7F7FA',
+  navbarFill: '#ffffffb2',
   border100: '#DCDCE1',
+  buttonShadow: '#EFEFEF',
 };
 
 export const darkPalette = {
@@ -71,6 +77,7 @@ export const darkPalette = {
   font100: '#EDEDF0',
   font150: '#2B2B2F',
   font200: '#EDEDF0',
+  font250: '#DCDCE1',
   themeIndicator: '#EDEDF0',
   themeBg: '#DCDCE1',
   hamburger: '#EDEDF0',
@@ -89,8 +96,9 @@ export const darkPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#13141ACC',
-  navbarFill: '#13141A',
+  navbarFill: '#13141ACC',
   border100: '#13141A',
+  buttonShadow: '#13141A7F',
 } as Palette;
 
 type Palette = typeof lightPalette;

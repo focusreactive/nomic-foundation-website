@@ -78,7 +78,11 @@ const ProjectItem = ({
           </ProjectItemContentSectionTitle>
           <ProjectItemContentSectionText>{text}</ProjectItemContentSectionText>
           <ButtonWrapper>
-            <Button href={cta.href} label={cta.label} color={color} />
+            <Button
+              href={cta.href}
+              label={cta.label}
+              color={title === 'Hardhat' ? color : undefined}
+            />
           </ButtonWrapper>
         </ProjectItemContentSection>
       </ProjectItemInnerSection>

@@ -7,6 +7,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     width={1742}
     height={809}
     fill='none'
+    viewBox='0 0 1742 809'
     {...props}
   >
     <path
@@ -27,31 +28,31 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M476.234 530.391h27.279v26.82h-27.279zm-13.64 26.826h13.639v13.82h-13.639zm-40.52-187.748h108.919V476.75H422.074V369.469Z'
+      d='M476.234 530.391h27.279v26.82h-27.279zM462.594 557.217h13.639v13.82h-13.639zM422.074 369.469h108.919V476.75H422.074V369.469Z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M312.957 369.469h109.119V476.75H312.957zm654.313 0h109.119V476.75H967.27zm109.12 0h109.119V476.75H1076.39z'
+      d='M312.957 369.469h109.119V476.75H312.957zM967.27 369.469h109.119V476.75H967.27zM1076.39 369.469h109.119V476.75H1076.39z'
     />
     <path
-      stroke='url(#a)'
+      stroke='url(#paint0_linear_1949_72536)'
       strokeLinejoin='round'
       d='M422.305 530.406v278.503'
     />
     <path
-      stroke='url(#b)'
+      stroke='url(#paint1_linear_1949_72536)'
       strokeLinejoin='round'
       d='M349.641 530.525h216.705'
     />
     <path stroke='#282B33' strokeMiterlimit={10} d='M585.902 423.129h553.888' />
     <path
-      stroke='url(#c)'
+      stroke='url(#paint2_linear_1949_72536)'
       strokeLinejoin='round'
       d='M462.707 557.229v167.988'
     />
     <path
-      stroke='url(#d)'
+      stroke='url(#paint3_linear_1949_72536)'
       strokeLinejoin='round'
       d='M1028.68 478.438V370.002'
     />
@@ -63,17 +64,17 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M422.184 476.764h54.16v53.64h-54.16zm54.168 53.642h27.279v26.82h-27.279zm-13.645 26.823h13.639v13.82h-13.639zM1541.46 234.455H202.664m1354.516 10.627H186.707m1387.013 11.154H170.008m1421.062 11.666H152.488m1456.802 12.307H134.07m1494.4 12.918H114.715M1648.7 306.746H94.3m1575.72 14.385H72.781m1619.789 15.183H50.04m1666.6 16.098H26.18m1715.78 17.047H.645'
+      d='M422.184 476.764h54.16v53.64h-54.16zM476.352 530.406h27.279v26.82h-27.279zM462.707 557.229h13.639v13.82h-13.639zM1541.46 234.455H202.664M1557.18 245.082H186.707M1573.72 256.236H170.008M1591.07 267.902H152.488M1609.29 280.209H134.07M1628.47 293.127H114.715M1648.7 306.746H94.3M1670.02 321.131H72.781M1692.57 336.314H50.04M1716.64 352.412H26.18M1741.96 369.459H.645'
     />
     <path
       stroke='#282B33'
       strokeLinejoin='round'
-      d='M749.035 234.455v134.952m-27.954-134.952-81.065 134.952m53.111-134.952L530.996 369.407m134.177-134.952L421.977 369.407m215.241-134.952L312.957 369.407m296.307-134.952L203.937 369.407M581.31 234.455 94.918 369.407m682.068-134.952 81.065 134.952m-53.115-134.952 162.13 134.952M832.89 234.455l243.2 134.952M860.844 234.455l324.266 134.952M888.798 234.455l405.332 134.952M916.753 234.455l486.387 134.952'
+      d='M749.035 234.455v134.952M721.081 234.455l-81.065 134.952M693.127 234.455 530.996 369.407M665.173 234.455 421.977 369.407M637.218 234.455 312.957 369.407M609.264 234.455 203.937 369.407M581.31 234.455 94.918 369.407M776.986 234.455l81.065 134.952M804.936 234.455l162.13 134.952M832.89 234.455l243.2 134.952M860.844 234.455l324.266 134.952M888.798 234.455l405.332 134.952M916.753 234.455l486.387 134.952'
     />
     <path
       stroke='#282B33'
       strokeLinejoin='round'
-      strokeWidth={1.02}
+      strokeWidth={1.0201}
       d='m944.683 234.232 550.407 135.164'
     />
     <path
@@ -99,42 +100,42 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M469.5 206.98h27.954v27.483H469.5zm-28.082 0h27.954v27.483h-27.954zm-56.164 0h27.954v27.483h-27.954zm-28.082 0h27.954v27.483h-27.954zm224.14-82.447h27.954v27.483h-27.954zm27.954 82.451h27.954v27.483h-27.954zm0-137.41h27.954v27.483h-27.954z'
+      d='M469.5 206.98h27.954v27.483H469.5zM441.418 206.98h27.954v27.483h-27.954zM385.254 206.98h27.954v27.483h-27.954zM357.172 206.98h27.954v27.483h-27.954zM581.312 124.533h27.954v27.483h-27.954zM609.266 206.984h27.954v27.483h-27.954zM609.266 69.574h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M637.219 206.984h27.954v27.483h-27.954zm0-54.957h27.954v27.483h-27.954zm0-54.974h27.954v27.483h-27.954z'
+      d='M637.219 206.984h27.954v27.483h-27.954zM637.219 152.027h27.954v27.483h-27.954zM637.219 97.053h27.954v27.482h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M665.172 206.984h27.954v27.483h-27.954zm0-27.486h27.954v27.483h-27.954z'
+      d='M665.172 206.984h27.954v27.483h-27.954zM665.172 179.498h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M665.172 152.027h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954z'
+      d='M665.172 152.027h27.954v27.483h-27.954zM665.172 124.533h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M665.172 97.053h27.954v27.483h-27.954z'
+      d='M665.172 97.053h27.954v27.482h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M665.172 69.574h27.954v27.483h-27.954zm27.957 82.453h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954z'
+      d='M665.172 69.574h27.954v27.483h-27.954zM693.129 152.027h27.954v27.483h-27.954zM693.129 124.533h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M693.129 97.053h27.954v27.483h-27.954zm27.953 109.931h27.954v27.483h-27.954zm0-27.486h27.954v27.483h-27.954z'
+      d='M693.129 97.053h27.954v27.482h-27.954zM721.082 206.984h27.954v27.483h-27.954zM721.082 179.498h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M721.082 152.027h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954zm27.953 82.451h27.954v27.483h-27.954z'
+      d='M721.082 152.027h27.954v27.483h-27.954zM721.082 124.533h27.954v27.483h-27.954zM749.035 206.984h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
@@ -144,7 +145,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M749.035 152.027h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954zm27.953 82.451h27.954v27.483h-27.954z'
+      d='M749.035 152.027h27.954v27.483h-27.954zM749.035 124.533h27.954v27.483h-27.954zM776.988 206.984h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
@@ -154,12 +155,12 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M776.988 152.027h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954z'
+      d='M776.988 152.027h27.954v27.483h-27.954zM776.988 124.533h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M776.988 97.053h27.954v27.483h-27.954zm27.953 109.931h27.954v27.483h-27.954zm0-54.957h27.954v27.483h-27.954z'
+      d='M776.988 97.053h27.954v27.482h-27.954zM804.941 206.984h27.954v27.483h-27.954zM804.941 152.027h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
@@ -169,22 +170,22 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M804.941 97.053h27.954v27.483h-27.954z'
+      d='M804.941 97.053h27.954v27.482h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M804.941 69.574h27.954v27.483h-27.954zm27.954 137.41h27.954v27.483h-27.954zm0-27.486h27.954v27.483h-27.954z'
+      d='M804.941 69.574h27.954v27.483h-27.954zM832.895 206.984h27.954v27.483h-27.954zM832.895 179.498h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M832.895 152.027h27.954v27.483h-27.954zm0-27.494h27.954v27.483h-27.954z'
+      d='M832.895 152.027h27.954v27.483h-27.954zM832.895 124.533h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
       strokeMiterlimit={10}
-      d='M832.895 97.053h27.954v27.483h-27.954zm27.953 109.931h27.954v27.483h-27.954zm0-54.957h27.954v27.483h-27.954zm83.863 54.957h14.69v13.741h-14.69zm-335.445-96.191h13.976v13.741h-13.976zM651.195.869h6.988v6.87h-6.988zM574.32 152.02h6.988v6.87h-6.988zm-111.812 48.091h6.988v6.87h-6.988zm118.804-61.836h13.976v13.741h-13.976zm307.493 68.709h27.954v27.483h-27.954z'
+      d='M832.895 97.053h27.954v27.482h-27.954zM860.848 206.984h27.954v27.483h-27.954zM860.848 152.027h27.954v27.483h-27.954zM944.711 206.984h14.69v13.741h-14.69zM609.266 110.793h13.976v13.741h-13.976zM651.195.869h6.988V7.74h-6.988zM574.32 152.02h6.988v6.87h-6.988zM462.508 200.111h6.988v6.87h-6.988zM581.312 138.275h13.976v13.741h-13.976zM888.805 206.984h27.954v27.483h-27.954z'
     />
     <path
       stroke='#282B33'
@@ -202,22 +203,22 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
       d='M972.664 206.984h27.954v27.483h-27.954z'
     />
     <path
-      fill='url(#e)'
+      fill='url(#paint4_linear_1949_72536)'
       fillOpacity={0.5}
       stroke='#2D2F38'
       strokeLinejoin='round'
-      strokeWidth={1.02}
+      strokeWidth={1.0201}
       d='m1243.65 442.673 42.62 73.195-.18-21.669.08-51.741-.05-72.829-42.47 73.044Z'
     />
     <path
-      fill='url(#f)'
+      fill='url(#paint5_linear_1949_72536)'
       fillOpacity={0.78}
       stroke='#13141A'
       strokeLinejoin='round'
       d='m855.578 256.105 37.491 64.946 75.003.006-37.497-64.951-74.997-.001Z'
     />
     <path
-      fill='url(#g)'
+      fill='url(#paint6_linear_1949_72536)'
       stroke='#13141A'
       strokeLinejoin='round'
       d='m968.069 191.152-37.51 64.953 37.506 64.949.004-129.902Z'
@@ -227,14 +228,14 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
       d='m1005.58 256.105-37.502 64.952h-75l-37.5-64.952 37.5-64.951h75l37.502 64.951Z'
     />
     <path
-      fill='url(#h)'
+      fill='url(#paint7_linear_1949_72536)'
       stroke='#13141A'
       strokeWidth={0.48}
       d='m968.664 320.561 80.136.37-32.92-13.79-39.528-.123-7.688 13.543Z'
       opacity={0.6}
     />
     <path
-      fill='url(#i)'
+      fill='url(#paint8_linear_1949_72536)'
       stroke='#13141A'
       strokeWidth={0.48}
       d='m909.868 335.869 86.062.144-25.546-14.383-77.2-.176 16.684 14.415Z'
@@ -247,14 +248,14 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
       d='m968.073 191.152-37.503 64.952 37.501 64.95 37.499-64.948-37.497-64.954Z'
     />
     <path
-      fill='url(#j)'
+      fill='url(#paint9_linear_1949_72536)'
       stroke='#13141A'
       strokeLinejoin='round'
       d='m956.412 172.355-112.494 64.954 75-.004 37.494-64.95Z'
     />
     <defs>
       <linearGradient
-        id='a'
+        id='paint0_linear_1949_72536'
         x1={367.109}
         x2={572.048}
         y1={426.114}
@@ -265,7 +266,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' />
       </linearGradient>
       <linearGradient
-        id='b'
+        id='paint1_linear_1949_72536'
         x1={424.348}
         x2={475.492}
         y1={572.928}
@@ -276,7 +277,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' />
       </linearGradient>
       <linearGradient
-        id='c'
+        id='paint2_linear_1949_72536'
         x1={458.181}
         x2={412.236}
         y1={536.305}
@@ -287,7 +288,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='d'
+        id='paint3_linear_1949_72536'
         x1={1028.69}
         x2={1028.69}
         y1={391.027}
@@ -298,7 +299,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#282B33' />
       </linearGradient>
       <linearGradient
-        id='e'
+        id='paint4_linear_1949_72536'
         x1={1264.96}
         x2={1265.63}
         y1={369.629}
@@ -309,7 +310,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#2D2F38' />
       </linearGradient>
       <linearGradient
-        id='f'
+        id='paint5_linear_1949_72536'
         x1={1005.15}
         x2={855.934}
         y1={258.114}
@@ -320,7 +321,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#20232A' />
       </linearGradient>
       <linearGradient
-        id='g'
+        id='paint6_linear_1949_72536'
         x1={949.314}
         x2={949.314}
         y1={191.152}
@@ -331,7 +332,7 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#2D2F38' stopOpacity={0.95} />
       </linearGradient>
       <linearGradient
-        id='h'
+        id='paint7_linear_1949_72536'
         x1={1065.69}
         x2={953.816}
         y1={321.582}
@@ -339,11 +340,11 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' />
-        <stop offset={0.484} stopColor='#13141A' />
+        <stop offset={0.484375} stopColor='#13141A' />
         <stop offset={1} stopColor='#13141A' />
       </linearGradient>
       <linearGradient
-        id='i'
+        id='paint8_linear_1949_72536'
         x1={1018.06}
         x2={876.683}
         y1={339.02}
@@ -351,11 +352,11 @@ const WhoWeAreMobilePictureDark = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' />
-        <stop offset={0.484} stopColor='#13141A' />
+        <stop offset={0.484375} stopColor='#13141A' />
         <stop offset={1} stopColor='#13141A' />
       </linearGradient>
       <linearGradient
-        id='j'
+        id='paint9_linear_1949_72536'
         x1={900.165}
         x2={900.165}
         y1={172.355}

@@ -4,8 +4,6 @@ import { SVGProps } from 'react';
 const YearnLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={108}
-    height={70}
     viewBox='0 0 108 70'
     fill='none'
     {...props}

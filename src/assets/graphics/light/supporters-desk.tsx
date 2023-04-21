@@ -3,124 +3,191 @@ import { SVGProps } from 'react';
 
 const SupportersDesk = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 2473 657'
+    viewBox='0 0 1024 439'
     fill='none'
+    xmlns='http://www.w3.org/2000/svg'
     {...props}
   >
     <path
-      stroke='url(#paint0_linear_1945_53909)'
+      d='M1208 22.1328L512 22.1328'
+      stroke='url(#paint0_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M2280.64 32.2h-1044'
     />
     <path
-      stroke='url(#paint1_linear_1945_53909)'
+      d='M-184 22.1328L512 22.1328'
+      stroke='url(#paint1_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M192.645 32.2H1236.64'
     />
     <path
-      stroke='url(#paint2_linear_1945_53909)'
+      d='M-184 417.406L512 417.406'
+      stroke='url(#paint2_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M192.645 624.992H1236.64'
     />
     <path
-      stroke='url(#paint3_linear_1945_53909)'
+      d='M113.379 145.32L-40.2211 145.32'
+      stroke='url(#paint3_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M639.027 216.996h-230.4'
     />
     <path
-      stroke='url(#paint4_linear_1945_53909)'
+      d='M929.438 417.406L1159.84 417.406'
+      stroke='url(#paint4_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M1863.04 624.992h345.6'
     />
     <path
-      stroke='url(#paint5_linear_1945_53909)'
+      d='M908.938 250.938L1153.74 250.937'
+      stroke='url(#paint5_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M1831.84 375.398h367.2'
     />
     <path
-      stroke='url(#paint6_linear_1945_53909)'
+      d='M153.516 334.164L-91.2844 334.164'
+      stroke='url(#paint6_linear_3618_18453)'
       strokeLinejoin='round'
-      d='M699.035 500.195h-367.2'
     />
-    <path
+    <rect
+      x={32.2461}
+      y={21.8984}
+      width={81.6}
+      height={81.6}
       stroke='#DCDCE1'
       strokeMiterlimit={10}
-      d='M1771.83 154.602h31.2v31.2h-31.2zM607.23 625h31.2v31.2h-31.2zM1834.24 625h31.2v31.2h-31.2zM1803.04 1h31.2v31.2h-31.2z'
+    />
+    <rect
+      x={910.617}
+      y={21.8984}
+      width={81.6}
+      height={81.6}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={32.2461}
+      y={62.0703}
+      width={41.6}
+      height={41.6}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={113.809}
+      y={103.672}
+      width={41.6}
+      height={41.6}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={869.23}
+      y={103.672}
+      width={41.6}
+      height={41.6}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={869.23}
+      y={103.672}
+      width={20.8}
+      height={20.8}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={92.4492}
+      y={417.172}
+      width={20.8}
+      height={20.8}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={910.617}
+      y={417.172}
+      width={20.8}
+      height={20.8}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
+    />
+    <rect
+      x={889.688}
+      y={1.20312}
+      width={20.8}
+      height={20.8}
+      stroke='#DCDCE1'
+      strokeMiterlimit={10}
     />
     <defs>
       <linearGradient
-        id='paint0_linear_1945_53909'
-        x1={1236.65}
-        x2={2247.77}
-        y1={1786.42}
-        y2={1786.42}
+        id='paint0_linear_3618_18453'
+        x1={512.005}
+        y1={1776.35}
+        x2={1186.09}
+        y2={1776.35}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint1_linear_1945_53909'
-        x1={1236.64}
-        x2={225.516}
-        y1={1786.42}
-        y2={1786.42}
+        id='paint1_linear_3618_18453'
+        x1={511.995}
+        y1={1776.35}
+        x2={-162.086}
+        y2={1776.35}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint2_linear_1945_53909'
-        x1={1236.64}
-        x2={225.516}
-        y1={2379.21}
-        y2={2379.21}
+        id='paint2_linear_3618_18453'
+        x1={511.995}
+        y1={2171.62}
+        x2={-162.086}
+        y2={2171.62}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint3_linear_1945_53909'
-        x1={408.629}
-        x2={631.773}
-        y1={-1537.22}
-        y2={-1537.22}
+        id='paint3_linear_3618_18453'
+        x1={-40.22}
+        y1={-1608.9}
+        x2={108.543}
+        y2={-1608.9}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint4_linear_1945_53909'
-        x1={2208.64}
-        x2={1873.92}
-        y1={2379.21}
-        y2={2379.21}
+        id='paint4_linear_3618_18453'
+        x1={1159.84}
+        y1={2171.62}
+        x2={936.692}
+        y2={2171.62}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint5_linear_1945_53909'
-        x1={2199.04}
-        x2={1843.41}
-        y1={2129.62}
-        y2={2129.62}
+        id='paint5_linear_3618_18453'
+        x1={1153.74}
+        y1={2005.15}
+        x2={916.645}
+        y2={2005.15}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />
         <stop offset={1} stopColor='#DCDCE1' />
       </linearGradient>
       <linearGradient
-        id='paint6_linear_1945_53909'
-        x1={331.838}
-        x2={687.473}
-        y1={2254.41}
-        y2={2254.41}
+        id='paint6_linear_3618_18453'
+        x1={-91.2826}
+        y1={2088.38}
+        x2={145.808}
+        y2={2088.38}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#DCDCE1' stopOpacity={0} />

@@ -35,7 +35,7 @@ const splitIntoChunks = (
 const SupportersBlock = ({ content }: Props) => {
   const { width } = useWindowSize();
 
-  const chunkSize = width >= breakpoints.smd ? 5 : 3;
+  const chunkSize = width >= breakpoints.brp1024 ? 5 : 3;
 
   return (
     <SupportersBlockContainer>

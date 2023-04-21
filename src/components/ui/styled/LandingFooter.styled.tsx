@@ -13,17 +13,17 @@ export const StyledLandingFooter = styled.footer`
   ${tmSelectors.dark} {
     background: ${appTheme.dark.colors.footerBg};
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     padding: 36px 120px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     padding: 36px 56px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     padding: 36px 48px;
     margin-top: 100px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     padding: 36px 24px;
     flex-direction: column-reverse;
   }
@@ -37,7 +37,7 @@ export const LandingFooterContent = styled.section`
   line-height: 130%;
   letter-spacing: 0.1em;
 
-  ${media.sm} {
+  ${media.brp768} {
     flex-direction: column;
     font-size: 12px;
     line-height: 100%;
@@ -46,6 +46,20 @@ export const LandingFooterContent = styled.section`
 
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font0};
+  }
+`;
+
+export const SocialsWrapper = styled.div`
+  & svg {
+    fill: ${appTheme.light.colors.font50};
+  }
+  ${tmSelectors.dark} {
+    & svg {
+      fill: ${appTheme.dark.colors.font100};
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 `;
 
@@ -65,6 +79,13 @@ export const LogoWrapper = styled.span`
     display: none;
   }
 
+  ${media.brp768} {
+    margin-right: 10px;
+    & svg {
+      height: 30px;
+    }
+  }
+
   ${tmSelectors.dark} {
     & .light {
       display: none;
@@ -81,14 +102,14 @@ export const CopyrightWrapper = styled.span`
   margin-right: 8px;
   white-space: nowrap;
 
-  ${media.sm} {
+  ${media.brp768} {
     margin-bottom: 22spx;
   }
 `;
 
 export const Divider = styled.span`
   margin: 0 8px;
-  ${media.sm} {
+  ${media.brp768} {
     display: none;
   }
 `;

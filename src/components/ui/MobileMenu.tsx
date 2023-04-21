@@ -7,10 +7,12 @@ import Socials from '../Socials';
 import ThemeSwitcher from '../ThemeSwitcher';
 import {
   MobileMenuContainer,
+  MobileMenuContent,
   MobileMenuFooter,
   MobileMenuItem,
   MobileMenuItemsList,
 } from './styled/MobileMenu.styled';
+import ExternalLinkIcon from '../../assets/icons/ExternalLinkIcon';
 
 type Props = {
   menuItems: MenuItemType[];
@@ -39,25 +41,29 @@ const MobileMenu = ({ menuItems, isOpen, closeMobileMenu }: Props) => {
         e.stopPropagation();
       }}
     >
-      <MobileMenuItemsList>
-        {menuItems.map((menuItem) => {
-          const isLinkActive = router.asPath.includes(menuItem.href);
-          return (
-            <MobileMenuItem
-              className={isLinkActive ? 'active' : ''}
-              key={menuItem.label}
-            >
-              <Link href={menuItem.href} onClick={closeMobileMenu}>
-                {menuItem.label}
-              </Link>
-            </MobileMenuItem>
-          );
-        })}
-      </MobileMenuItemsList>
-      <MobileMenuFooter>
-        <Socials />
-        <ThemeSwitcher />
-      </MobileMenuFooter>
+      <MobileMenuContent>
+        <MobileMenuItemsList>
+          {menuItems.map((menuItem) => {
+            const isLinkActive = router.asPath.includes(menuItem.href);
+            const isExternal = menuItem.href.startsWith('http');
+            return (
+              <MobileMenuItem
+                className={isLinkActive ? 'active' : ''}
+                key={menuItem.label}
+              >
+                <Link href={menuItem.href} onClick={closeMobileMenu}>
+                  {menuItem.label}
+                  {isExternal && <ExternalLinkIcon />}
+                </Link>
+              </MobileMenuItem>
+            );
+          })}
+        </MobileMenuItemsList>
+        <MobileMenuFooter>
+          <Socials />
+          <ThemeSwitcher />
+        </MobileMenuFooter>
+      </MobileMenuContent>
     </MobileMenuContainer>
   );
 };

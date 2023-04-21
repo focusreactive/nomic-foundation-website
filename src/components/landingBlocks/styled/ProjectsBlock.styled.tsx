@@ -7,20 +7,20 @@ export const StyledProjects = styled.section`
   width: 100%;
   align-items: center;
   margin-top: 360px;
-  z-index: 1;
-  ${media.lg} {
+  position: relative;
+  z-index: 2;
+  ${media.brp1440} {
     margin-top: 372px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-top: 372px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     margin-top: 240px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-top: 300px;
     align-items: flex-start;
-    padding: 0 24px;
   }
 `;
 
@@ -38,24 +38,24 @@ export const ProjectsTitle = styled.h2`
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 69px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 58px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 40px;
     letter-spacing: 0.05em;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 28px;
     letter-spacing: 0.03em;
   }
 `;
 
 export const ProjectsSubtitle = styled.h3`
-  font-weight: 300;
+  font-weight: 100;
   font-size: 40px;
   line-height: 150%;
   text-align: center;
@@ -66,21 +66,21 @@ export const ProjectsSubtitle = styled.h3`
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font100};
   }
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 33px;
     max-width: 720px;
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 28px;
     max-width: 680px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 23px;
     letter-spacing: 0.03em;
     max-width: 520px;
     margin-top: 16px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     font-size: 16px;
     max-width: 200px;
     text-align: start;
@@ -90,25 +90,17 @@ export const ProjectsSubtitle = styled.h3`
 export const ProjectsContainer = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 0 176px;
   margin-top: 112px;
   width: 100%;
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-top: 88px;
-    padding: 0 120px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     margin-top: 80px;
   }
-  ${media.md} {
-    padding: 0 66px;
-  }
-  ${media.smd} {
+
+  ${media.brp1024} {
     margin-top: 16px;
-    padding: 0 48px;
-  }
-  ${media.sm} {
-    padding: 0;
   }
 `;
 
@@ -118,16 +110,16 @@ export const ProjectItemContainer = styled.section`
   position: relative;
   flex-direction: column;
   margin-bottom: 400px;
-  ${media.xlg} {
+  ${media.brp1792} {
     margin-bottom: 320px;
   }
-  ${media.lg} {
+  ${media.brp1440} {
     margin-bottom: 220px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     margin-bottom: 100px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     margin-bottom: 42px;
   }
   &:last-child {
@@ -143,7 +135,7 @@ export const ProjectItemTopDecoration = styled.div<{ color: string }>`
   display: flex;
   justify-content: space-between;
 
-  ${media.smd} {
+  ${media.brp1024} {
     visibility: hidden;
   }
 `;
@@ -170,18 +162,18 @@ export const ProjectItemInnerSection = styled.div<{ color: string }>`
     border-left: 1px solid ${({ color }) => color};
     border-right: unset;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     border-right: unset;
     .reversed & {
       border-left: unset;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     flex-direction: column;
     .reversed & {
       flex-direction: column;
     }
-  } ;
+  }
 `;
 
 export const ProjectItemPictureSection = styled.section<{ color: string }>`
@@ -191,7 +183,7 @@ export const ProjectItemPictureSection = styled.section<{ color: string }>`
   & svg {
     width: 90%;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     width: 100%;
     & svg {
       width: 100%;
@@ -203,43 +195,59 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: -11%;
-  margin-left: -10%;
-  width: 4vw;
-  height: 13vw;
+  margin-top: 0%;
+  margin-left: -8.3%;
+  width: 4.4vw;
+  height: 9vw;
   transform: skewY(30deg);
   transform-origin: bottom right;
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
-    width: 5.3vw;
-    height: 10vw;
+    width: 4.4vw;
+    height: 7vw;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
     left: unset;
     right: 0;
-    margin-top: -14%;
-
-    margin-right: -4%;
+    margin-top: -5%;
+    margin-right: 3.3%;
     transform: skewY(-30deg);
   }
-  ${media.smd} {
+  ${media.brp1792} {
+    margin-top: -5%;
+    width: 4vw;
+    height: 11.1vw;
+    .reversed & {
+      width: 4vw;
+      height: 8.4vw;
+    }
+  }
+  ${media.brp1440} {
+    width: 4.2vw;
+    height: 13.4vw;
+    .reversed & {
+      width: 4vw;
+      height: 10vw;
+    }
+  }
+  ${media.brp1024} {
     display: none;
   }
 `;
 
 export const ProjectItemPicWrapper = styled.div`
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 10%;
   display: block;
-  width: 100%;
+  width: 120%;
   height: 100%;
 
   .reversed & {
     left: unset;
-    right: 4%;
+    right: -4%;
   }
 
   & .light {
@@ -256,7 +264,7 @@ export const ProjectItemPicWrapper = styled.div`
       display: block;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -290,15 +298,27 @@ export const ProjectItemMobilePicWrapper = styled.div`
       display: block;
     }
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: block;
-  }
-  ${media.sm} {
-    top: -15%;
-    transform: scale(1.2);
+    width: 135%;
     .reversed & {
+      width: 140%;
+
+      left: unset;
+      right: -40%;
+      top: 25%;
+    }
+  }
+  ${media.brp768} {
+    top: -10%;
+    transform: scale(1.75);
+    left: 35%;
+    width: 70%;
+    .reversed & {
+      top: -10%;
+      width: 70%;
       right: unset;
-      left: 11%;
+      left: 20%;
     }
   }
 `;
@@ -318,7 +338,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
     padding: 20px 64px 94px;
   }
 
-  ${media.smd} {
+  ${media.brp1024} {
     margin-left: unset;
     border-bottom: unset;
     padding-bottom: 48px;
@@ -326,7 +346,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
       margin-right: unset;
     }
   }
-  ${media.sm} {
+  ${media.brp768} {
     padding: 0 0 48px 0;
     .reversed & {
       padding: 0 0 48px 0;
@@ -347,7 +367,7 @@ export const ProjectItemSectionsDivider = styled.section<{ color: string }>`
     right: 0;
     left: unset;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     display: none;
   }
 `;
@@ -357,7 +377,7 @@ export const ProjectItemContentSectionTitle = styled.h4`
   align-items: center;
   & svg {
     margin-right: 20px;
-    width: 112px;
+    height: 64px;
   }
   font-size: 48px;
   line-height: 150%;
@@ -365,18 +385,19 @@ export const ProjectItemContentSectionTitle = styled.h4`
   font-weight: 500;
   color: ${appTheme.light.colors.font0};
 
-  ${media.xlg} {
+  ${media.brp1792} {
     font-size: 40px;
     & svg {
-      width: 76px;
+      height: 52px;
     }
   }
-  ${media.md} {
+  ${media.brp1280} {
     font-size: 23px;
     letter-spacing: 0.03em;
     & svg {
       margin-right: 14px;
-      width: 54px;
+      width: 34px;
+      height: 34px;
     }
   }
 
@@ -387,24 +408,28 @@ export const ProjectItemContentSectionTitle = styled.h4`
 
 export const ProjectItemContentSectionText = styled.p`
   font-weight: 400;
-  font-size: 23px;
+  font-size: 28px;
   line-height: 150%;
   letter-spacing: 0.03em;
   max-width: 660px;
   margin-top: 24px;
   color: ${appTheme.light.colors.font150};
 
-  ${media.md} {
+  ${media.brp1792} {
+    font-size: 23px;
+  }
+
+  ${media.brp1280} {
     font-size: 19px;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     font-size: 16px;
   }
-  ${media.sm} {
+  ${media.brp768} {
     max-width: 400px;
   }
   ${tmSelectors.dark} {
-    color: ${appTheme.dark.colors.font100};
+    color: ${appTheme.dark.colors.font250};
   }
 `;
 
@@ -415,7 +440,7 @@ export const ButtonWrapper = styled.div`
   .reversed & {
     align-self: flex-end;
   }
-  ${media.smd} {
+  ${media.brp1024} {
     .reversed & {
       align-self: flex-start;
     }
