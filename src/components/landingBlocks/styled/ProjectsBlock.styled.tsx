@@ -173,7 +173,7 @@ export const ProjectItemInnerSection = styled.div<{ color: string }>`
     .reversed & {
       flex-direction: column;
     }
-  } ;
+  }
 `;
 
 export const ProjectItemPictureSection = styled.section<{ color: string }>`
@@ -195,17 +195,17 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: -8%;
+  margin-top: 0%;
   margin-left: -8.3%;
   width: 4.4vw;
-  height: 14vw;
+  height: 9vw;
   transform: skewY(30deg);
   transform-origin: bottom right;
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
     width: 4.4vw;
-    height: 10vw;
+    height: 7vw;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
@@ -217,12 +217,11 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   }
   ${media.brp1792} {
     margin-top: -5%;
-
     width: 4vw;
-    height: 12.8vw;
+    height: 11.1vw;
     .reversed & {
       width: 4vw;
-      height: 10.4vw;
+      height: 8.4vw;
     }
   }
   ${media.brp1440} {
@@ -311,10 +310,13 @@ export const ProjectItemMobilePicWrapper = styled.div`
     }
   }
   ${media.brp768} {
-    top: 5%;
+    top: -10%;
     transform: scale(1.75);
     left: 35%;
+    width: 70%;
     .reversed & {
+      top: -10%;
+      width: 70%;
       right: unset;
       left: 20%;
     }
