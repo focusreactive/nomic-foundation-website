@@ -1,7 +1,7 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const Header = styled.header`
+export const Header = styled.header<{ backgroundOpacity: number }>`
   position: fixed;
   width: 100%;
   top: 0;
@@ -13,37 +13,33 @@ export const Header = styled.header`
   transition: all 0.25s ease-in-out;
   background: ${appTheme.light.colors.transparent};
 
-  &.blur {
+  &.hidden {
+    margin-top: -100%;
+  }
+
+  & .blur {
     background: ${appTheme.light.colors.navbarBlur};
+
     backdrop-filter: blur(9px);
     mix-blend-mode: normal;
-    transition: all 0.25s ease-in-out;
+    opacity: ${({ backgroundOpacity }) => backgroundOpacity};
   }
-  &.fill {
-    background: ${appTheme.light.colors.navbarFill};
-    backdrop-filter: blur(9px);
-    mix-blend-mode: normal;
-    margin-top: -55px;
-    transition: all 0.25s ease-in-out;
-  }
+
   ${tmSelectors.dark} {
-    &.blur {
+    & .blur {
       background: ${appTheme.dark.colors.navbarBlur};
       backdrop-filter: blur(9px);
       mix-blend-mode: normal;
     }
-    &.fill {
-      background: ${appTheme.dark.colors.navbarFill};
-      backdrop-filter: blur(9px);
-      mix-blend-mode: normal;
-    }
   }
+`;
 
-  ${media.brp1024} {
-    &.fill {
-      margin-top: -46px;
-    }
-  }
+export const HeaderBg = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 `;
 
 export const DesktopMenuContainer = styled.menu`
