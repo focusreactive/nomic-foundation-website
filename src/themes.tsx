@@ -62,7 +62,6 @@ export const lightPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#ffffffb2',
-  navbarFill: '#ffffffb2',
   border100: '#DCDCE1',
   buttonShadow: '#EFEFEF',
 };
@@ -96,7 +95,6 @@ export const darkPalette = {
   slangMain: '#F7CEB1',
   rethnetMain: '#BEE4FA',
   navbarBlur: '#13141ACC',
-  navbarFill: '#13141ACC',
   border100: '#13141A',
   buttonShadow: '#13141A7F',
 } as Palette;

@@ -4,7 +4,7 @@ import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
 import { appTheme, media, ThemeProvider, tmSelectors } from '../themes';
-import { Header } from './ui/styled/DesktopMenu.styled';
+import { Header, HeaderBg } from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
@@ -66,30 +66,31 @@ const ContentContainer = styled.div`
 `;
 
 const LandingLayout = ({ children, seo }: Props) => {
-  const [headerClass, setHeaderClass] = useState<'blur' | 'fill' | ''>('');
-
+  const [isVisible, setIsVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [backgroundOpacity, setBackgroundOpacity] = useState(0);
   useEffect(() => {
-    const changeBgState = () => {
-      console.log(window.scrollY);
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
 
-      if (window.scrollY <= 50) {
-        setHeaderClass('');
-      } else if (window.scrollY >= 500) {
-        setHeaderClass('fill');
-      } else {
-        setHeaderClass('blur');
-      }
+      // setIsVisible(prevScrollPos > currentScrollPos || currentScrollPos < 600);
+      setPrevScrollPos(currentScrollPos);
+      setBackgroundOpacity((currentScrollPos * 1.5) / window.innerHeight);
     };
 
-    window.addEventListener('scroll', changeBgState);
-    return () => {
-      window.removeEventListener('scroll', changeBgState);
-    };
-  }, []);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos]);
+
   return (
     <ThemeProvider>
       <Container className='landing'>
-        <Header className={headerClass}>
+        <Header
+          className={isVisible ? '' : 'hidden'}
+          backgroundOpacity={backgroundOpacity}
+        >
+          <HeaderBg className={'blur'} />
           <TopBanner content={bannerContent} />
           <LandingNavigation />
         </Header>
