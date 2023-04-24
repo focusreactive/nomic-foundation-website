@@ -69,7 +69,6 @@ const LandingLayout = ({ children, seo }: Props) => {
   const [isVisible, setIsVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [backgroundOpacity, setBackgroundOpacity] = useState(0);
-  console.log(backgroundOpacity);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
