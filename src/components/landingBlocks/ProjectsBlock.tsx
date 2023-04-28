@@ -25,6 +25,7 @@ type Project = {
   text: string;
   cta: CTAContent;
   Icon: React.FC<React.SVGProps<SVGSVGElement>>;
+  IconDark?: React.FC<React.SVGProps<SVGSVGElement>>;
   PictureDesk: React.FC<React.SVGProps<SVGSVGElement>>;
   PictureDeskDark: React.FC<React.SVGProps<SVGSVGElement>>;
   PictureMobile: React.FC<React.SVGProps<SVGSVGElement>>;
@@ -51,6 +52,7 @@ const ProjectItem = ({
   PictureMobileDark,
   color,
   isReversed,
+  IconDark,
 }: Project & { color: string; isReversed: boolean }) => {
   return (
     <ProjectItemContainer className={isReversed ? 'reversed' : ''}>
@@ -73,8 +75,9 @@ const ProjectItem = ({
         <ProjectItemContentSection color={color}>
           <ProjectItemSectionsDivider color={color} />
           <ProjectItemContentSectionTitle>
-            <Icon />
-            {title}
+            <Icon className={!!IconDark ? 'light' : ''} />
+            {IconDark && <IconDark className='dark' />}
+            {title !== 'Hardhat' && title}
           </ProjectItemContentSectionTitle>
           <ProjectItemContentSectionText>{text}</ProjectItemContentSectionText>
           <ButtonWrapper>

@@ -22,7 +22,7 @@ export const HeroBlockContentSection = styled.section`
     padding: 32px 0px 0px;
   }
   ${media.brp1024} {
-    padding: 16p 0px 0px;
+    padding: 16px 0px 0px;
   }
   ${media.brp768} {
     padding: 16px 0px 0px;
@@ -131,6 +131,7 @@ export const HeroBlockPictureWrapper = styled.section`
     right: -100px
   }
 
+
   ${media.brp768} {
     display: none;
   }
@@ -142,12 +143,13 @@ export const HeroBlockMobilePictureWrapper = styled.section`
   top: 0;
   display: none;
   margin-top: -208px;
-  margin-right: -230px;
+  margin-right: -255px;
   & .light {
     display: block;
   }
   & .dark {
     display: none;
+    margin-right: -20px;
   }
 
   ${tmSelectors.dark} {

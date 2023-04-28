@@ -2,9 +2,7 @@ import * as React from 'react';
 import { SVGProps } from 'react';
 const WorkWithUsMobile = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={1579}
-    height={731}
-    viewBox='0 0 1579 731'
+    viewBox='0 0 1400 731'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
     {...props}

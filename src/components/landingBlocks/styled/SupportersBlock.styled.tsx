@@ -12,10 +12,10 @@ export const SupportersBlockContainer = styled.section`
     margin-top: 344px;
   }
   ${media.brp1024} {
-    margin-top: 280px;
+    margin-top: 320px;
   }
   ${media.brp768} {
-    margin-top: 210px;
+    margin-top: 280px;
   }
 `;
 
@@ -82,7 +82,7 @@ export const SupportersPictureWrapper = styled.section`
     top: -13%;
   }
   ${media.brp1280} {
-    top: -15.5%;
+    top: -18%;
   }
   ${media.brp1024} {
     display: none;
@@ -99,11 +99,11 @@ export const SupportersBlockLogosContainer = styled.section`
   width: 100%;
 
   ${media.brp1792} {
-    margin-top: 73px;
+    margin-top: 72px;
   }
 
   ${media.brp1280} {
-    margin-top: 48px;
+    margin-top: 46px;
   }
   ${media.brp1024} {
     margin-top: 32px;
@@ -119,7 +119,7 @@ export const LogosRow = styled.div`
   border: 1px solid var(--border-color);
   border-bottom: unset;
   flex: 1;
-  padding: 13px 0px;
+  padding: 4px 0px;
   &:last-child {
     border-bottom: 1px solid var(--border-color);
   }
@@ -129,8 +129,16 @@ export const LogosRow = styled.div`
       --border-color: transparent;
     }
   }
+
   ${media.brp1792} {
-    padding: 16px 0px;
+    padding: 15px 0px;
+  }
+  ${media.brp1440} {
+    padding: 16.5px 0px;
+  }
+
+  ${media.brp1280} {
+    padding: 15.5px 0px;
   }
 
   ${media.brp1024} {
@@ -170,7 +178,7 @@ export const LogoItemWrapper = styled.div`
 
     & svg {
       max-width: 90px;
-      height: 60px;
+      height: 100%;
       width: 120%;
     }
   }

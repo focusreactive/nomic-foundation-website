@@ -37,10 +37,10 @@ export const ControlsContainer = styled.section`
     max-width: 1200px;
   }
   ${media.brp1440} {
-    max-width: 1044px;
+    max-width: 1040px;
   }
   ${media.brp1280} {
-    max-width: 896px;
+    max-width: 912px;
   }
   ${media.brp1024} {
     max-width: 672px;

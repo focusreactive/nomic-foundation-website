@@ -32,7 +32,7 @@ export const StyledLandingFooter = styled.footer`
 export const LandingFooterContent = styled.section`
   display: flex;
   align-items: center;
-  color: ${appTheme.light.colors.font150};
+  color: ${appTheme.light.colors.font250};
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.1em;
@@ -45,7 +45,7 @@ export const LandingFooterContent = styled.section`
   }
 
   ${tmSelectors.dark} {
-    color: ${appTheme.dark.colors.font0};
+    color: ${appTheme.dark.colors.font50};
   }
 `;
 
@@ -81,9 +81,11 @@ export const LogoWrapper = styled.span`
 
   ${media.brp768} {
     margin-right: 10px;
-    & svg {
+    width: 30px;
+    height: 26px;
+    /* & svg {
       height: 30px;
-    }
+    } */
   }
 
   ${tmSelectors.dark} {

@@ -4,8 +4,7 @@ import { SVGProps } from 'react';
 const WhoWeAreMobilePicture = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width={1708}
-    height={801}
+    viewBox='0 0 1708 801'
     fill='none'
     {...props}
   >

@@ -197,15 +197,15 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
   top: 0;
   margin-top: 0%;
   margin-left: -8.3%;
-  width: 4.4vw;
-  height: 9vw;
+  width: 16%;
+  height: 64.5%;
   transform: skewY(30deg);
   transform-origin: bottom right;
   border-left: 1px solid ${({ color }) => color};
   border-bottom: 1px solid ${({ color }) => color};
   .reversed & {
-    width: 4.4vw;
-    height: 7vw;
+    width: 16%;
+    height: 47%;
     border-left: unset;
     border-right: 1px solid ${({ color }) => color};
     margin-left: unset;
@@ -216,20 +216,19 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
     transform: skewY(-30deg);
   }
   ${media.brp1792} {
-    margin-top: -5%;
-    width: 4vw;
-    height: 11.1vw;
+    width: 16%;
+    height: 67.5%;
     .reversed & {
-      width: 4vw;
-      height: 8.4vw;
+      width: 16%;
+      height: 49%;
     }
   }
   ${media.brp1440} {
-    width: 4.2vw;
-    height: 13.4vw;
+    width: 16%;
+    height: 50%;
     .reversed & {
-      width: 4vw;
-      height: 10vw;
+      width: 16%;
+      height: 38%;
     }
   }
   ${media.brp1024} {
@@ -313,10 +312,10 @@ export const ProjectItemMobilePicWrapper = styled.div`
     top: -10%;
     transform: scale(1.75);
     left: 35%;
-    width: 70%;
+    width: 90%;
     .reversed & {
       top: -10%;
-      width: 70%;
+      width: 90%;
       right: unset;
       left: 20%;
     }
@@ -341,6 +340,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
   ${media.brp1024} {
     margin-left: unset;
     border-bottom: unset;
+    padding: unset;
     padding-bottom: 48px;
     .reversed & {
       margin-right: unset;
@@ -396,13 +396,22 @@ export const ProjectItemContentSectionTitle = styled.h4`
     letter-spacing: 0.03em;
     & svg {
       margin-right: 14px;
-      width: 34px;
       height: 34px;
     }
   }
 
+  & .dark {
+    display: none;
+  }
+
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font0};
+    & .light {
+      display: none;
+    }
+    & .dark {
+      display: block;
+    }
   }
 `;
 
