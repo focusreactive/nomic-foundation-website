@@ -27,10 +27,10 @@ export const menuItemsList: MenuItemType[] = [
     label: 'Building Blocks',
     href: '/',
   },
-  {
-    label: 'Jobs',
-    href: '/',
-  },
+  // {
+  //   label: 'Jobs',
+  //   href: '/',
+  // },
 ];
 
 export const SOCIALS_LINKS = {
