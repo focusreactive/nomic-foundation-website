@@ -4,7 +4,7 @@ import { SVGProps } from 'react';
 const RethnetPictureDesk = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 460 523'
+    viewBox='0 0 460 530'
     fill='none'
     {...props}
   >

@@ -4,7 +4,7 @@ import { SVGProps } from 'react';
 const SlangPictureDesk = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 468 521'
+    viewBox='0 0 468 530'
     fill='none'
     {...props}
   >

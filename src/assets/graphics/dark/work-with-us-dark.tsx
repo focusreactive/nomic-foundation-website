@@ -3,9 +3,7 @@ import { SVGProps } from 'react';
 
 const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={1792}
-    height={1293}
-    viewBox='0 0 1792 1293'
+    viewBox='0 0 2481 1077'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
     {...props}
@@ -17,90 +15,100 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
       opacity={0.5}
     >
       <mask
-        id='mask0_3588_46693'
+        id='mask0_1949_73407'
         style={{
           maskType: 'alpha',
         }}
         maskUnits='userSpaceOnUse'
-        x={-256}
-        y={336}
-        width={2304}
-        height={820}
+        x={280}
+        y={280}
+        width={1921}
+        height={684}
       >
         <ellipse
-          cx={896}
-          cy={746.118}
-          rx={1152}
-          ry={409.874}
-          fill='url(#paint0_linear_3588_46693)'
+          cx={1240.64}
+          cy={621.561}
+          rx={960}
+          ry={341.561}
+          fill='url(#paint0_linear_1949_73407)'
         />
       </mask>
-      <g mask='url(#mask0_3588_46693)'>
+      <g mask='url(#mask0_1949_73407)'>
         <path
-          d='M2123.23 -320.4L1815.93 -141.782L1815.87 -141.894L1508.59 36.7158L1508.53 36.608L1201.09 215.307L1201.02 215.183L895.703 396.838L1202.26 929.764L1509.31 751.479L1509.25 751.378L1509.35 751.433L1816.81 572.904L1816.79 572.87L2124.16 394.402L2124.14 394.372L2431.51 215.895L2123.23 -320.4Z'
-          fill='url(#paint1_linear_3588_46693)'
-          fillOpacity={0.7}
+          d='M2263.34 -267.203L2007.26 -118.354L2007.2 -118.448L1751.14 30.3937L1751.08 30.3039L1494.89 179.22L1494.83 179.117L1240.4 330.495L1495.86 774.601L1751.74 626.03L1751.69 625.946L1751.77 625.991L2007.99 477.217L2007.97 477.189L2264.11 328.466L2264.09 328.441L2520.24 179.71L2263.34 -267.203Z'
+          fill='url(#paint1_linear_1949_73407)'
+          fillOpacity={0.52}
         />
         <path
-          d='M-325.434 -315.428L-18.138 -136.809L-18.0737 -136.921L289.206 41.6884L289.268 41.5807L596.702 220.279L596.773 220.156L897.777 395.091L588.55 929.714L299.091 756.763L286.406 750.052L276.162 744.106L247.606 728.493L-19.0197 577.876L-19.0001 577.842L-326.362 399.375L-326.345 399.345L-633.722 220.868L-325.434 -315.428Z'
-          fill='url(#paint2_linear_3588_46693)'
-          fillOpacity={0.7}
+          d='M1495.86 775.353L1495.62 775.488M2007.26 -118.354L2263.34 -267.203L2520.24 179.71L2264.09 328.441L2264.11 328.466L2007.97 477.189L2007.99 477.217L1751.77 625.991L1751.69 625.946L1751.74 626.03L1495.86 774.601L1240.4 330.495L1494.83 179.117L1494.89 179.22L1751.08 30.3039L1751.14 30.3937L2007.2 -118.448L2007.26 -118.354Z'
+          stroke='#282B33'
+          strokeLinejoin='round'
+        />
+        <path
+          d='M222.782 -263.059L478.862 -114.21L478.916 -114.303L734.983 34.5382L735.034 34.4484L991.229 183.364L991.288 183.261L1242.12 329.04L984.011 775.419L743.219 630.434L732.649 624.842L724.112 619.887L700.316 606.875L478.128 481.362L478.144 481.333L222.009 332.61L222.023 332.585L-34.1245 183.855L222.782 -263.059Z'
+          fill='url(#paint2_linear_1949_73407)'
+          fillOpacity={0.52}
+        />
+        <path
+          d='M984.087 776.12L984.319 776.254M478.862 -114.21L222.782 -263.059L-34.1245 183.855L222.023 332.585L222.009 332.61L478.144 481.333L478.128 481.362L700.316 606.875L724.112 619.887L732.649 624.842L743.219 630.434L984.011 775.419L1242.12 329.04L991.288 183.261L991.229 183.364L735.034 34.4484L734.983 34.5382L478.916 -114.303L478.862 -114.21Z'
+          stroke='#282B33'
+          strokeLinejoin='round'
         />
       </g>
     </g>
     <path
-      d='M896.039 754.077L896.039 395.535L1203.89 930.717L896.039 754.077Z'
-      stroke='url(#paint3_linear_3588_46693)'
+      d='M1240.68 628.194L1240.68 329.41L1497.22 775.395L1240.68 628.194Z'
+      stroke='url(#paint3_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M895.368 754.077L895.368 395.536L588.406 929.174L895.368 754.077Z'
-      stroke='url(#paint4_linear_3588_46693)'
+      d='M1240.12 628.194L1240.12 329.41L983.57 775.395L1240.12 628.194Z'
+      stroke='url(#paint4_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M896.801 1112.9L896.801 973.896'
-      stroke='url(#paint5_linear_3588_46693)'
+      d='M1240.89 927.648L1240.89 788.648'
+      stroke='url(#paint5_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M1202.3 928.998L1515.07 1109.09'
-      stroke='url(#paint6_linear_3588_46693)'
+      d='M1495.45 773.719L1756.54 924.047'
+      stroke='url(#paint6_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M588.465 928.959L277.463 1109.39'
-      stroke='url(#paint7_linear_3588_46693)'
+      d='M986.289 773.719L725.201 924.047'
+      stroke='url(#paint7_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M587.953 928.939L1195.22 1290.54'
-      stroke='url(#paint8_linear_3588_46693)'
+      d='M984.957 775.297L1490 1075.25'
+      stroke='url(#paint8_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <path
-      d='M1202.82 928.994L599.004 1291.76'
-      stroke='url(#paint9_linear_3588_46693)'
+      d='M1496.17 773.719L993.148 1076.27'
+      stroke='url(#paint9_linear_1949_73407)'
       strokeLinejoin='round'
     />
     <defs>
       <linearGradient
-        id='paint0_linear_3588_46693'
-        x1={896}
-        y1={420.427}
-        x2={896}
-        y2={950.091}
+        id='paint0_linear_1949_73407'
+        x1={1240.64}
+        y1={350.152}
+        x2={1240.64}
+        y2={791.539}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='white' stopOpacity={0} />
         <stop offset={1} stopColor='white' />
       </linearGradient>
       <linearGradient
-        id='paint1_linear_3588_46693'
-        x1={1224.05}
-        y1={113.984}
-        x2={973.266}
-        y2={642.029}
+        id='paint1_linear_1949_73407'
+        x1={1514.02}
+        y1={94.7835}
+        x2={1305.03}
+        y2={534.821}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#61626B' />
@@ -108,11 +116,11 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#61626B' />
       </linearGradient>
       <linearGradient
-        id='paint2_linear_3588_46693'
-        x1={570.351}
-        y1={117.549}
-        x2={820.256}
-        y2={643.967}
+        id='paint2_linear_1949_73407'
+        x1={969.27}
+        y1={97.7553}
+        x2={1177.52}
+        y2={536.437}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#61626B' />
@@ -120,44 +128,44 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#61626B' />
       </linearGradient>
       <linearGradient
-        id='paint3_linear_3588_46693'
-        x1={984.866}
-        y1={277.516}
-        x2={927.161}
-        y2={734.235}
+        id='paint3_linear_1949_73407'
+        x1={1314.7}
+        y1={231.06}
+        x2={1266.61}
+        y2={611.66}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' />
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint4_linear_3588_46693'
-        x1={554.917}
-        y1={958.079}
-        x2={757.462}
-        y2={952.552}
+        id='paint4_linear_1949_73407'
+        x1={956.416}
+        y1={798.197}
+        x2={1125.2}
+        y2={793.59}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' />
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint5_linear_3588_46693'
-        x1={896.801}
-        y1={1118.48}
-        x2={896.554}
-        y2={1019.62}
+        id='paint5_linear_1949_73407'
+        x1={1240.89}
+        y1={933.233}
+        x2={1240.64}
+        y2={834.377}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' />
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint6_linear_3588_46693'
-        x1={1496.59}
-        y1={1100.99}
-        x2={1083.76}
-        y2={755.627}
+        id='paint6_linear_1949_73407'
+        x1={1741.11}
+        y1={917.278}
+        x2={1396.51}
+        y2={628.98}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' stopOpacity={0} />
@@ -165,11 +173,11 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint7_linear_3588_46693'
-        x1={295.98}
-        y1={1101.28}
-        x2={709.495}
-        y2={755.321}
+        id='paint7_linear_1949_73407'
+        x1={740.629}
+        y1={917.278}
+        x2={1085.22}
+        y2={628.98}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' stopOpacity={0} />
@@ -177,11 +185,11 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint8_linear_3588_46693'
-        x1={1159.39}
-        y1={1274.33}
-        x2={339.185}
-        y2={609.083}
+        id='paint8_linear_1949_73407'
+        x1={1460.15}
+        y1={1061.74}
+        x2={776.647}
+        y2={507.371}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' stopOpacity={0} />
@@ -189,11 +197,11 @@ const WorkWithUsDeskDark = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#13141A' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='paint9_linear_3588_46693'
-        x1={632.946}
-        y1={1274.3}
-        x2={1453.15}
-        y2={609.051}
+        id='paint9_linear_1949_73407'
+        x1={1021.43}
+        y1={1061.72}
+        x2={1704.94}
+        y2={507.347}
         gradientUnits='userSpaceOnUse'
       >
         <stop stopColor='#13141A' stopOpacity={0} />

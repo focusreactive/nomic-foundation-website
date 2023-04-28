@@ -4,7 +4,7 @@ import { SVGProps } from 'react';
 const SlangPictureMobileDark = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 480 335'
+    viewBox='0 0 480 445'
     fill='none'
     {...props}
   >

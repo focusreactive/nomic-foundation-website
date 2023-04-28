@@ -4,7 +4,7 @@ import { SVGProps } from 'react';
 const RethnetPictureMobile = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 461 336'
+    viewBox='0 0 461 445'
     fill='none'
     {...props}
   >

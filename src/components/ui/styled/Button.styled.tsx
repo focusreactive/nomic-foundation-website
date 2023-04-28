@@ -33,7 +33,7 @@ export const StyledButton = styled.button<{ color?: string }>`
     z-index: -1;
     top: 0;
     left: 0;
-    box-shadow: 0px 4px 4px ${appTheme.light.colors.buttonShadow};
+    box-shadow: 0px 6px 26px ${appTheme.light.colors.buttonShadow};
   }
 
   &:hover {
@@ -52,7 +52,7 @@ export const StyledButton = styled.button<{ color?: string }>`
     height: 64px;
   }
   ${media.brp1440} {
-    height: 64px;
+    height: 54px;
     padding: 0px 40px;
   }
   ${media.brp1280} {
@@ -66,7 +66,7 @@ export const StyledButton = styled.button<{ color?: string }>`
 
   ${tmSelectors.dark} {
     &:before {
-      box-shadow: 0px 4px 4px ${appTheme.dark.colors.buttonShadow};
+      box-shadow: 0px 6px 26px ${appTheme.dark.colors.buttonShadow};
     }
     background-color: transparent;
     color: ${appTheme.dark.colors.font200};

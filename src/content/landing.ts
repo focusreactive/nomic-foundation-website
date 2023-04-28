@@ -19,6 +19,7 @@ import UniswapLogo from '../assets/supporters/uniswap-logo';
 
 const {
   HardhatIcon,
+  HardhatIconDark,
   HardhatPictureDesk,
   HardhatPictureDeskDark,
   HardhatPictureMobile,
@@ -77,6 +78,7 @@ export const PROJECTS_BLOCK_CONTENT = {
         label: 'Try Hardhat',
       },
       Icon: HardhatIcon,
+      IconDark: HardhatIconDark,
       PictureDesk: HardhatPictureDesk,
       PictureDeskDark: HardhatPictureDeskDark,
       PictureMobile: HardhatPictureMobile,

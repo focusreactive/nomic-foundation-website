@@ -71,6 +71,8 @@ export const WhoWeArePictureWrapper = styled.section`
   transform: translateX(-50%) scale(var(--k));
   margin-top: 90px;
 
+
+
   & .light {
     display: block;
   }
@@ -89,7 +91,7 @@ export const WhoWeArePictureWrapper = styled.section`
   transform-origin: center center;
   ${media.brp1440} {
     --k: 0.9;
-  margin-top: -100px;
+    margin-top: 20px;
 
   }
   ${media.brp1280} {
@@ -107,9 +109,17 @@ export const WhoWeArePictureWrapper = styled.section`
 export const WhoWeAreMobilePictureWrapper = styled.section`
   position: absolute;
   left: 50%;
-  top: 480px;
+  top: 450px;
   display: none;
-  transform: translateX(-50%);
+  width: 100%;
+  min-height: 600px;
+  transform: translateX(-49%);
+  width: 600%;
+  & svg {
+    width: 100%;
+    height: 100%;
+  }
+
   & .light {
     display: block;
   }

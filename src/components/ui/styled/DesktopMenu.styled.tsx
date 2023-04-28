@@ -56,6 +56,10 @@ export const MenuItemsContainer = styled.ul`
   align-items: center;
   list-style-type: none;
   margin-right: 64px;
+
+  ${media.brp1280} {
+    margin-right: 40px;
+  }
 `;
 
 export const MenuItem = styled.li`
