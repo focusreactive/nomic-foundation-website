@@ -17,12 +17,21 @@ a {
   margin: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'EncodeSans';
-  src: url('../assets/EncodeSans/EncodeSans-Light.ttf');
   src: url('../assets/EncodeSans/EncodeSans-Medium.ttf');
   font-weight: 400;
   font-style: normal;
+} */
+
+@font-face {
+  font-family: 'EncodeSans';
+  src: url('/fonts/EncodeSans.woff2') format('woff2'),
+    url('/fonts/EncodeSans.woff') format('woff'),
+    url('/fonts/EncodeSans.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 a {
