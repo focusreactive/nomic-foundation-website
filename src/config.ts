@@ -29,7 +29,7 @@ export const menuItemsList: MenuItemType[] = [
   },
   {
     label: 'Jobs',
-    href: '/',
+    href: '/jobs',
   },
 ];
 

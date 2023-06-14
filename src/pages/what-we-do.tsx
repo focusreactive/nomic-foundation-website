@@ -1,5 +1,6 @@
 import { styled } from '@linaria/react';
 import type { NextPage } from 'next';
+import { useEffect } from 'react';
 
 import PageLayout from '../components/PageLayout';
 import { appTheme, media, tmSelectors } from '../themes';
