@@ -224,7 +224,7 @@ const WhatWeDo: NextPage = () => {
         <WhatWeDoContentSection>
           <WhatWeDoTitle>What we do</WhatWeDoTitle>
           <WhatWeDoParagraph>
-            The Nomic Foundation is helping create a more decentralized world that empowers individuals with greater autonomy and choice. As a software development platform, Ethereum can become a foundational component of this future, which is why we are solely focused on supporting its growth.
+            The Nomic Foundation is helping create a more decentralized world that empowers individuals with greater autonomy and choice. As a software development platform, <Link href="https://ethereum.foundation/ethereum">Ethereum</Link> can become a foundational component of this future, which is why we are solely focused on supporting its growth.
           </WhatWeDoParagraph>
           <WhatWeDoParagraph>
             As an early-stage non-profit, we provide open-source engineering software which advances the Ethereum ecosystem. Our ultimate goal is to ensure that Ethereum continues to deliver a top-quality, reliable developer experience as part of its software development platform, both today and in the future. We believe that by doing so, we can help Ethereum and the broader decentralized movement achieve their full potential and create a world where increased autonomy and choice are available to millions of people.
