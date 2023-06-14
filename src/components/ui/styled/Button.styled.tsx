@@ -1,9 +1,9 @@
-import { styled } from '@linaria/react';
-import { appTheme, media, tmSelectors } from '../../../themes';
+import { styled } from "@linaria/react";
+import { appTheme, media, tmSelectors } from "../../../themes";
 
 export const StyledButton = styled.button<{ color?: string }>`
   --bgColor: ${appTheme.light.colors.ctaBg};
-  --borderColor: ${({ color }) => (!!color ? color : 'transparent')};
+  --borderColor: ${({ color }) => (!!color ? color : "transparent")};
   position: relative;
   height: fit-content;
   cursor: pointer;
@@ -24,8 +24,8 @@ export const StyledButton = styled.button<{ color?: string }>`
     background-origin: border-box;
     background-clip: content-box, border-box;
     position: absolute;
-    border: solid 1px ${({ color }) => (!!color ? color : 'transparent')};
-    content: ' ';
+    border: solid 1px ${({ color }) => (!!color ? color : "transparent")};
+    content: " ";
     display: block;
     border-radius: 40px;
     width: 99%;
@@ -34,12 +34,13 @@ export const StyledButton = styled.button<{ color?: string }>`
     top: 0;
     left: 0;
     box-shadow: 0px 6px 26px ${appTheme.light.colors.buttonShadow};
+    box-sizing: border-box;
   }
 
   &:hover {
     cursor: pointer;
     &:before {
-      border: solid 2px ${({ color }) => (!!color ? color : 'transparent')};
+      border: solid 2px ${({ color }) => (!!color ? color : "transparent")};
       margin-left: -1px;
       margin-top: -1px;
     }
