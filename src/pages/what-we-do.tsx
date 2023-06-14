@@ -224,13 +224,13 @@ const WhatWeDo: NextPage = () => {
         <WhatWeDoContentSection>
           <WhatWeDoTitle>What we do</WhatWeDoTitle>
           <WhatWeDoParagraph>
-            The Nomic Foundation is helping create a more decentralized world that empowers individuals with greater autonomy and choice. As a software development platform, <Link href="https://ethereum.org/en/learn/">Ethereum</Link> can become a foundational component of this future, which is why we are solely focused on supporting its growth.
+            The Nomic Foundation is helping create a more decentralized world that empowers individuals with greater autonomy and choice. As a software development platform, <Link href="https://ethereum.org/en/learn/" target="_blank">Ethereum</Link> can become a foundational component of this future, which is why we are solely focused on supporting its growth.
           </WhatWeDoParagraph>
           <WhatWeDoParagraph>
             As an early-stage non-profit, we provide open-source engineering software which advances the Ethereum ecosystem. Our ultimate goal is to ensure that Ethereum continues to deliver a top-quality, reliable developer experience as part of its software development platform, both today and in the future. We believe that by doing so, we can help Ethereum and the broader decentralized movement achieve their full potential and create a world where increased autonomy and choice are available to millions of people.
           </WhatWeDoParagraph>
           <WhatWeDoSectionTitle>
-            A Developer-Focused Approach to Growing the <Link href="https://ethereum.foundation/infinitegarden">Infinite Garden</Link>
+            A Developer-Focused Approach to Growing the <Link href="https://ethereum.foundation/infinitegarden" target="_blank">Infinite Garden</Link>
           </WhatWeDoSectionTitle>
           <WhatWeDoParagraph>
             Developers are essential to the continued success of the Ethereum platform, and we are committed to empowering them through two distinct approaches.

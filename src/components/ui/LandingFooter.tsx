@@ -23,6 +23,7 @@ type Props = {
 };
 
 const LandingFooter = ({ content }: Props) => {
+  const target = content.privacy.href.startsWith("http") ? "_blank" : undefined;
   return (
     <StyledLandingFooter>
       <SocialsWrapper>
@@ -37,7 +38,7 @@ const LandingFooter = ({ content }: Props) => {
           <span>{content.copyright}</span>
         </CopyrightWrapper>
         <Divider>|</Divider>
-        <Link href={content.privacy.href}>{content.privacy.text}</Link>
+        <Link href={content.privacy.href} target={target}>{content.privacy.text}</Link>
       </LandingFooterContent>
     </StyledLandingFooter>
   );
