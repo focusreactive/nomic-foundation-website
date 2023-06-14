@@ -1,6 +1,5 @@
 import { styled } from '@linaria/react';
 import type { NextPage } from 'next';
-import { useEffect } from 'react';
 
 import PageLayout from '../components/PageLayout';
 import { appTheme, media, tmSelectors } from '../themes';
@@ -124,80 +123,6 @@ const WhatWeDoSectionTitle = styled.h2`
   }
 `;
 
-const HeroPictureSection = styled.section`
-  position: absolute;
-  width: 100%;
-`;
-
-const HeroPictureWrapper = styled.section`
-  --k: 1;
-  position: absolute;
-  right: -14%;
-  top: 0;
-  margin-top: calc(var(--k)* -420px);
-  margin-right: calc(var(--k)* -875px);
-  & .light {
-    display: block;
-  }
-  & .dark {
-    display: none;
-  }
-
-  ${tmSelectors.dark} {
-    & .light {
-      display: none;
-    }
-    & .dark {
-      display: block;
-    }
-  }
-  transform-origin: top right;
-  transform: scale(var(--k));
-  ${media.brp1440} {
-    --k: 0.9;
-  }
-  ${media.brp1280} {
-    --k: 0.8;
-  }
-  ${media.brp1024} {
-    --k: 0.6;
-    right: -100px
-  }
-
-
-  ${media.brp768} {
-    display: none;
-  }
-`;
-
-const HeroMobilePictureWrapper = styled.section`
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: none;
-  margin-top: -208px;
-  margin-right: -255px;
-  & .light {
-    display: block;
-  }
-  & .dark {
-    display: none;
-    margin-right: -20px;
-  }
-
-  ${tmSelectors.dark} {
-    & .light {
-      display: none;
-    }
-    & .dark {
-      display: block;
-    }
-  }
-  ${media.brp768} {
-    display: block;
-  }
-`;
-
 const Link = styled.a`
   text-decoration: underline;
   text-decoration-color: ${appTheme.light.colors.font150};
@@ -205,13 +130,6 @@ const Link = styled.a`
     text-decoration-color: ${appTheme.dark.colors.font250};
   }
 `
-
-const CTAWrapper = styled.div`
-  margin-top: 40px;
-  ${media.brp1024} {
-    margin-top: 16px;
-  }
-`;
 
 const WhatWeDo: NextPage = () => {
   return (
