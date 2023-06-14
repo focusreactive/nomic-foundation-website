@@ -101,8 +101,12 @@ export const LogoWrapper = styled.span`
 export const CopyrightWrapper = styled.span`
   display: flex;
   align-items: center;
-  margin-right: 8px;
   white-space: nowrap;
+  color: ${appTheme.light.colors.font150};
+
+  ${tmSelectors.dark} {
+    color: #fff;
+  }
 
   ${media.brp768} {
     margin-bottom: 22spx;

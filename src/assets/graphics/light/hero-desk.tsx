@@ -10,7 +10,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <mask
-      id='b'
+      id='b1'
       width={2370}
       height={2095}
       x={0}
@@ -20,14 +20,14 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         maskType: 'alpha',
       }}
     >
-      <path fill='url(#a)' d='M.645 0h2369v2095H.645z' />
+      <path fill='url(#a1)' d='M.645 0h2369v2095H.645z' />
     </mask>
-    <g mask='url(#b)'>
-      <g filter='url(#c)'>
+    <g mask='url(#b1)'>
+      <g filter='url(#c1)'>
         <ellipse
           cx={1416.23}
           cy={439.529}
-          fill='url(#d)'
+          fill='url(#d1)'
           fillOpacity={0.5}
           rx={292.995}
           ry={293.177}
@@ -548,26 +548,26 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <path
-      fill='url(#e)'
+      fill='url(#e1)'
       stroke='#CACAD2'
       strokeLinejoin='round'
       d='m1144.17 706.872.02-172.936 74.98-43.31 149.5 259.836-74.78 43.256-149.72-86.846Z'
     />
     <path
-      fill='url(#f)'
+      fill='url(#f1)'
       fillOpacity={0.2}
       stroke='#fff'
       strokeLinejoin='round'
       d='m1219.3 490.595-74.9 43.285-.1 173.103 74.98-43.197.02-173.191Z'
     />
     <path
-      fill='url(#g)'
+      fill='url(#g1)'
       stroke='#CACAD2'
       strokeLinejoin='round'
       d='m1144.29 880.249-149.639-86.417 149.529 259.478.11-173.061Z'
     />
     <path
-      fill='url(#h)'
+      fill='url(#h1)'
       stroke='#CACAD2'
       strokeLinejoin='round'
       d='m844.626 534.082 149.796-86.645 74.278 42.844-75.567 131.289-74.12 128.411-74.41-42.966.023-172.933Z'
@@ -584,7 +584,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
       d='m919.102 576.932 149.538-86.353-149.646 259.376.108-173.023Z'
     />
     <path
-      fill='url(#i)'
+      fill='url(#i1)'
       d='m1144.33 707.119-149.846 86.362L1144.41 534.17l-.08 172.949Z'
     />
     <path
@@ -592,19 +592,19 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
       d='m994.484 793.481-.432-.25-.934 1.615 1.616-.932-.25-.433Zm149.846-86.362.24.433.26-.144v-.289h-.5Zm.08-172.949h.5a.499.499 0 0 0-.93-.25l.43.25ZM994.734 793.914l149.836-86.362-.49-.866-149.845 86.362.499.866Zm150.096-86.795.08-172.949h-1l-.08 172.949h1Zm-.85-173.199L994.052 793.231l.865.5 149.923-259.31-.86-.501Z'
     />
     <path
-      fill='url(#j)'
+      fill='url(#j1)'
       fillOpacity={0.5}
       stroke='#CACAD2'
       strokeLinejoin='round'
       d='m1368.94 836.888-149.67-86.365-149.77 86.51 149.83 86.311 149.61-86.456Z'
     />
     <path
-      fill='url(#k)'
+      fill='url(#k1)'
       stroke='#CACAD2'
       d='m1219.29 923.408 149.66-86.515-149.65 259.557-.01-173.042Z'
     />
     <path
-      fill='url(#l)'
+      fill='url(#l1)'
       fillOpacity={0.6}
       d='m1144.27 880.22 149.7-86.498-149.65-259.285-.05 345.783Z'
       style={{
@@ -612,65 +612,65 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
       }}
     />
     <path
-      stroke='url(#m)'
+      stroke='url(#m1)'
       strokeLinejoin='round'
       d='m1426.13 717.195-57.84 33.467'
     />
     <path
-      stroke='url(#n)'
+      stroke='url(#n1)'
       strokeLinejoin='round'
       d='m1426.07 803.59-57.85 33.466'
     />
     <path
-      stroke='url(#o)'
+      stroke='url(#o1)'
       strokeLinejoin='round'
       d='m844.711 534.42-149.483 86.356'
     />
     <path
-      stroke='url(#p)'
+      stroke='url(#p1)'
       strokeLinejoin='round'
       d='M1363.92 406.988 908.602 670.189'
     />
     <path
-      stroke='url(#q)'
+      stroke='url(#q1)'
       strokeLinejoin='round'
       d='M1156.4 440.043 810.715 639.151'
     />
     <path
-      stroke='url(#r)'
+      stroke='url(#r1)'
       strokeLinejoin='round'
       d='m1369.15 509.459-.32 527.701'
     />
     <path
-      stroke='url(#s)'
+      stroke='url(#s1)'
       strokeLinejoin='round'
       d='m1093.02 444.701 273.73 475.549'
     />
     <path
-      stroke='url(#t)'
+      stroke='url(#t1)'
       strokeLinejoin='round'
       d='m994.582 509.459-.324 527.701'
     />
     <path
-      stroke='url(#u)'
+      stroke='url(#u1)'
       strokeLinejoin='round'
       d='m919.16 402.754-.324 527.704'
     />
     <path
-      stroke='url(#v)'
+      stroke='url(#v1)'
       strokeLinejoin='round'
       d='M844.641 382.271v398.987'
     />
     <path
-      stroke='url(#w)'
+      stroke='url(#w1)'
       strokeLinejoin='round'
       d='M994.219 793.896 757.067 930.625'
     />
-    <path stroke='url(#x)' strokeLinejoin='round' d='M1144.19 1053.59v342.11' />
-    <path stroke='url(#y)' strokeLinejoin='round' d='M1219.32 1081.95v316.34' />
+    <path stroke='url(#x1)' strokeLinejoin='round' d='M1144.19 1053.59v342.11' />
+    <path stroke='url(#y1)' strokeLinejoin='round' d='M1219.32 1081.95v316.34' />
     <defs>
       <linearGradient
-        id='a'
+        id='a1'
         x1={1865.61}
         x2={545.931}
         y1={257.026}
@@ -682,7 +682,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.943} stopColor='#C4C4C4' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='e'
+        id='e1'
         x1={1294.12}
         x2={1144.14}
         y1={793.755}
@@ -693,7 +693,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' stopOpacity={0.1} />
       </linearGradient>
       <linearGradient
-        id='f'
+        id='f1'
         x1={1221.33}
         x2={1150.99}
         y1={491.234}
@@ -704,7 +704,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' stopOpacity={0.8} />
       </linearGradient>
       <linearGradient
-        id='g'
+        id='g1'
         x1={1312.09}
         x2={968.656}
         y1={875.352}
@@ -716,7 +716,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='h'
+        id='h1'
         x1={1059.18}
         x2={858.276}
         y1={494.116}
@@ -727,7 +727,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='i'
+        id='i1'
         x1={1177.67}
         x2={970.91}
         y1={480.561}
@@ -739,7 +739,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='j'
+        id='j1'
         x1={1368.9}
         x2={1000.51}
         y1={803.041}
@@ -750,7 +750,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='k'
+        id='k1'
         x1={1185.97}
         x2={1392.92}
         y1={1150.11}
@@ -762,7 +762,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='l'
+        id='l1'
         x1={1368.76}
         x2={1379.4}
         y1={468.939}
@@ -774,7 +774,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#fff' />
       </linearGradient>
       <linearGradient
-        id='m'
+        id='m1'
         x1={1426.73}
         x2={1367.7}
         y1={718.828}
@@ -785,7 +785,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' />
       </linearGradient>
       <linearGradient
-        id='n'
+        id='n1'
         x1={1426.66}
         x2={1367.64}
         y1={805.222}
@@ -796,7 +796,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' />
       </linearGradient>
       <linearGradient
-        id='o'
+        id='o1'
         x1={701.053}
         x2={840.976}
         y1={620.775}
@@ -807,7 +807,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' />
       </linearGradient>
       <linearGradient
-        id='p'
+        id='p1'
         x1={921.996}
         x2={1295.46}
         y1={661.885}
@@ -819,7 +819,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='q'
+        id='q1'
         x1={825.674}
         x2={1141.79}
         y1={630.418}
@@ -831,7 +831,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='r'
+        id='r1'
         x1={1368.75}
         x2={1368.32}
         y1={1019.83}
@@ -843,7 +843,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='s'
+        id='s1'
         x1={1357.2}
         x2={1087.98}
         y1={906.236}
@@ -855,7 +855,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='t'
+        id='t1'
         x1={994.178}
         x2={993.747}
         y1={1019.83}
@@ -867,7 +867,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='u'
+        id='u1'
         x1={918.756}
         x2={918.326}
         y1={913.129}
@@ -879,7 +879,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='v'
+        id='v1'
         x1={843.807}
         x2={843.807}
         y1={771.594}
@@ -891,7 +891,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='w'
+        id='w1'
         x1={795.706}
         x2={990.559}
         y1={992.349}
@@ -902,7 +902,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' />
       </linearGradient>
       <linearGradient
-        id='x'
+        id='x1'
         x1={1143.19}
         x2={1143.19}
         y1={1061}
@@ -913,7 +913,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id='y'
+        id='y1'
         x1={1219.32}
         x2={1219.32}
         y1={1103.08}
@@ -924,7 +924,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#CACAD2' stopOpacity={0} />
       </linearGradient>
       <radialGradient
-        id='d'
+        id='d1'
         cx={0}
         cy={0}
         r={1}
@@ -935,7 +935,7 @@ const HeroDesk = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor='#FFF4EE' stopOpacity={0} />
       </radialGradient>
       <filter
-        id='c'
+        id='c1'
         width={785.992}
         height={786.354}
         x={1023.23}

@@ -27,23 +27,28 @@ export const WhoWeAreText = styled.p`
   letter-spacing: 0.05em;
   color: ${appTheme.light.colors.font150};
   max-width: 1080px;
-  margin-top: 400px;
+  margin-top: 460px;
+  ${media.brp1792} {
+    font-size: 33px;
+    margin-top: 500px;
+  }
   ${media.brp1440} {
     max-width: 870px;
-    font-size: 33px;
+    margin-top: 480px;
   }
   ${media.brp1280} {
     max-width: 714px;
     font-size: 28px;
-    margin-top: 350px;
+    margin-top: 370px;
   }
   ${media.brp1024} {
     max-width: 544px;
     font-size: 23px;
+    margin-top: 480px;
   }
   ${media.brp768} {
     font-size: 19px;
-    margin-top: 312px;
+    margin-top: 342px;
     text-align: start;
   }
 
@@ -62,7 +67,7 @@ export const WhoWeArePicture = styled.section`
 
 export const WhoWeArePictureWrapper = styled.section`
   --pictureWidth: 1921px;
-  --picHeight: 1286px
+  --picHeight: 1286px;
   --k: 1;
   --widthPercent: calc( var(--pictureWidth) / 100);
   --heightPercent: calc( var(--picHeight) / 100);
@@ -70,8 +75,6 @@ export const WhoWeArePictureWrapper = styled.section`
   left: 50%;
   transform: translateX(-50%) scale(var(--k));
   margin-top: 90px;
-
-
 
   & .light {
     display: block;
@@ -89,16 +92,20 @@ export const WhoWeArePictureWrapper = styled.section`
     }
   }
   transform-origin: center center;
+   ${media.brp1792} {
+     margin-top: 160px;
+   }
   ${media.brp1440} {
     --k: 0.9;
-    margin-top: 20px;
-
+    margin-top: 90px;
   }
   ${media.brp1280} {
     --k: 0.8;
+    margin-top: -10px;
   }
   ${media.brp1024} {
-    --k: 0.6;
+    --k: 1;
+    margin-top: 150px;
   }
 
   ${media.brp768} {

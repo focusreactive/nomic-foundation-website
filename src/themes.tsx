@@ -22,6 +22,7 @@ export const media = {
   brp500: `@media screen and (max-width: ${breakpoints.brp500}px)`,
   brp768: `@media screen and (max-width: ${breakpoints.brp768}px)`,
   brp1024: `@media screen and (max-width: ${breakpoints.brp1024}px)`,
+  brp1024Only: `@media screen and (min-width: ${breakpoints.brp768}px) and (max-width: ${breakpoints.brp1024}px)`,
   brp1280: `@media screen and (max-width: ${breakpoints.brp1280}px)`,
   brp1440: `@media screen and (max-width: ${breakpoints.brp1440}px)`,
   brp1792: `@media screen and (max-width: ${breakpoints.brp1792}px)`,
