@@ -5,4 +5,5 @@ interface DefaultBannerContent {
 
 export interface BannerProps {
   content: DefaultBannerContent;
+  className?: string;
 }

@@ -1,20 +1,32 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const Header = styled.header<{ backgroundOpacity: number }>`
-  position: fixed;
+export const Header = styled.header`
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
   z-index: 199;
-  margin-top: 0;
-  transition: all 0.25s ease-in-out;
+  margin-bottom: -96px;
   background: ${appTheme.light.colors.transparent};
 
-  &.hidden {
-    margin-top: -100%;
+  &.fixed {
+    position: sticky;
+    transform: translateY(-96px);
+
+    & .blur {
+      opacity: 1;
+    }
+
+    &.visible-header {
+      transform: translateY(0);
+    }
+  }
+  
+  &.animation {
+    transition: all 0.2s linear;
   }
 
   & .blur {
@@ -22,7 +34,7 @@ export const Header = styled.header<{ backgroundOpacity: number }>`
 
     backdrop-filter: blur(9px);
     mix-blend-mode: normal;
-    opacity: ${({ backgroundOpacity }) => backgroundOpacity};
+    opacity: 0;
   }
 
   ${tmSelectors.dark} {
@@ -33,6 +45,11 @@ export const Header = styled.header<{ backgroundOpacity: number }>`
     }
   }
 `;
+
+export const HeaderWrapper = styled.div`
+  height: 96px;
+  width: 100%;
+`
 
 export const HeaderBg = styled.div`
   position: absolute;

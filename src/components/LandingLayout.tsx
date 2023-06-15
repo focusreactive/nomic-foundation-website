@@ -3,12 +3,15 @@ import { styled } from '@linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
-import { appTheme, media, ThemeProvider, tmSelectors } from '../themes';
-import { Header, HeaderBg } from './ui/styled/DesktopMenu.styled';
+import {appTheme, breakpoints, media, ThemeProvider, tmSelectors} from '../themes';
+import {Header, HeaderBg, HeaderWrapper} from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
 import { useEffect, useState } from 'react';
+import {cx} from "linaria";
+import {useScrollDirection} from "../hooks/useScrollDirection";
+import useWindowSize from "../hooks/useWindowSize";
 
 const Container = styled.div`
   position: relative;
@@ -21,7 +24,7 @@ const Container = styled.div`
   main {
     background: ${appTheme.light.colors.pageBackground};
     overflow-x: hidden;
-    padding-top: 136px;
+    padding-top: 106px;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -66,16 +69,33 @@ const ContentContainer = styled.div`
 `;
 
 const LandingLayout = ({ children, seo }: Props) => {
-  const [isVisible, setIsVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [backgroundOpacity, setBackgroundOpacity] = useState(0);
+  const [fixed, setFixed] = useState(false)
+  const [animation, setAnimation] = useState(false)
+  const [isTopBarVisible, setIsTopBarVisible] = useState(true)
+  const [isHeaderVisible, setIsHeaderVisible] = useState(false)
+  const scrollDirection = useScrollDirection()
+  const windowSize = useWindowSize()
+
+  const headerHeight = windowSize.width < breakpoints.brp1024 ? 80 : 96;
+  const topBarHeight =  windowSize.width < breakpoints.brp1024 ? 46 : 55;
+  const totalHeight = headerHeight + topBarHeight;
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
 
-      // setIsVisible(prevScrollPos > currentScrollPos || currentScrollPos < 600);
+      if (scrollDirection === 'up') {
+        currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight)
+      } else {
+        setFixed(currentScrollPos > totalHeight)
+      }
+      setTimeout(() => {
+        setAnimation(currentScrollPos > totalHeight)
+      },100)
+      setIsHeaderVisible(scrollDirection === 'up')
       setPrevScrollPos(currentScrollPos);
-      setBackgroundOpacity((currentScrollPos * 1.5) / window.innerHeight);
+      setIsTopBarVisible(currentScrollPos === 0);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -85,13 +105,12 @@ const LandingLayout = ({ children, seo }: Props) => {
 
   return (
     <ThemeProvider>
+      <TopBanner content={bannerContent} className={cx(isTopBarVisible && "visible-top-bar")} />
       <Container className='landing'>
         <Header
-          className={isVisible ? '' : 'hidden'}
-          backgroundOpacity={backgroundOpacity}
+            className={cx(fixed && "fixed", animation && "animation", isHeaderVisible && "visible-header")}
         >
           <HeaderBg className={'blur'} />
-          <TopBanner content={bannerContent} />
           <LandingNavigation />
         </Header>
         <SEO seo={seo} />
