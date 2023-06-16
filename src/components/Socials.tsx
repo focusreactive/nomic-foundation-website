@@ -7,10 +7,12 @@ const Socials = () => {
     <SocialsContainer>
       {socialsItems.map((socialItem) => {
         const { Icon } = socialItem;
+        const target = socialItem.href.startsWith("http") ? "_blank" : undefined;
         return (
           <Link
             key={socialItem.name}
             href={socialItem.href}
+            target={target}
             aria-label={socialItem.name}
           >
             <SocialItem>

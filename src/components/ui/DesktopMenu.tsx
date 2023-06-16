@@ -18,9 +18,10 @@ const DesktopMenu = ({ menuItems }: Props) => (
   <DesktopMenuContainer>
     <MenuItemsContainer>
       {menuItems.map((menuItem) => {
+        const target = menuItem.href.startsWith("http") ? "_blank" : undefined;
         return (
           <MenuItem key={menuItem.label}>
-            <Link href={menuItem.href}>{menuItem.label}</Link>
+            <Link href={menuItem.href} target={target}>{menuItem.label}</Link>
           </MenuItem>
         );
       })}
