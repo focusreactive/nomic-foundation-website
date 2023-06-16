@@ -16,8 +16,7 @@ import HamburgerIcon from '../assets/icons/hamburger';
 import CrossIcon from '../assets/icons/cross';
 import MobileMenu from './ui/MobileMenu';
 
-const LandingNavigation: FC = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const LandingNavigation: FC<{isOpen: boolean, setIsOpen: (value: boolean) => void}> = ({isOpen, setIsOpen}) => {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -36,18 +35,18 @@ const LandingNavigation: FC = () => {
         <DesktopMenu menuItems={menuItemsList} socialsItems={socialsItems} />
         <HamburgerWrapper
           onClick={() => {
-            setIsMobileMenuOpen(!isMobileMenuOpen);
+            setIsOpen(!isOpen);
           }}
         >
-          {isMobileMenuOpen ? <CrossIcon /> : <HamburgerIcon />}
+          {isOpen ? <CrossIcon /> : <HamburgerIcon />}
         </HamburgerWrapper>
       </ControlsContainer>
 
       <MobileMenu
         menuItems={menuItemsList}
         socialsItems={socialsItems}
-        isOpen={isMobileMenuOpen}
-        closeMobileMenu={() => setIsMobileMenuOpen(false)}
+        isOpen={isOpen}
+        closeMobileMenu={() => setIsOpen(false)}
       />
     </Navigation>
   );

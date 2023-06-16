@@ -4,11 +4,11 @@ import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
 import {appTheme, breakpoints, media, ThemeProvider, tmSelectors} from '../themes';
-import {Header, HeaderBg} from './ui/styled/DesktopMenu.styled';
+import {Header, HeaderBg, HeaderWrapper} from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {cx} from "linaria";
 import {useScrollDirection} from "../hooks/useScrollDirection";
 import useWindowSize from "../hooks/useWindowSize";
@@ -21,6 +21,7 @@ const Container = styled.div`
   align-items: center;
   -webkit-font-smoothing: antialiased;
   transition: all 0.25s ease-in-out;
+  overflow: hidden;
   main {
     background: ${appTheme.light.colors.pageBackground};
     overflow-x: hidden;
@@ -69,11 +70,11 @@ const ContentContainer = styled.div`
 `;
 
 const LandingLayout = ({ children, seo }: Props) => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [fixed, setFixed] = useState(false)
-  const [animation, setAnimation] = useState(false)
+  const [disableAnimation, setDisableAnimation] = useState(false)
   const [isTopBarVisible, setIsTopBarVisible] = useState(true)
   const [isHeaderVisible, setIsHeaderVisible] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const scrollDirection = useScrollDirection()
   const windowSize = useWindowSize()
 
@@ -88,31 +89,41 @@ const LandingLayout = ({ children, seo }: Props) => {
       if (scrollDirection === 'up') {
         currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight)
       } else {
-        setFixed(currentScrollPos > totalHeight)
+        if (!fixed && currentScrollPos > totalHeight) {
+          setDisableAnimation(currentScrollPos > totalHeight);
+          setTimeout(() => {
+            setDisableAnimation(false);
+          }, 200);
+        }
+        setFixed(currentScrollPos > totalHeight);
       }
-      setTimeout(() => {
-        setAnimation(currentScrollPos > totalHeight)
-      },100)
+
       setIsHeaderVisible(scrollDirection === 'up')
-      setPrevScrollPos(currentScrollPos);
-      setIsTopBarVisible(currentScrollPos === 0);
+
+      if (windowSize.width < breakpoints.brp1024) {
+        setIsTopBarVisible(currentScrollPos < 10);
+      } else {
+        setIsTopBarVisible(currentScrollPos === 0);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [prevScrollPos]);
+  }, [fixed, headerHeight, scrollDirection, totalHeight, windowSize.width]);
 
   return (
     <ThemeProvider>
-      <TopBanner content={bannerContent} className={cx(isTopBarVisible && "visible-top-bar")} />
       <Container className='landing'>
-        <Header
-            className={cx(fixed && "fixed", animation && "animation", isHeaderVisible && "visible-header")}
-        >
-          <HeaderBg className={'blur'} />
-          <LandingNavigation />
-        </Header>
+        <HeaderWrapper>
+          <Header
+              className={cx(fixed && "fixed", disableAnimation && "disable-animation", isTopBarVisible && "visible-top-bar", (isHeaderVisible || isMobileMenuOpen) && "visible-header")}
+          >
+            <TopBanner content={bannerContent} />
+            <HeaderBg className={'blur'} />
+            <LandingNavigation isOpen={isMobileMenuOpen} setIsOpen={setIsMobileMenuOpen} />
+          </Header>
+        </HeaderWrapper>
         <SEO seo={seo} />
         <main id='main'>
           <ContentContainer>{children}</ContentContainer>

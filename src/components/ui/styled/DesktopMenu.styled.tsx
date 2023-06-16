@@ -9,24 +9,36 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   z-index: 199;
-  margin-bottom: -112px;
   background: ${appTheme.light.colors.transparent};
+  transition: all 0.4s linear;
 
   &.fixed {
-    position: sticky;
-    transform: translateY(-112px);
+    position: fixed;
+    transform: translateY(-167px);
+
+    ${media.brp1024} {
+      transform: translateY(-126px);
+    }
 
     & .blur {
       opacity: 1;
     }
 
     &.visible-header {
+      transform: translateY(-55px);
+
+      ${media.brp1024} {
+        transform: translateY(-46px);
+      }
+    }
+
+    &.visible-top-bar {
       transform: translateY(0);
     }
   }
   
-  &.animation {
-    transition: all 0.2s linear;
+  &.disable-animation {
+    transition: none;
   }
 
   & .blur {
@@ -43,6 +55,16 @@ export const Header = styled.header`
       backdrop-filter: blur(9px);
       mix-blend-mode: normal;
     }
+  }
+`;
+
+export const HeaderWrapper = styled.div`
+  width: 100%;
+  height: 167px;
+  margin-bottom: -112px;
+
+  ${media.brp1024} {
+    height: 126px;
   }
 `;
 
