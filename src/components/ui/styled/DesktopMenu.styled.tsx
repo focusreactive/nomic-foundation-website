@@ -9,12 +9,12 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   z-index: 199;
-  margin-bottom: -96px;
+  margin-bottom: -112px;
   background: ${appTheme.light.colors.transparent};
 
   &.fixed {
     position: sticky;
-    transform: translateY(-96px);
+    transform: translateY(-112px);
 
     & .blur {
       opacity: 1;
@@ -45,11 +45,6 @@ export const Header = styled.header`
     }
   }
 `;
-
-export const HeaderWrapper = styled.div`
-  height: 96px;
-  width: 100%;
-`
 
 export const HeaderBg = styled.div`
   position: absolute;

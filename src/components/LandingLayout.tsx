@@ -4,7 +4,7 @@ import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
 import {appTheme, breakpoints, media, ThemeProvider, tmSelectors} from '../themes';
-import {Header, HeaderBg, HeaderWrapper} from './ui/styled/DesktopMenu.styled';
+import {Header, HeaderBg} from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
@@ -77,7 +77,7 @@ const LandingLayout = ({ children, seo }: Props) => {
   const scrollDirection = useScrollDirection()
   const windowSize = useWindowSize()
 
-  const headerHeight = windowSize.width < breakpoints.brp1024 ? 80 : 96;
+  const headerHeight = windowSize.width < breakpoints.brp1024 ? 80 : 112;
   const topBarHeight =  windowSize.width < breakpoints.brp1024 ? 46 : 55;
   const totalHeight = headerHeight + topBarHeight;
 
