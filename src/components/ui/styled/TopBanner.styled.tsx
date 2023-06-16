@@ -19,7 +19,7 @@ export const BannerContainer = styled.a`
   white-space: nowrap;
   width: 100%;
   margin-top: -55px;
-  transition: all 0.35s 0.2s ease-out;
+  transition: all 0.4s 0.1s linear;
   position: relative;
 
   &.visible-top-bar {

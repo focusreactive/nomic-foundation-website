@@ -31,7 +31,7 @@ export const Header = styled.header`
 
   & .blur {
     background: ${appTheme.light.colors.navbarBlur};
-
+    transition: all 0.4s linear;
     backdrop-filter: blur(9px);
     mix-blend-mode: normal;
     opacity: 0;
