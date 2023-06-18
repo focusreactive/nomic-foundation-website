@@ -2,7 +2,7 @@ import { styled } from '@linaria/react';
 import type { NextPage } from 'next';
 import { useEffect } from 'react';
 
-import PageLayout from '../components/PageLayout';
+import LandingLayout from '../components/LandingLayout';
 import { appTheme, media, tmSelectors } from '../themes';
 
 const JobsContainer = styled.section`
@@ -29,7 +29,7 @@ const AshbyJobBoardEmbed = () => {
 
 const Jobs: NextPage = () => {
   return (
-    <PageLayout
+    <LandingLayout
       seo={{
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',
@@ -38,7 +38,7 @@ const Jobs: NextPage = () => {
       <JobsContainer>
         <AshbyJobBoardEmbed />
       </JobsContainer>
-    </PageLayout>
+    </LandingLayout>
   );
 };
 

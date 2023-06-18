@@ -1,7 +1,7 @@
 import { styled } from '@linaria/react';
 import type { NextPage } from 'next';
 
-import PageLayout from '../components/PageLayout';
+import LandingLayout from '../components/LandingLayout';
 import { appTheme, media, tmSelectors } from '../themes';
 
 const WhatWeDoContainer = styled.section`
@@ -133,7 +133,7 @@ const Link = styled.a`
 
 const WhatWeDo: NextPage = () => {
   return (
-    <PageLayout
+    <LandingLayout
       seo={{
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',
@@ -165,7 +165,7 @@ const WhatWeDo: NextPage = () => {
           </WhatWeDoParagraph>
         </WhatWeDoContentSection>
       </WhatWeDoContainer>
-    </PageLayout>
+    </LandingLayout>
   );
 };
 
