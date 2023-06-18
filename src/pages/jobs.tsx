@@ -7,7 +7,23 @@ import { appTheme, media, tmSelectors } from '../themes';
 
 const JobsContainer = styled.section`
   position: relative;
-  width: 100%;
+  width: 952px;
+
+  ${media.brp1792} {
+    width: 790px;
+  }
+  ${media.brp1440} {
+    width: 870px;
+  }
+  ${media.brp1280} {
+    width: 714px;
+  }
+  ${media.brp1024} {
+    width: 544px;
+  }
+  ${media.brp768} {
+    width: 312px;
+  }
 `;
 
 
