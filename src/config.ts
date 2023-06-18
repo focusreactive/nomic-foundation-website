@@ -21,11 +21,11 @@ export const menuItemsList: MenuItemType[] = [
   },
   {
     label: 'Slang',
-    href: '/',
+    href: '/slang',
   },
   {
     label: 'Rethnet',
-    href: '/',
+    href: '/rethnet',
   },
   {
     label: 'Jobs',

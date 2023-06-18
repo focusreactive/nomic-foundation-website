@@ -117,6 +117,13 @@ export const MenuItem = styled.li`
   }
 `;
 
+export const SelectedMenuItem = styled(MenuItem)`
+  color: ${appTheme.light.colors.font200};
+  ${tmSelectors.dark} {
+    color: ${appTheme.dark.colors.font100};
+  }
+`;
+
 export const SocialsContainer = styled.section`
   display: flex;
   align-items: center;
