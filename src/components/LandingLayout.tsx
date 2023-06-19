@@ -25,7 +25,7 @@ const Container = styled.div`
   main {
     background: ${appTheme.light.colors.pageBackground};
     overflow-x: hidden;
-    padding-top: 106px;
+    padding-top: 112px;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;

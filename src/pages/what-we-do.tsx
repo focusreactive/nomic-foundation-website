@@ -31,7 +31,7 @@ const WhatWeDoContainer = styled.section`
 
 const WhatWeDoContentSection = styled.section`
   z-index: 1;
-  padding: 42px 0px 0px;
+  padding: 40px 0px 0px;
   width: 100%;
   min-width: min-content;
   max-width: 100%;
