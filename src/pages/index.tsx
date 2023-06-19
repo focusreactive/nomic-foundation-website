@@ -16,6 +16,7 @@ import {
 const Home: NextPage = () => {
   return (
     <LandingLayout
+      isLanding={true}
       seo={{
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',

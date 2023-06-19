@@ -40,6 +40,7 @@ const Container = styled.div`
 `;
 
 type Props = React.PropsWithChildren<{
+  isLanding: boolean;
   seo: SEOType;
 }>;
 
@@ -69,7 +70,7 @@ const ContentContainer = styled.div`
   }
 `;
 
-const LandingLayout = ({ children, seo }: Props) => {
+const LandingLayout = ({ children, seo, isLanding }: Props) => {
   const [fixed, setFixed] = useState(false)
   const [disableAnimation, setDisableAnimation] = useState(false)
   const [isTopBarVisible, setIsTopBarVisible] = useState(true)
@@ -127,7 +128,7 @@ const LandingLayout = ({ children, seo }: Props) => {
         <SEO seo={seo} />
         <main id='main'>
           <ContentContainer>{children}</ContentContainer>
-          <LandingFooter content={FOOTER_CONTENT} />
+          <LandingFooter content={FOOTER_CONTENT} isLanding={isLanding} />
         </main>
       </Container>
     </ThemeProvider>

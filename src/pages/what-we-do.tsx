@@ -138,6 +138,7 @@ const Link = styled.a`
 const WhatWeDo: NextPage = () => {
   return (
     <LandingLayout
+      isLanding={false}
       seo={{
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',

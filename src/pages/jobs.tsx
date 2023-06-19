@@ -46,6 +46,7 @@ const AshbyJobBoardEmbed = () => {
 const Jobs: NextPage = () => {
   return (
     <LandingLayout
+      isLanding={false}
       seo={{
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',

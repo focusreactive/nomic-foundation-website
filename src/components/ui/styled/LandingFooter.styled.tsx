@@ -29,6 +29,16 @@ export const StyledLandingFooter = styled.footer`
   }
 `;
 
+export const StyledPageFooter = styled(StyledLandingFooter)`
+  margin-top: 160px;
+  ${media.brp1440} {
+    margin-top: 120px;
+  }
+  ${media.brp1024} {
+    margin-top: 80px;
+  }
+`;
+
 export const LandingFooterContent = styled.section`
   display: flex;
   align-items: center;
