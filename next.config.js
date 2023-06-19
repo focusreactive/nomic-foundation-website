@@ -20,6 +20,15 @@ const linariaConfig = withLinaria({
   images: {
     dangerouslyAllowSVG: true,
   },
+  // temporary until we figure out how to make the embed work
+  // in both light and dark mode
+  async redirects() {
+    return [{
+      source: '/jobs',
+      destination: 'https://jobs.ashbyhq.com/nomic.foundation',
+      permanent: false,
+    }];
+  },
 });
 
 module.exports = withPlugins([linariaConfig, withBundleAnalyzer]);

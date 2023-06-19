@@ -29,7 +29,7 @@ export const menuItemsList: MenuItemType[] = [
   },
   {
     label: 'Jobs',
-    href: '/jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
   },
 ];
 
