@@ -107,15 +107,9 @@ const WhatWeDoSectionTitle = styled.h2`
   padding-top: 16px;
   padding-bottom: 8px;
 
-  background: ${appTheme.light.colors.titleBg};
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: ${appTheme.light.colors.font150};
   ${tmSelectors.dark} {
-    background: ${appTheme.dark.colors.titleBg};
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: ${appTheme.dark.colors.font250};
   }
 
   ${media.brp1440} {
@@ -135,9 +129,9 @@ const WhatWeDoSectionTitle = styled.h2`
 
 const Link = styled.a`
   text-decoration: underline;
-  text-decoration-color: ${appTheme.light.colors.font150};
+  color: ${appTheme.light.colors.link};
   ${tmSelectors.dark} {
-    text-decoration-color: ${appTheme.dark.colors.font250};
+    color: ${appTheme.dark.colors.link};
   }
 `
 

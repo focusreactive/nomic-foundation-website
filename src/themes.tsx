@@ -65,6 +65,7 @@ export const lightPalette = {
   navbarBlur: '#ffffffb2',
   border100: '#DCDCE1',
   buttonShadow: '#EFEFEF',
+  link: '#61626B',
 };
 
 export const darkPalette = {
@@ -98,6 +99,7 @@ export const darkPalette = {
   navbarBlur: '#13141ACC',
   border100: '#13141A',
   buttonShadow: '#13141A7F',
+  link: '#B0B0B8',
 } as Palette;
 
 type Palette = typeof lightPalette;
