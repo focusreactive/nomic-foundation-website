@@ -122,6 +122,13 @@ export const SelectedMenuItem = styled(MenuItem)`
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font100};
   }
+
+  a {
+    padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #CACAD2, transparent);
+    border-image-slice: 1;
+  }
 `;
 
 export const SocialsContainer = styled.section`
