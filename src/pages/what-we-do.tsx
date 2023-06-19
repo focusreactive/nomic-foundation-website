@@ -74,7 +74,7 @@ const WhatWeDoTitle = styled.h1`
 `;
 
 const WhatWeDoParagraph = styled.p`
-  font-weight: 300;
+  font-weight: 200;
   font-size: 23px;
   line-height: 32.2px;
   letter-spacing: 0.03em;
