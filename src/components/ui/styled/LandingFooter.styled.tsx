@@ -5,7 +5,7 @@ export const StyledLandingFooter = styled.footer`
   z-index: 100;
   width: 100%;
   background: ${appTheme.light.colors.footerBg};
-  padding: 36px 176px;
+  padding: 32px 176px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,18 +14,28 @@ export const StyledLandingFooter = styled.footer`
     background: ${appTheme.dark.colors.footerBg};
   }
   ${media.brp1792} {
-    padding: 36px 120px;
+    padding: 32px 120px;
   }
   ${media.brp1280} {
-    padding: 36px 56px;
+    padding: 32px 56px;
   }
   ${media.brp1024} {
-    padding: 36px 48px;
+    padding: 32px 48px;
     margin-top: 100px;
   }
   ${media.brp768} {
-    padding: 36px 24px;
+    padding: 32px 24px;
     flex-direction: column-reverse;
+  }
+`;
+
+export const StyledPageFooter = styled(StyledLandingFooter)`
+  margin-top: 160px;
+  ${media.brp1440} {
+    margin-top: 120px;
+  }
+  ${media.brp1024} {
+    margin-top: 80px;
   }
 `;
 
@@ -101,8 +111,12 @@ export const LogoWrapper = styled.span`
 export const CopyrightWrapper = styled.span`
   display: flex;
   align-items: center;
-  margin-right: 8px;
   white-space: nowrap;
+  color: ${appTheme.light.colors.font150};
+
+  ${tmSelectors.dark} {
+    color: #fff;
+  }
 
   ${media.brp768} {
     margin-bottom: 22spx;

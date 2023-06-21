@@ -6,6 +6,14 @@ body {
   scroll-behavior: smooth;
 }
 
+body.LIGHT {
+  background-color: #F7F7FA;
+}
+
+body.DARK {
+  background-color: #13141A;
+}
+
 a {
   color: inherit;
   text-decoration: none;

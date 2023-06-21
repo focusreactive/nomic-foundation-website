@@ -1,28 +1,52 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const Header = styled.header<{ backgroundOpacity: number }>`
-  position: fixed;
+export const Header = styled.header`
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
   z-index: 199;
-  margin-top: 0;
-  transition: all 0.25s ease-in-out;
   background: ${appTheme.light.colors.transparent};
+  transition: all 0.4s linear;
 
-  &.hidden {
-    margin-top: -100%;
+  &.fixed {
+    position: fixed;
+    transform: translateY(-167px);
+
+    ${media.brp1024} {
+      transform: translateY(-126px);
+    }
+
+    & .blur {
+      opacity: 1;
+    }
+
+    &.visible-header {
+      transform: translateY(-55px);
+
+      ${media.brp1024} {
+        transform: translateY(-46px);
+      }
+    }
+
+    &.visible-top-bar {
+      transform: translateY(0);
+    }
+  }
+  
+  &.disable-animation {
+    transition: none;
   }
 
   & .blur {
     background: ${appTheme.light.colors.navbarBlur};
-
+    transition: all 0.4s linear;
     backdrop-filter: blur(9px);
     mix-blend-mode: normal;
-    opacity: ${({ backgroundOpacity }) => backgroundOpacity};
+    opacity: 0;
   }
 
   ${tmSelectors.dark} {
@@ -31,6 +55,16 @@ export const Header = styled.header<{ backgroundOpacity: number }>`
       backdrop-filter: blur(9px);
       mix-blend-mode: normal;
     }
+  }
+`;
+
+export const HeaderWrapper = styled.div`
+  width: 100%;
+  height: 167px;
+  margin-bottom: -112px;
+
+  ${media.brp1024} {
+    height: 126px;
   }
 `;
 
@@ -80,6 +114,20 @@ export const MenuItem = styled.li`
     &:hover {
       color: ${appTheme.dark.colors.font100};
     }
+  }
+`;
+
+export const SelectedMenuItem = styled(MenuItem)`
+  color: ${appTheme.light.colors.font200};
+  ${tmSelectors.dark} {
+    color: ${appTheme.dark.colors.font100};
+  }
+
+  a {
+    padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, #CACAD2, transparent);
+    border-image-slice: 1;
   }
 `;
 

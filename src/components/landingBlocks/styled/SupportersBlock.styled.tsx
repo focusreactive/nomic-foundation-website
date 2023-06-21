@@ -12,7 +12,7 @@ export const SupportersBlockContainer = styled.section`
     margin-top: 344px;
   }
   ${media.brp1024} {
-    margin-top: 320px;
+    margin-top: 260px;
   }
   ${media.brp768} {
     margin-top: 280px;

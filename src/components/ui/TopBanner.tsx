@@ -2,9 +2,9 @@ import React from 'react';
 import { BannerContainer, BannerDecorator } from './styled/TopBanner.styled';
 import { BannerProps } from './types';
 
-const TopBanner = ({ content }: BannerProps) => {
+const TopBanner = ({ content, className }: BannerProps) => {
   return (
-    <BannerContainer target='_blank' rel='noreferrer' href={content.href}>
+    <BannerContainer target='_blank' rel='noreferrer' href={content.href} className={className}>
       <BannerDecorator className='optional'>◱</BannerDecorator>
       <BannerDecorator className='optional'>◰</BannerDecorator>
       <BannerDecorator>◲</BannerDecorator>

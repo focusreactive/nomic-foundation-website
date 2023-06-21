@@ -16,6 +16,7 @@ import CoinbaseLogo from '../assets/supporters/coinbase-logo';
 import GnosisLogo from '../assets/supporters/gnosis-logo';
 import YearnLogo from '../assets/supporters/yearn-logo';
 import UniswapLogo from '../assets/supporters/uniswap-logo';
+import { RETHNET_URL, SLANG_URL } from '../constants';
 
 const {
   HardhatIcon,
@@ -44,35 +45,35 @@ const {
 export const HERO_BLOCK_CONTENT = {
   cta: {
     href: '/what-we-do',
-    label: 'View more',
+    label: 'Learn more',
   },
   title: 'Empowering developers\nto decentralize the world',
-  subtitle: 'Independent non-profit organization.',
+  subtitle: 'A non-profit dedicated to Ethereum developers',
 };
 
 export const WHO_WE_ARE_BLOCK_CONTENT = {
   cta: {
     href: '/who-we-are',
-    label: 'View more',
+    label: 'Learn more',
   },
-  text: 'The <b>Nomic Foundation</b> is an independent non-profit organization dedicated to building public good infrastructure to empower Ethereum developers to build decentralized software.',
+  text: "The <b>Nomic Foundation</b> is a non-profit advancing the Ethereum ecosystem. We provide open-source engineering software to empower developers today and ensure Ethereum's continued success in the future.",
 };
 
 export const FOOTER_CONTENT = {
-  copyright: 'Copyright 2022 Nomic Foundation',
+  copyright: 'Copyright 2023 Nomic Foundation',
   privacy: {
     text: 'Privacy Policy',
-    href: '/',
+    href: 'https://hardhat.org/privacy-policy.html',
   },
 };
 
 export const PROJECTS_BLOCK_CONTENT = {
   title: 'Projects',
-  subtitle: 'Developer tools and low-level tooling infrastructure',
+  subtitle: 'Our open-source projects directly address developer needs and create foundations for new developer tools to be built.',
   projects: [
     {
       title: 'Hardhat',
-      text: 'The Ethereum developer environment for professionals. Write, test, compile, deploy, grow, and scale. Try Hardhat.',
+      text: 'The Ethereum developer environment for professionals. Write, test, compile, deploy, grow, and scale.',
       cta: {
         href: 'https://hardhat.org',
         label: 'Try Hardhat',
@@ -89,7 +90,7 @@ export const PROJECTS_BLOCK_CONTENT = {
       title: 'Slang',
       text: 'A modular set of compiler APIs empowering the next generation of Solidity code analysis and developer tooling. Written in Rust and distributed in multiple languages.',
       cta: {
-        href: '/',
+        href: SLANG_URL,
         label: 'Learn more',
       },
       Icon: SlangIcon,
@@ -101,9 +102,9 @@ export const PROJECTS_BLOCK_CONTENT = {
     },
     {
       title: 'Rethnet',
-      text: 'A debugging-enabled Ethereum runtime implementation that can be reused to build new developer tools.',
+      text: 'An Ethereum development runtime implementation that can be reused to build new developer tools.',
       cta: {
-        href: '/',
+        href: RETHNET_URL,
         label: 'Learn more',
       },
       Icon: RethnetIcon,
@@ -118,10 +119,10 @@ export const PROJECTS_BLOCK_CONTENT = {
 
 export const WORK_WITH_US_CONTENT = {
   title: 'Work with us',
-  text: 'Work for us, from anywhere. We are hiring for hundreds of open positions across more than 96 countries.',
+  text: 'A small remote team working on hard engineering challenges that drive meaningful impact in the Ethereum ecosystem. Autonomy, trust, kindness, and high standards.',
   cta: {
-    href: '/',
-    label: 'View more',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
+    label: 'Learn more',
   },
 };
 
@@ -130,17 +131,17 @@ export const SUPPORTERS_CONTENT = {
   logos: [
     EthereumFoundationLogo,
     VitalikButerinLogo,
-    AndreesenHorowitzLogo,
-    ChainlinkLogo,
-    KaszekLogo,
-    TheGraphLogo,
-    ACapitalLogo,
-    DecentralandLogo,
-    PolygonLogo,
     ConsensysLogo,
     CoinbaseLogo,
+    AndreesenHorowitzLogo,
+    UniswapLogo,
+    ChainlinkLogo,
+    DecentralandLogo,
+    TheGraphLogo,
+    PolygonLogo,
     GnosisLogo,
     YearnLogo,
-    UniswapLogo,
+    ACapitalLogo,
+    KaszekLogo,
   ],
 };

@@ -7,7 +7,7 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   justify-content: space-between;
   width: min(100%, 412px);
   height: calc(100vh - 126px);
-  top: 46px;
+  top: 0;
   position: absolute;
   transition: all 0.25s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? '0px' : '-120%')};

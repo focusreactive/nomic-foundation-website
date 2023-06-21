@@ -1,9 +1,10 @@
 import MediumIcon from './assets/socials/medium';
 import TwitterIcon from './assets/socials/twitter';
+import { RETHNET_URL, SLANG_URL } from './constants';
 import { MenuItemType, SocialsEnum } from './types/commonTypes';
 
 export const BANNER_LINK =
-  'https://www.notion.so/Nomic-Foundation-jobs-991b37c547554f75b89a95f437fd5056';
+  'https://medium.com/nomic-foundation-blog/introducing-the-nomic-foundation-an-ethereum-public-goods-organization-31012af67df9';
 
 export const bannerContent = {
   text: 'Announcing the Nomic Foundation',
@@ -16,21 +17,21 @@ export const menuItemsList: MenuItemType[] = [
     href: '/what-we-do',
   },
   {
-    label: 'Who we are',
-    href: '/who-we-are',
-  },
-  {
     label: 'Hardhat',
     href: 'https://hardhat.org/',
   },
   {
-    label: 'Building Blocks',
-    href: '/',
+    label: 'Slang',
+    href: SLANG_URL,
   },
-  // {
-  //   label: 'Jobs',
-  //   href: '/',
-  // },
+  {
+    label: 'Rethnet',
+    href: RETHNET_URL,
+  },
+  {
+    label: 'Jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
+  },
 ];
 
 export const SOCIALS_LINKS = {

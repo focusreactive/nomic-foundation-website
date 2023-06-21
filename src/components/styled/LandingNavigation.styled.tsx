@@ -4,7 +4,7 @@ import { appTheme, media, tmSelectors } from '../../themes';
 
 export const Navigation = styled.nav`
   width: 100%;
-  height: 96px;
+  height: 112px;
   box-sizing: border-box;
   transition: all ease-in-out 0.5s;
   z-index: 10;

@@ -63,11 +63,11 @@ const ProjectItem = ({
       <ProjectItemInnerSection color={color}>
         <ProjectItemPictureSection color={color}>
           <ProjectItemPicWrapper>
-            <ProjectItemPictureLeftDecoration color={color} />
+            <ProjectItemPictureLeftDecoration color={color} className={`item-${title.toLowerCase()}`} />
             <PictureDesk className='light' />
             <PictureDeskDark className='dark' />
           </ProjectItemPicWrapper>
-          <ProjectItemMobilePicWrapper>
+          <ProjectItemMobilePicWrapper className={`item-${title.toLowerCase()}`}>
             <PictureMobile className='light' />
             <PictureMobileDark className='dark' />
           </ProjectItemMobilePicWrapper>

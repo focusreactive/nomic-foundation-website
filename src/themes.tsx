@@ -22,6 +22,7 @@ export const media = {
   brp500: `@media screen and (max-width: ${breakpoints.brp500}px)`,
   brp768: `@media screen and (max-width: ${breakpoints.brp768}px)`,
   brp1024: `@media screen and (max-width: ${breakpoints.brp1024}px)`,
+  brp1024Only: `@media screen and (min-width: ${breakpoints.brp768}px) and (max-width: ${breakpoints.brp1024}px)`,
   brp1280: `@media screen and (max-width: ${breakpoints.brp1280}px)`,
   brp1440: `@media screen and (max-width: ${breakpoints.brp1440}px)`,
   brp1792: `@media screen and (max-width: ${breakpoints.brp1792}px)`,
@@ -64,6 +65,7 @@ export const lightPalette = {
   navbarBlur: '#ffffffb2',
   border100: '#DCDCE1',
   buttonShadow: '#EFEFEF',
+  link: '#61626B',
 };
 
 export const darkPalette = {
@@ -97,6 +99,7 @@ export const darkPalette = {
   navbarBlur: '#13141ACC',
   border100: '#13141A',
   buttonShadow: '#13141A7F',
+  link: '#B0B0B8',
 } as Palette;
 
 type Palette = typeof lightPalette;

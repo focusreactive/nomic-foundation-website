@@ -10,9 +10,11 @@ import {
   LogoWrapper,
   SocialsWrapper,
   StyledLandingFooter,
+  StyledPageFooter,
 } from './styled/LandingFooter.styled';
 
 type Props = {
+  isLanding: boolean;
   content: {
     copyright: string;
     privacy: {
@@ -22,9 +24,13 @@ type Props = {
   };
 };
 
-const LandingFooter = ({ content }: Props) => {
+const LandingFooter = ({ content, isLanding }: Props) => {
+  const target = content.privacy.href.startsWith("http") ? "_blank" : undefined;
+
+  const StyledFooter = isLanding ? StyledLandingFooter : StyledPageFooter;
+
   return (
-    <StyledLandingFooter>
+    <StyledFooter>
       <SocialsWrapper>
         <Socials />
       </SocialsWrapper>
@@ -37,9 +43,9 @@ const LandingFooter = ({ content }: Props) => {
           <span>{content.copyright}</span>
         </CopyrightWrapper>
         <Divider>|</Divider>
-        <Link href={content.privacy.href}>{content.privacy.text}</Link>
+        <Link href={content.privacy.href} target={target}>{content.privacy.text}</Link>
       </LandingFooterContent>
-    </StyledLandingFooter>
+    </StyledFooter>
   );
 };
 
