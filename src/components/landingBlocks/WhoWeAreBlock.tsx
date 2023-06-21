@@ -27,11 +27,9 @@ const WhoWeAre = ({ content }: Props) => {
     <WhoWeAreContainer>
       <WhoWeAreContent>
         <WhoWeAreText dangerouslySetInnerHTML={{ __html: content.text }} />
-        {/*
         <CTAWrapper>
           <Button href={content.cta.href} label={content.cta.label} />
         </CTAWrapper>
-        */}
       </WhoWeAreContent>
       <WhoWeArePicture>
         <WhoWeArePictureWrapper>

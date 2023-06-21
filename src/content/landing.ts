@@ -53,7 +53,7 @@ export const HERO_BLOCK_CONTENT = {
 
 export const WHO_WE_ARE_BLOCK_CONTENT = {
   cta: {
-    href: '/who-we-are',
+    href: '/what-we-do',
     label: 'Learn more',
   },
   text: "The <b>Nomic Foundation</b> is a non-profit advancing the Ethereum ecosystem. We provide open-source engineering software to empower developers today and ensure Ethereum's continued success in the future.",
