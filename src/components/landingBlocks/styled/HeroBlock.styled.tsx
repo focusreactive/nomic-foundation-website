@@ -55,6 +55,7 @@ export const HeroBlockTitle = styled.h1`
     font-size: 58px;
   }
   ${media.brp768} {
+    width: 249px;
     font-size: 33px;
     line-height: 130%;
   }
@@ -83,6 +84,8 @@ export const HeroBlockSubtitle = styled.h1`
     margin-top: 8px;
   }
   ${media.brp768} {
+    white-space: initial;
+    width: 179px;
     font-size: 16px;
   }
 `;

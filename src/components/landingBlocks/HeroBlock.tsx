@@ -27,7 +27,7 @@ const HeroBlock = ({ content }: Props) => {
   return (
     <HeroBlockContainer>
       <HeroBlockContentSection>
-        <HeroBlockTitle>{content.title}</HeroBlockTitle>
+        <HeroBlockTitle dangerouslySetInnerHTML={{__html: content.title}} />
         <HeroBlockSubtitle>{content.subtitle}</HeroBlockSubtitle>
         <CTAWrapper>
           <Button href={content.cta.href} label={content.cta.label} />

@@ -47,7 +47,7 @@ export const HERO_BLOCK_CONTENT = {
     href: '/what-we-do',
     label: 'Learn more',
   },
-  title: 'Empowering developers\nto decentralize the world',
+  title: 'Empowering<br>developers<br>to decentralize<br>the world',
   subtitle: 'A non-profit dedicated to Ethereum developers',
 };
 
