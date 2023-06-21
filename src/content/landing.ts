@@ -16,6 +16,7 @@ import CoinbaseLogo from '../assets/supporters/coinbase-logo';
 import GnosisLogo from '../assets/supporters/gnosis-logo';
 import YearnLogo from '../assets/supporters/yearn-logo';
 import UniswapLogo from '../assets/supporters/uniswap-logo';
+import { RETHNET_URL, SLANG_URL } from '../constants';
 
 const {
   HardhatIcon,
@@ -89,7 +90,7 @@ export const PROJECTS_BLOCK_CONTENT = {
       title: 'Slang',
       text: 'A modular set of compiler APIs empowering the next generation of Solidity code analysis and developer tooling. Written in Rust and distributed in multiple languages.',
       cta: {
-        href: '/',
+        href: SLANG_URL,
         label: 'Learn more',
       },
       Icon: SlangIcon,
@@ -103,7 +104,7 @@ export const PROJECTS_BLOCK_CONTENT = {
       title: 'Rethnet',
       text: 'An Ethereum development runtime implementation that can be reused to build new developer tools.',
       cta: {
-        href: '/',
+        href: RETHNET_URL,
         label: 'Learn more',
       },
       Icon: RethnetIcon,
@@ -120,7 +121,7 @@ export const WORK_WITH_US_CONTENT = {
   title: 'Work with us',
   text: 'A small remote team working on hard engineering challenges that drive meaningful impact in the Ethereum ecosystem. Autonomy, trust, kindness, and high standards.',
   cta: {
-    href: '/jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
     label: 'Learn more',
   },
 };
