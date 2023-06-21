@@ -49,7 +49,7 @@ const Jobs: NextPage = () => {
       isLanding={false}
       seo={{
         title: 'Nomic Foundation',
-        description: 'Empowering developers to decentralize the world',
+        description: 'A non-profit dedicated to Ethereum developers',
       }}
     >
       <JobsContainer>

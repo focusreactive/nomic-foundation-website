@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       isLanding={true}
       seo={{
         title: 'Nomic Foundation',
-        description: 'Empowering developers to decentralize the world',
+        description: 'A non-profit dedicated to Ethereum developers',
       }}
     >
       <HeroBlock content={HERO_BLOCK_CONTENT} />
