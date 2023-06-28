@@ -27,6 +27,10 @@ const linariaConfig = withLinaria({
       source: '/jobs',
       destination: 'https://jobs.ashbyhq.com/nomic.foundation',
       permanent: false,
+    }, {
+      source: '/hiring',
+      destination: 'https://jobs.ashbyhq.com/nomic.foundation',
+      permanent: false,
     }];
   },
 });
