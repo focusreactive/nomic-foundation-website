@@ -45,3 +45,21 @@ a {
 a {
   width: fit-content;
 }
+
+#not-found-container .next-error-h1 {
+  color: #2B2B2F;
+  border-right: 1px solid #2B2B2F !important;
+}
+
+#not-found-container h2 {
+  color: #2B2B2F;
+}
+
+body.DARK #not-found-container .next-error-h1 {
+  color: #EDEDF0;
+  border-right: 1px solid #EDEDF0 !important;
+}
+
+body.DARK #not-found-container h2 {
+  color: #EDEDF0;
+}
