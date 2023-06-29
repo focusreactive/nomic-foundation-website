@@ -20,8 +20,16 @@ export const SOCIALS_LINKS = {
 
 export const menuItemsList: MenuItemType[] = [
   {
+    label: 'Jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
+  },
+  {
     label: 'What we do',
     href: '/what-we-do',
+  },
+  {
+    label: 'Blog',
+    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
   },
   {
     label: 'Hardhat',
@@ -34,14 +42,6 @@ export const menuItemsList: MenuItemType[] = [
   {
     label: 'Rethnet',
     href: RETHNET_URL,
-  },
-  {
-    label: 'Jobs',
-    href: 'https://jobs.ashbyhq.com/nomic.foundation',
-  },
-  {
-    label: 'Blog',
-    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
   },
 ];
 
