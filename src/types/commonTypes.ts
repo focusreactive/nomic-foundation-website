@@ -6,6 +6,7 @@ export type SEOType = {
 export enum SocialsEnum {
   TWITTER = 'TWITTER',
   MEDIUM = 'MEDIUM',
+  LINKEDIN = 'LINKEDIN',
 }
 
 export type MenuItemType = {

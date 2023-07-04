@@ -1,3 +1,4 @@
+import LinkedinIcon from './assets/socials/linkedin';
 import MediumIcon from './assets/socials/medium';
 import TwitterIcon from './assets/socials/twitter';
 import { RETHNET_URL, SLANG_URL } from './constants';
@@ -11,10 +12,24 @@ export const bannerContent = {
   href: BANNER_LINK,
 };
 
+export const SOCIALS_LINKS = {
+  [SocialsEnum.MEDIUM]: 'https://medium.com/nomic-foundation-blog',
+  [SocialsEnum.TWITTER]: 'https://twitter.com/NomicFoundation',
+  [SocialsEnum.LINKEDIN]: 'https://www.linkedin.com/company/nomic-foundation',
+};
+
 export const menuItemsList: MenuItemType[] = [
   {
     label: 'What we do',
     href: '/what-we-do',
+  },
+  {
+    label: 'Jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
+  },
+  {
+    label: 'Blog',
+    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
   },
   {
     label: 'Hardhat',
@@ -28,26 +43,17 @@ export const menuItemsList: MenuItemType[] = [
     label: 'Rethnet',
     href: RETHNET_URL,
   },
-  {
-    label: 'Jobs',
-    href: 'https://jobs.ashbyhq.com/nomic.foundation',
-  },
 ];
 
-export const SOCIALS_LINKS = {
-  [SocialsEnum.MEDIUM]: 'https://medium.com/nomic-foundation-blog',
-  [SocialsEnum.TWITTER]: 'https://twitter.com/NomicFoundation',
-};
-
 export const socialsItems = [
-  {
-    name: SocialsEnum.MEDIUM,
-    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
-    Icon: MediumIcon,
-  },
   {
     name: SocialsEnum.TWITTER,
     href: SOCIALS_LINKS[SocialsEnum.TWITTER],
     Icon: TwitterIcon,
+  },
+  {
+    name: SocialsEnum.LINKEDIN,
+    href: SOCIALS_LINKS[SocialsEnum.LINKEDIN],
+    Icon: LinkedinIcon,
   },
 ];
