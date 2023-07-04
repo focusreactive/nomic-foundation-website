@@ -20,12 +20,12 @@ export const SOCIALS_LINKS = {
 
 export const menuItemsList: MenuItemType[] = [
   {
-    label: 'Jobs',
-    href: 'https://jobs.ashbyhq.com/nomic.foundation',
-  },
-  {
     label: 'What we do',
     href: '/what-we-do',
+  },
+  {
+    label: 'Jobs',
+    href: 'https://jobs.ashbyhq.com/nomic.foundation',
   },
   {
     label: 'Blog',
