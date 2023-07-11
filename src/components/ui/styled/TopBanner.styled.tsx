@@ -5,7 +5,7 @@ export const BannerContainer = styled.a`
   user-select: none;
   z-index: 100;
   width: 100%;
-  height: 55px;
+  height: var(--top-banner-height);
   display: flex;
   padding: 14px;
   justify-content: center;
@@ -19,17 +19,16 @@ export const BannerContainer = styled.a`
   white-space: nowrap;
   width: 100%;
   position: relative;
+  cursor: pointer;
 
   & .banner-text {
     margin: 0 18px;
   }
 
-  cursor: pointer;
   ${media.brp1024} {
     font-size: 12px;
     line-height: 130%;
     letter-spacing: 0.15em;
-    height: 46px;
     & .banner-text {
       margin: 0 6px;
     }

@@ -25,7 +25,7 @@ const Container = styled.div`
   main {
     background: ${appTheme.light.colors.pageBackground};
     overflow-x: hidden;
-    padding-top: 106px;
+    padding-top: calc(var(--header-height) + var(--top-banner-height));
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;

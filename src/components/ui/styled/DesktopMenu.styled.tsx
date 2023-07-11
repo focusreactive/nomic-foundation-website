@@ -14,22 +14,14 @@ export const Header = styled.header`
 
   &.fixed {
     position: fixed;
-    transform: translateY(-167px);
-
-    ${media.brp1024} {
-      transform: translateY(-126px);
-    }
+    transform: translateY(calc((var(--header-height) + var(--top-banner-height)) * -1));
 
     & .blur {
       opacity: 1;
     }
 
     &.visible-header {
-      transform: translateY(-55px);
-
-      ${media.brp1024} {
-        transform: translateY(-46px);
-      }
+      transform: translateY(calc(var(--top-banner-height) * -1));
     }
 
     &.visible-top-bar {
@@ -60,12 +52,8 @@ export const Header = styled.header`
 
 export const HeaderWrapper = styled.div`
   width: 100%;
-  height: 167px;
-  margin-bottom: -112px;
-
-  ${media.brp1024} {
-    height: 126px;
-  }
+  height: calc(var(--header-height) + var(--top-banner-height));
+  margin-bottom: calc((var(--header-height) + var(--top-banner-height)) * -1);
 `;
 
 export const HeaderBg = styled.div`

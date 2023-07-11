@@ -11,21 +11,24 @@ export const HeroBlockContentSection = styled.section`
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding: 42px 0px 0px;
   width: 100%;
   min-width: min-content;
   max-width: 50%;
+  --min-height: 560px;
+  height: max(calc(100vh - var(--header-height) - var(--top-banner-height)), var(--min-height));
+  justify-content: center;
+  
   ${media.brp1792} {
-    padding: 40px 0px 0px;
   }
-  ${media.brp1280} {
-    padding: 32px 0px 0px;
+  ${media.brp1440} {
+    --min-height: 480px;
   }
   ${media.brp1024} {
-    padding: 16px 0px 0px;
+    --min-height: 400px;
   }
   ${media.brp768} {
     padding: 16px 0px 0px;
+    height: auto;
   }
 `;
 

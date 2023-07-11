@@ -7,6 +7,19 @@ export const WhoWeAreContainer = styled.section`
   width: 100%;
   flex-direction: column;
   align-items: center;
+  margin-top: -28vh;
+
+  ${media.brp1440} {
+    margin-top: -36vh;
+  }
+
+  ${media.brp1280} {
+    margin-top: -28vh;
+  }
+
+  ${media.brp768} {
+    margin-top: 0;
+  }
 `;
 
 export const WhoWeAreContent = styled.section`
