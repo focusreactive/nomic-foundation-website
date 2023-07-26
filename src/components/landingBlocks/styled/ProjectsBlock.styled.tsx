@@ -86,12 +86,12 @@ export const ProjectsSubtitle = styled.h3`
   ${media.brp1024} {
     font-size: 23px;
     letter-spacing: 0.03em;
-    max-width: 520px;
+    max-width: none;
     margin-top: 16px;
   }
   ${media.brp768} {
     font-size: 16px;
-    max-width: 200px;
+    max-width: 270px;
     text-align: start;
   }
 `;
@@ -127,7 +127,7 @@ export const ProjectItemContainer = styled.section`
   }
   ${media.brp1024} {
     margin-bottom: 48px;
-    
+
     &:nth-child(2) {
       margin-bottom: 80px;
     }
@@ -266,7 +266,7 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
       height: 38%;
     }
   }
-    
+
   &.item-rethnet {
     height: 61.5%;
 
@@ -410,8 +410,7 @@ export const ProjectItemContentSection = styled.section<{ color: string }>`
 export const ProjectItemSectionsDivider = styled.section<{ color: string }>`
   width: 1px;
   height: 100%;
-  background: ${({ color }) =>
-    `linear-gradient(357.78deg, ${color} 0.2%, rgba(237, 207, 0, 0) 109.27%)`};
+  background: ${({ color }) => `linear-gradient(357.78deg, ${color} 0.2%, rgba(237, 207, 0, 0) 109.27%)`};
   position: absolute;
   opacity: 0.8;
   top: 0;

@@ -26,20 +26,9 @@ const {
   HardhatPictureMobileDark,
 } = HardhatAssets;
 
-const {
-  SlangIcon,
-  SlangPictureDesk,
-  SlangPictureDeskDark,
-  SlangPictureMobile,
-  SlangPictureMobileDark,
-} = SlangAssets;
-const {
-  RethnetIcon,
-  RethnetPictureDesk,
-  RethnetPictureDeskDark,
-  RethnetPictureMobile,
-  RethnetPictureMobileDark,
-} = RethnetAssets;
+const { SlangIcon, SlangPictureDesk, SlangPictureDeskDark, SlangPictureMobile, SlangPictureMobileDark } = SlangAssets;
+const { RethnetIcon, RethnetPictureDesk, RethnetPictureDeskDark, RethnetPictureMobile, RethnetPictureMobileDark } =
+  RethnetAssets;
 
 export const HERO_BLOCK_CONTENT = {
   cta: {
@@ -68,7 +57,8 @@ export const FOOTER_CONTENT = {
 
 export const PROJECTS_BLOCK_CONTENT = {
   title: 'Projects',
-  subtitle: 'Developer tools and low-level tooling infrastructure',
+  subtitle:
+    'Our open-source projects directly address developer needs and create foundations for new developer tools to be built.',
   projects: [
     {
       title: 'Hardhat',

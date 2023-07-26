@@ -82,7 +82,9 @@ export const SupportersPictureWrapper = styled.section`
     top: -13%;
   }
   ${media.brp1280} {
-    top: -18%;
+    top: -49px;
+    left: -56px;
+    width: calc(100% + 56px * 2);
   }
   ${media.brp1024} {
     display: none;
@@ -104,7 +106,9 @@ export const SupportersBlockLogosContainer = styled.section`
 
   ${media.brp1280} {
     margin-top: 46px;
+    max-width: 800px;
   }
+
   ${media.brp1024} {
     margin-top: 32px;
   }
@@ -138,12 +142,13 @@ export const LogosRow = styled.div`
   }
 
   ${media.brp1280} {
-    padding: 15.5px 0px;
+    padding: 13px 0px;
   }
 
   ${media.brp1024} {
     --border-color: transparent;
     justify-content: center;
+    padding: 10px 0px;
   }
 
   ${media.brp768} {
@@ -171,7 +176,10 @@ export const LogoItemWrapper = styled.div`
     }
   }
   ${media.brp1280} {
-    height: 64px;
+    height: 56px;
+  }
+  ${media.brp1024} {
+    padding: 0 25px;
   }
   ${media.brp768} {
     height: 40px;

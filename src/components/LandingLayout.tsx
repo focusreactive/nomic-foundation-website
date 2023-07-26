@@ -3,15 +3,15 @@ import { styled } from '@linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
-import {appTheme, breakpoints, media, ThemeProvider, tmSelectors} from '../themes';
-import {Header, HeaderBg, HeaderWrapper} from './ui/styled/DesktopMenu.styled';
+import { appTheme, breakpoints, media, ThemeProvider, tmSelectors } from '../themes';
+import { Header, HeaderBg, HeaderWrapper } from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
 import React, { useEffect, useState } from 'react';
-import {cx} from "linaria";
-import {useScrollDirection} from "../hooks/useScrollDirection";
-import useWindowSize from "../hooks/useWindowSize";
+import { cx } from 'linaria';
+import { useScrollDirection } from '../hooks/useScrollDirection';
+import useWindowSize from '../hooks/useWindowSize';
 
 const Container = styled.div`
   position: relative;
@@ -70,16 +70,16 @@ const ContentContainer = styled.div`
 `;
 
 const LandingLayout = ({ children, seo }: Props) => {
-  const [fixed, setFixed] = useState(false)
-  const [disableAnimation, setDisableAnimation] = useState(false)
-  const [isTopBarVisible, setIsTopBarVisible] = useState(true)
-  const [isHeaderVisible, setIsHeaderVisible] = useState(false)
+  const [fixed, setFixed] = useState(false);
+  const [disableAnimation, setDisableAnimation] = useState(false);
+  const [isTopBarVisible, setIsTopBarVisible] = useState(true);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const scrollDirection = useScrollDirection()
-  const windowSize = useWindowSize()
+  const scrollDirection = useScrollDirection();
+  const windowSize = useWindowSize();
 
   const headerHeight = windowSize.width < breakpoints.brp1024 ? 80 : 112;
-  const topBarHeight =  windowSize.width < breakpoints.brp1024 ? 46 : 55;
+  const topBarHeight = windowSize.width < breakpoints.brp1024 ? 46 : 55;
   const totalHeight = headerHeight + topBarHeight;
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const LandingLayout = ({ children, seo }: Props) => {
       const currentScrollPos = window.pageYOffset;
 
       if (scrollDirection === 'up') {
-        currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight)
+        currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight);
       } else {
         if (!fixed && currentScrollPos > totalHeight) {
           setDisableAnimation(currentScrollPos > totalHeight);
@@ -98,7 +98,7 @@ const LandingLayout = ({ children, seo }: Props) => {
         setFixed(currentScrollPos > totalHeight);
       }
 
-      setIsHeaderVisible(scrollDirection === 'up')
+      setIsHeaderVisible(scrollDirection === 'up');
 
       if (windowSize.width < breakpoints.brp1024) {
         setIsTopBarVisible(currentScrollPos < 10);
@@ -117,7 +117,12 @@ const LandingLayout = ({ children, seo }: Props) => {
       <Container className='landing'>
         <HeaderWrapper>
           <Header
-              className={cx(fixed && "fixed", disableAnimation && "disable-animation", isTopBarVisible && "visible-top-bar", (isHeaderVisible || isMobileMenuOpen) && "visible-header")}
+            className={cx(
+              (fixed || isMobileMenuOpen) && 'fixed',
+              disableAnimation && 'disable-animation',
+              (isTopBarVisible || isMobileMenuOpen) && 'visible-top-bar',
+              (isHeaderVisible || isMobileMenuOpen) && 'visible-header',
+            )}
           >
             <TopBanner content={bannerContent} />
             <HeaderBg className={'blur'} />

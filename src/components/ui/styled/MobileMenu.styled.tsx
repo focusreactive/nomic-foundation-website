@@ -6,7 +6,7 @@ export const MobileMenuContainer = styled.section<{ isOpen: boolean }>`
   flex-direction: column;
   justify-content: space-between;
   width: min(100%, 412px);
-  height: calc(100vh - 126px);
+  height: 100vh;
   top: 0;
   position: absolute;
   transition: all 0.25s ease-in-out;

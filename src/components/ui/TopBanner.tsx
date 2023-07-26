@@ -1,5 +1,5 @@
 import React from 'react';
-import { BannerContainer, BannerDecorator } from './styled/TopBanner.styled';
+import { BannerContainer, BannerDecorator, BannerText } from './styled/TopBanner.styled';
 import { BannerProps } from './types';
 
 const TopBanner = ({ content, className }: BannerProps) => {
@@ -9,9 +9,9 @@ const TopBanner = ({ content, className }: BannerProps) => {
       <BannerDecorator className='optional'>◰</BannerDecorator>
       <BannerDecorator>◲</BannerDecorator>
       <BannerDecorator>◳</BannerDecorator>
-      <span className='long banner-text'>{content.text}</span>
-      <BannerDecorator>◱</BannerDecorator>
+      <BannerText>{content.text}</BannerText>
       <BannerDecorator>◰</BannerDecorator>
+      <BannerDecorator>◱</BannerDecorator>
       <BannerDecorator className='optional'>◳</BannerDecorator>
       <BannerDecorator className='optional'>◲</BannerDecorator>
     </BannerContainer>

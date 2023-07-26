@@ -8,11 +8,12 @@ export default function Document() {
       <Head>
         <link
           rel='preload'
-          href='/fonts/EncodeSans.woff2'
+          href='/fonts/EncodeSans-Regular.woff2'
           as='font'
           type='font/woff2'
-          // crossOrigin='true'
+          crossOrigin='anonymous'
         />
+        <link rel='preload' href='/fonts/EncodeSans-Medium.woff2' as='font' type='font/woff2' crossOrigin='anonymous' />
         <script
           dangerouslySetInnerHTML={{
             __html: `
