@@ -1,6 +1,6 @@
 import HardhatAssets from '../assets/projects/hardhat';
 import SlangAssets from '../assets/projects/slang';
-import RethnetAssets from '../assets/projects/rethnet';
+import EDRAssets from '../assets/projects/edr';
 import { appTheme } from '../themes';
 import EthereumFoundationLogo from '../assets/supporters/ethereum-foundation-logo';
 import VitalikButerinLogo from '../assets/supporters/vitalik-buterin-logo';
@@ -16,7 +16,7 @@ import CoinbaseLogo from '../assets/supporters/coinbase-logo';
 import GnosisLogo from '../assets/supporters/gnosis-logo';
 import YearnLogo from '../assets/supporters/yearn-logo';
 import UniswapLogo from '../assets/supporters/uniswap-logo';
-import { RETHNET_URL, SLANG_URL } from '../constants';
+import { EDR_URL, SLANG_URL } from '../constants';
 
 const {
   HardhatIcon,
@@ -35,12 +35,12 @@ const {
   SlangPictureMobileDark,
 } = SlangAssets;
 const {
-  RethnetIcon,
-  RethnetPictureDesk,
-  RethnetPictureDeskDark,
-  RethnetPictureMobile,
-  RethnetPictureMobileDark,
-} = RethnetAssets;
+  EDRIcon,
+  EDRPictureDesk,
+  EDRPictureDeskDark,
+  EDRPictureMobile,
+  EDRPictureMobileDark,
+} = EDRAssets;
 
 export const HERO_BLOCK_CONTENT = {
   cta: {
@@ -101,18 +101,18 @@ export const PROJECTS_BLOCK_CONTENT = {
       color: appTheme.light.colors.slangMain,
     },
     {
-      title: 'Rethnet',
+      title: 'EDR',
       text: 'An Ethereum development runtime implementation that can be reused to build new developer tools.',
       cta: {
-        href: RETHNET_URL,
+        href: EDR_URL,
         label: 'Learn more',
       },
-      Icon: RethnetIcon,
-      PictureDesk: RethnetPictureDesk,
-      PictureDeskDark: RethnetPictureDeskDark,
-      PictureMobile: RethnetPictureMobile,
-      PictureMobileDark: RethnetPictureMobileDark,
-      color: appTheme.light.colors.rethnetMain,
+      Icon: EDRIcon,
+      PictureDesk: EDRPictureDesk,
+      PictureDeskDark: EDRPictureDeskDark,
+      PictureMobile: EDRPictureMobile,
+      PictureMobileDark: EDRPictureMobileDark,
+      color: appTheme.light.colors.edrMain,
     },
   ],
 };

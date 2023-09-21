@@ -1,7 +1,7 @@
 import LinkedinIcon from './assets/socials/linkedin';
 import MediumIcon from './assets/socials/medium';
 import TwitterIcon from './assets/socials/twitter';
-import { RETHNET_URL, SLANG_URL } from './constants';
+import { EDR_URL, SLANG_URL } from './constants';
 import { MenuItemType, SocialsEnum } from './types/commonTypes';
 
 export const BANNER_LINK =
@@ -40,8 +40,8 @@ export const menuItemsList: MenuItemType[] = [
     href: SLANG_URL,
   },
   {
-    label: 'Rethnet',
-    href: RETHNET_URL,
+    label: 'EDR',
+    href: EDR_URL,
   },
 ];
 
