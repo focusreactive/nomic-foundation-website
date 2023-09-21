@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const RethnetIcon = (props: SVGProps<SVGSVGElement>) => (
+const EDRIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox='0 0 35 34'
     fill='none'
@@ -27,4 +27,4 @@ const RethnetIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default RethnetIcon;
+export default EDRIcon;

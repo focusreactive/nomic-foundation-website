@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const RethnetPictureMobile = (props: SVGProps<SVGSVGElement>) => (
+const EDRPictureMobile = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 461 445'
@@ -595,4 +595,4 @@ const RethnetPictureMobile = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default RethnetPictureMobile;
+export default EDRPictureMobile;

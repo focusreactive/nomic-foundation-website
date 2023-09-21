@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const RethnetPictureDesk = (props: SVGProps<SVGSVGElement>) => (
+const EDRPictureDesk = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 460 530'
@@ -180,4 +180,4 @@ const RethnetPictureDesk = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default RethnetPictureDesk;
+export default EDRPictureDesk;

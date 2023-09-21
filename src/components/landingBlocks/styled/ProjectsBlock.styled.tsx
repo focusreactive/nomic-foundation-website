@@ -267,7 +267,7 @@ export const ProjectItemPictureLeftDecoration = styled.div<{ color: string }>`
     }
   }
     
-  &.item-rethnet {
+  &.item-edr {
     height: 61.5%;
 
     ${media.brp1792} {
@@ -355,7 +355,7 @@ export const ProjectItemMobilePicWrapper = styled.div`
     }
   }
   ${media.brp1024Only} {
-    &.item-rethnet {
+    &.item-edr {
       top: 3%;
       left: 0;
     }

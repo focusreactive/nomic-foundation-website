@@ -163,7 +163,7 @@ const WhatWeDo: NextPage = () => {
             Our first approach is to provide open-source developer tools to meet current engineering needs. Through our Hardhat suite of products, we equip developers with the necessary tools to succeed in the present.
           </WhatWeDoParagraph>
           <WhatWeDoParagraph>
-            Our second approach focuses on the larger open-source ecosystem and the meta-infrastructure necessary for its continued evolution. By working on compilers (Slang) and runtimes (Rethnet), we aim to improve the quality of the meta-infrastructure available for the development of new tools and infrastructure.
+            Our second approach focuses on the larger open-source ecosystem and the meta-infrastructure necessary for its continued evolution. By working on compilers (Slang) and runtimes (EDR), we aim to improve the quality of the meta-infrastructure available for the development of new tools and infrastructure.
           </WhatWeDoParagraph>
           <WhatWeDoParagraph>
             Together, these approaches ensure that Ethereum continues to offer a leading developer experience that meets today’s needs and those of tomorrow.
