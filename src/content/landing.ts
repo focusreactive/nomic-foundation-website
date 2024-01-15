@@ -60,7 +60,7 @@ export const WHO_WE_ARE_BLOCK_CONTENT = {
 };
 
 export const FOOTER_CONTENT = {
-  copyright: 'Copyright 2023 Nomic Foundation',
+  copyright: `Copyright ${(new Date()).getFullYear()} Nomic Foundation`,
   privacy: {
     text: 'Privacy Policy',
     href: 'https://hardhat.org/privacy-policy.html',
