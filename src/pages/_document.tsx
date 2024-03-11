@@ -13,6 +13,20 @@ export default function Document() {
           type='font/woff2'
           // crossOrigin='true'
         />
+        <link
+          rel='preload'
+          href='/fonts/EncodeSans-Light.woff2'
+          as='font'
+          type='font/woff2'
+          // crossOrigin='true'
+        />
+        <link
+          rel='preload'
+          href='/fonts/EncodeSans-Medium.woff2'
+          as='font'
+          type='font/woff2'
+          // crossOrigin='true'
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -35,6 +49,16 @@ export default function Document() {
         />
         <Main />
         <NextScript />
+
+        {/* <script
+          dangerouslySetInnerHTML={{
+            __html: `window.__ashbyBaseJobBoardUrl = "https://jobs.ashbyhq.com/ashby-embed-demo-org"`,
+          }}
+        />
+        <script
+          id='ashby-script'
+          src='https://jobs.ashbyhq.com/ashby-embed-demo-org/embed'
+        ></script> */}
       </body>
     </Html>
   );
