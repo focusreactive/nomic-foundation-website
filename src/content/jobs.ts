@@ -179,64 +179,6 @@ export const BENEFITS_BLOCK_CONTENT = {
   ],
 };
 
-export const JOIN_US_BLOCK_CONTENT = {
-  title: 'Join us',
-  hiringProcess: {
-    title: 'Hiring Process',
-    stepTitleFirst: 'Week 1',
-    stepTitleSecond: 'Week 2',
-    items: [
-      {
-        list: [
-          {
-            title: 'Application',
-          },
-        ],
-      },
-      {
-        list: [
-          {
-            title: 'Intro call',
-          },
-          {
-            title: 'Technical Screen',
-          },
-        ],
-      },
-      {
-        list: [
-          {
-            title: 'Project Review',
-          },
-          {
-            title: 'Architecture',
-          },
-          {
-            title: 'Coding',
-          },
-        ],
-      },
-      {
-        list: [
-          {
-            title: 'Leaderships Interviews',
-          },
-        ],
-      },
-      {
-        list: [
-          {
-            title: 'Offer',
-          },
-          {
-            title: 'Reference Checks',
-          },
-        ],
-      },
-    ],
-  },
-};
-
 export const FAQ_BLOCK_CONTENT = {
   title: 'FAQ',
   questions: [
