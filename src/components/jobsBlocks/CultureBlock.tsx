@@ -69,10 +69,7 @@ const ContentItem = ({ title, text, Picture, PictureDark, stats }: Content) => {
       <CultureContentsItemPicture>
         <Picture className='light' />
         <PictureDark className='dark' />
-        <img
-          src='/img/map.png'
-          alt=''
-        />
+
         <Stats>
           {stats &&
             stats.map((stat, index) => (

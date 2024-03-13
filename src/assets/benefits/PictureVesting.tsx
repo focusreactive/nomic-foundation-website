@@ -64,10 +64,10 @@ const BenefitsPictureVesting = (props: SVGProps<SVGSVGElement>) => (
         y2='22.3984'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='1'
-          stop-color='#F3F3F3'
+          stopColor='#F3F3F3'
         />
       </linearGradient>
       <linearGradient
@@ -78,10 +78,10 @@ const BenefitsPictureVesting = (props: SVGProps<SVGSVGElement>) => (
         y2='22.3984'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='1'
-          stop-color='#F3F3F3'
+          stopColor='#F3F3F3'
         />
       </linearGradient>
     </defs>

@@ -14,22 +14,22 @@ const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
       d='M57.7722 99.3136L57.7737 54.9505L95.7019 32.9707L95.8491 77.3338L57.7722 99.3136Z'
       fill='url(#paint0_linear_7074_28602)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M19.8867 33.1484L57.96 11.1639L96.0368 33.1437L57.9635 55.1282L19.8867 33.1484Z'
       fill='url(#paint1_linear_7074_28602)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M19.8636 33.1753L19.7149 77.3298L57.7917 99.3096L57.9404 55.1551L19.8636 33.1753Z'
       fill='url(#paint2_linear_7074_28602)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <defs>
       <linearGradient
@@ -40,11 +40,11 @@ const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
         y2='68.2547'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -55,11 +55,11 @@ const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
         y2='16.6573'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -70,11 +70,11 @@ const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
         y2='64.2081'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
     </defs>

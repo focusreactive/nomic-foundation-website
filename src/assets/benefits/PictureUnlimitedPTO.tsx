@@ -17,55 +17,55 @@ const BenefitsPictureUnlimitedPTO = (props: SVGProps<SVGSVGElement>) => (
     <path
       d='M1.61719 13.884L1.61719 34.8903H19.9487H38.276L38.276 13.884L30.0237 9.10027L28.2671 5.15637H19.9707L16.9291 5.15662L16.9291 4.26562L12.3219 4.26736L12.3188 5.15637H11.6743L9.9728 9.07248L1.61719 13.884Z'
       fill='url(#paint1_linear_7041_71261)'
-      fill-opacity='0.5'
+      fillOpacity='0.5'
       stroke='#DCDCE1'
     />
     <path
       d='M20.0096 22.7278L11.3644 27.7488L19.982 32.7104L28.5568 27.7094L20.0096 22.7278Z'
       fill='url(#paint2_linear_7041_71261)'
-      fill-opacity='0.5'
+      fillOpacity='0.5'
     />
     <path
       d='M19.5703 22.5625L11.6972 18.0236L1.92033 14.1128'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path
       d='M29.7969 8.9375L19.9881 12.9398L10.1281 9.06337'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path
       d='M28.3867 27.5781L20.3805 22.9557'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path
       d='M19.5703 23L11.5641 27.6224'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path
       d='M20.3404 22.5628L28.5546 17.8326L38.4219 14'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path
       d='M11.3672 17.8693L11.3672 27.7512L19.9827 32.7129L28.5962 27.6905L28.5962 17.8108L20.0102 12.8984L11.3672 17.8693Z'
       fill='url(#paint3_linear_7041_71261)'
-      fill-opacity='0.5'
+      fillOpacity='0.5'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
     />
     <path
       d='M19.9727 12.8828L19.9727 32.6546'
       stroke='#DCDCE1'
-      stroke-linejoin='round'
+      strokeLinejoin='round'
       strokeDasharray='0.44 0.44'
     />
     <path

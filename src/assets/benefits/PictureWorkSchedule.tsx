@@ -138,10 +138,10 @@ const BenefitsPictureWorkSchedule = (props: SVGProps<SVGSVGElement>) => (
         y2='31.5562'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#EDEDF0' />
+        <stop stopColor='#EDEDF0' />
         <stop
           offset='1'
-          stop-color='white'
+          stopColor='white'
         />
       </linearGradient>
       <linearGradient
@@ -153,12 +153,12 @@ const BenefitsPictureWorkSchedule = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='white'
-          stop-opacity='0.5'
+          stopColor='white'
+          stopOpacity='0.5'
         />
         <stop
           offset='1'
-          stop-color='white'
+          stopColor='white'
         />
       </linearGradient>
       <linearGradient
@@ -170,12 +170,12 @@ const BenefitsPictureWorkSchedule = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='#888890'
-          stop-opacity='0'
+          stopColor='#888890'
+          stopOpacity='0'
         />
         <stop
           offset='1'
-          stop-color='#888890'
+          stopColor='#888890'
         />
       </linearGradient>
       <linearGradient
@@ -187,12 +187,12 @@ const BenefitsPictureWorkSchedule = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='#888890'
-          stop-opacity='0'
+          stopColor='#888890'
+          stopOpacity='0'
         />
         <stop
           offset='1'
-          stop-color='#888890'
+          stopColor='#888890'
         />
       </linearGradient>
       <linearGradient
@@ -204,12 +204,12 @@ const BenefitsPictureWorkSchedule = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='white'
-          stop-opacity='0.5'
+          stopColor='white'
+          stopOpacity='0.5'
         />
         <stop
           offset='1'
-          stop-color='white'
+          stopColor='white'
         />
       </linearGradient>
     </defs>

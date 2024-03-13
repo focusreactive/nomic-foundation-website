@@ -31,14 +31,14 @@ const Disk = (props: SVGProps<SVGSVGElement>) => (
         y2='15.6073'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='0.401302'
-          stop-color='#CACAD2'
+          stopColor='#CACAD2'
         />
         <stop
           offset='1'
-          stop-color='#FFE2D4'
+          stopColor='#FFE2D4'
         />
       </linearGradient>
     </defs>

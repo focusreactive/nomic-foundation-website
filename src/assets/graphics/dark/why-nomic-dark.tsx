@@ -15,209 +15,209 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         d='M624.264 297.761L624.216 441.444L748.653 513.345L685.752 404.17L624.264 297.761Z'
         fill='url(#paint0_linear_7009_62839)'
         stroke='#1C1E26'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
       <path
         d='M686.098 261.673L686.049 405.366L811.544 477.794L747.585 368.092L686.098 261.673Z'
         fill='url(#paint1_linear_7009_62839)'
-        fill-opacity='0.8'
+        fillOpacity='0.8'
         stroke='#20232A'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
       <path
         d='M748.8 225.394L748.751 368.987L873.989 441.295L810.287 331.605L748.8 225.394Z'
         fill='url(#paint2_linear_7009_62839)'
-        fill-opacity='0.7'
+        fillOpacity='0.7'
         stroke='#20232A'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
       <path
         d='M810.633 190.6L810.584 333.337L934.118 404.661L872.12 296.063L810.633 190.6Z'
         fill='url(#paint3_linear_7009_62839)'
-        fill-opacity='0.6'
+        fillOpacity='0.6'
         stroke='#20232A'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
       <path
         d='M874.205 154.482L873.321 297.177L998.633 369.521L935.692 259.945L874.205 154.482Z'
         fill='url(#paint4_linear_7009_62839)'
-        fill-opacity='0.5'
+        fillOpacity='0.5'
         stroke='#20232A'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
       <path
         d='M686.129 549.637L810.653 477.752L810.664 333.967L686.14 405.851L686.129 549.637Z'
         stroke='#191B22'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M997.969 369.059L873.445 297.174L873.434 153.389L997.958 225.273L997.969 369.059Z'
         stroke='url(#paint5_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M1122.41 296.832L997.882 224.948L997.871 81.1622L1122.4 153.047L1122.41 296.832Z'
         stroke='url(#paint6_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M1058.98 333.434L934.453 261.549L934.442 117.764L1058.97 189.648L1058.98 333.434Z'
         stroke='url(#paint7_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M935.172 405.223L810.648 333.338L810.637 189.553L935.161 261.437L935.172 405.223Z'
         stroke='url(#paint8_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M873.289 440.887L748.765 369.002L748.754 225.217L873.278 297.101L873.289 440.887Z'
         stroke='url(#paint9_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M810.688 477.668L686.164 405.784L686.153 261.998L810.676 333.883L810.688 477.668Z'
         stroke='url(#paint10_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M748.758 513.398L624.234 441.514L624.223 297.729L748.747 369.613L748.758 513.398Z'
         stroke='url(#paint11_linear_7009_62839)'
-        stroke-width='0.75'
-        stroke-miterlimit='10'
-        stroke-linejoin='bevel'
+        strokeWidth='0.75'
+        strokeMiterlimit='10'
+        strokeLinejoin='bevel'
       />
       <path
         d='M561.898 334.776L561.85 477.513L685.383 548.837L623.386 440.239L561.898 334.776Z'
         fill='url(#paint12_linear_7009_62839)'
         stroke='#20232A'
-        stroke-width='0.75'
-        stroke-linejoin='round'
+        strokeWidth='0.75'
+        strokeLinejoin='round'
       />
     </g>
     <path
       d='M499.494 298.011L499.542 441.694L375.105 513.595L438.006 404.42L499.494 298.011Z'
       fill='url(#paint13_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M437.168 261.982L437.217 405.675L311.721 478.103L375.681 368.401L437.168 261.982Z'
       fill='url(#paint14_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M374.396 224.839L374.445 368.433L249.206 440.74L312.908 331.051L374.396 224.839Z'
       fill='url(#paint15_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M312.578 190.03L312.627 332.767L189.093 404.091L251.091 295.493L312.578 190.03Z'
       fill='url(#paint16_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M248.991 153.916L249.874 296.611L124.562 368.955L187.503 259.379L248.991 153.916Z'
       fill='url(#paint17_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M561.781 334.791L561.83 477.528L438.296 548.852L500.294 440.255L561.781 334.791Z'
       fill='url(#paint18_linear_7009_62839)'
       stroke='#20232A'
-      stroke-width='0.75'
-      stroke-linejoin='round'
+      strokeWidth='0.75'
+      strokeLinejoin='round'
     />
     <path
       d='M125.289 368.496L249.813 296.612L249.824 152.826L125.3 224.711L125.289 368.496Z'
       stroke='url(#paint19_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M0.570312 296.176L125.094 224.291L125.105 80.506L0.581376 152.39L0.570312 296.176Z'
       stroke='url(#paint20_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M63.2812 332.777L187.805 260.893L187.816 117.108L63.2923 188.992L63.2812 332.777Z'
       stroke='url(#paint21_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M188.109 404.656L312.633 332.772L312.644 188.986L188.12 260.871L188.109 404.656Z'
       stroke='url(#paint22_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M249.984 440.32L374.508 368.436L374.519 224.651L249.995 296.535L249.984 440.32Z'
       stroke='url(#paint23_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M312.766 477.574L437.29 405.69L437.301 261.904L312.777 333.789L312.766 477.574Z'
       stroke='url(#paint24_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M375.086 513.57L499.61 441.686L499.621 297.901L375.097 369.785L375.086 513.57Z'
       stroke='url(#paint25_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M1137.44 145.324L561.835 477.621L15.9057 162.705'
       stroke='url(#paint26_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M1137.22 1L561.668 334.341L15.687 18.3803'
       stroke='url(#paint27_linear_7009_62839)'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <defs>
       <linearGradient
@@ -228,11 +228,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='351.675'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -243,11 +243,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='315.569'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -258,11 +258,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='279.253'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -273,11 +273,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='244.138'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -288,11 +288,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='208.184'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -303,10 +303,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='366.466'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -317,10 +317,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='294.24'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -331,10 +331,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='330.841'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -345,10 +345,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='402.63'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -359,10 +359,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='438.295'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -373,10 +373,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='475.076'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -387,10 +387,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='510.806'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -401,11 +401,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='388.314'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#2D2F38' />
+        <stop stopColor='#2D2F38' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -416,11 +416,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='351.905'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -431,11 +431,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='315.293'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -446,11 +446,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='278.197'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -461,11 +461,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='243.568'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -476,11 +476,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='207.325'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -491,11 +491,11 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='388.329'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#20232A' />
+        <stop stopColor='#20232A' />
         <stop
           offset='1'
-          stop-color='#2D2F38'
-          stop-opacity='0.15'
+          stopColor='#2D2F38'
+          stopOpacity='0.15'
         />
       </linearGradient>
       <linearGradient
@@ -506,10 +506,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='404.495'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -520,10 +520,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='332.175'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -534,10 +534,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='368.776'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -548,10 +548,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='440.655'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -562,10 +562,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='476.319'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -576,10 +576,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='513.573'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -590,10 +590,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='549.569'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#24272E' />
+        <stop stopColor='#24272E' />
         <stop
           offset='1'
-          stop-color='#191B22'
+          stopColor='#191B22'
         />
       </linearGradient>
       <linearGradient
@@ -604,10 +604,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='280.227'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#1C1E26' />
+        <stop stopColor='#1C1E26' />
         <stop
           offset='1'
-          stop-color='#24272E'
+          stopColor='#24272E'
         />
       </linearGradient>
       <linearGradient
@@ -618,10 +618,10 @@ const WhyNomicDark = (props: SVGProps<SVGSVGElement>) => (
         y2='136.326'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#1C1E26' />
+        <stop stopColor='#1C1E26' />
         <stop
           offset='1'
-          stop-color='#24272E'
+          stopColor='#24272E'
         />
       </linearGradient>
     </defs>

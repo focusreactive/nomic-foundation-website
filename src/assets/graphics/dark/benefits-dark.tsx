@@ -44,7 +44,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint4_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -52,7 +52,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint5_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -67,7 +67,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint7_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -75,7 +75,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint8_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -90,7 +90,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint10_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -98,7 +98,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint11_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -106,7 +106,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint12_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -114,7 +114,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint13_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -122,7 +122,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint14_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -151,7 +151,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint18_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='round'
       />
       <path
@@ -165,210 +165,210 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         d='M409.602 56.9297L409.602 101.116'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M371.625 78.9336L371.625 123.12'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.695 34.1055L485.622 12.1209L447.545 34.1007L485.618 56.0853L523.695 34.1055Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M409.719 100.973L371.645 78.9881L333.569 100.968L371.642 122.952L409.719 100.973Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.664 78.1836L485.591 56.1991L447.514 78.1789L485.587 100.163L523.664 78.1836Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M485.062 101.031L446.989 79.0467L408.912 101.027L446.986 123.011L485.062 101.031Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.734 56.1992L523.661 34.2147L485.584 56.1945L523.658 78.179L561.734 56.1992Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.758 100.41L523.685 78.4256L485.608 100.405L523.681 122.39L561.758 100.41Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.68 122.09L485.606 100.105L447.53 122.085L485.603 144.07L523.68 122.09Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M599.836 78.1328L561.763 56.1483L523.686 78.1281L561.759 100.113L599.836 78.1328Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M485.602 144.074L447.528 122.09L409.451 144.069L447.525 166.054L485.602 144.074Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M637.906 100.117L599.833 78.1327L561.756 100.112L599.829 122.097L637.906 100.117Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.664 166.074L485.591 144.09L447.514 166.069L485.587 188.054L523.664 166.074Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M485.617 231.98L447.544 209.996L409.467 231.976L447.54 253.96L485.617 231.98Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M447.539 253.961L409.466 231.976L371.389 253.956L409.462 275.941L447.539 253.961Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.688 210.004L485.614 188.019L447.537 209.999L485.611 231.984L523.688 210.004Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M409.461 275.945L371.388 253.961L333.311 275.941L371.384 297.925L409.461 275.945Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.648 254.078L485.575 232.094L447.498 254.073L485.572 276.058L523.648 254.078Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M485.57 276.051L447.497 254.066L409.42 276.046L447.493 298.031L485.57 276.051Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.719 232.094L523.645 210.109L485.569 232.089L523.642 254.074L561.719 232.094Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M447.484 298.035L409.411 276.051L371.334 298.03L409.408 320.015L447.484 298.035Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.742 275.996L523.669 254.012L485.592 275.991L523.665 297.976L561.742 275.996Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.672 297.98L485.599 275.996L447.522 297.976L485.595 319.96L523.672 297.98Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M599.82 254.023L561.747 232.039L523.67 254.019L561.743 276.003L599.82 254.023Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M485.586 319.965L447.513 297.98L409.436 319.96L447.509 341.945L485.586 319.965Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M599.812 297.992L561.739 276.008L523.662 297.987L561.736 319.972L599.812 297.992Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.742 319.965L523.669 297.98L485.592 319.96L523.665 341.945L561.742 319.965Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M561.922 319.75L523.849 297.765L485.772 319.745L523.845 341.73L561.922 319.75Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M637.891 276.016L599.817 254.031L561.741 276.011L599.814 297.995L637.891 276.016Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M523.648 341.961L485.575 319.976L447.498 341.956L485.572 363.941L523.648 341.961Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -432,7 +432,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint28_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -440,7 +440,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint29_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -448,7 +448,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint30_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -477,7 +477,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint34_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -485,7 +485,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint35_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -493,7 +493,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint36_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -501,7 +501,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint37_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -529,210 +529,210 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         d='M1476.64 57.1055L1476.64 101.292'
         stroke='#20232A'
         strokeWidth='0.5625'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1438.66 79.1094L1438.66 123.296'
         stroke='#20232A'
         strokeWidth='0.5625'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.73 34.2812L1552.66 12.2967L1514.58 34.2765L1552.66 56.261L1590.73 34.2812Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1476.76 101.148L1438.68 79.1639L1400.61 101.144L1438.68 123.128L1476.76 101.148Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.7 78.3594L1552.63 56.3749L1514.55 78.3546L1552.63 100.339L1590.7 78.3594Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1552.1 101.207L1514.03 79.2225L1475.95 101.202L1514.02 123.187L1552.1 101.207Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.77 56.375L1590.7 34.3905L1552.62 56.3703L1590.7 78.3548L1628.77 56.375Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.8 100.586L1590.72 78.6014L1552.65 100.581L1590.72 122.566L1628.8 100.586Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.72 122.266L1552.65 100.281L1514.57 122.261L1552.64 144.245L1590.72 122.266Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1666.88 78.3086L1628.8 56.3241L1590.72 78.3039L1628.8 100.288L1666.88 78.3086Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1552.64 144.25L1514.57 122.265L1476.49 144.245L1514.56 166.23L1552.64 144.25Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1704.95 100.293L1666.87 78.3084L1628.8 100.288L1666.87 122.273L1704.95 100.293Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.7 166.25L1552.63 144.265L1514.55 166.245L1552.63 188.23L1590.7 166.25Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1552.66 232.156L1514.58 210.172L1476.51 232.152L1514.58 254.136L1552.66 232.156Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1514.58 254.137L1476.5 232.152L1438.43 254.132L1476.5 276.117L1514.58 254.137Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.73 210.18L1552.65 188.195L1514.58 210.175L1552.65 232.159L1590.73 210.18Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1476.5 276.121L1438.43 254.137L1400.35 276.116L1438.42 298.101L1476.5 276.121Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.69 254.254L1552.61 232.269L1514.54 254.249L1552.61 276.234L1590.69 254.254Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1552.61 276.227L1514.54 254.242L1476.46 276.222L1514.53 298.206L1552.61 276.227Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.76 232.27L1590.68 210.285L1552.61 232.265L1590.68 254.249L1628.76 232.27Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1514.52 298.211L1476.45 276.226L1438.37 298.206L1476.45 320.191L1514.52 298.211Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.78 276.172L1590.71 254.187L1552.63 276.167L1590.7 298.152L1628.78 276.172Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.71 298.156L1552.64 276.172L1514.56 298.152L1552.63 320.136L1590.71 298.156Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1666.86 254.199L1628.79 232.215L1590.71 254.194L1628.78 276.179L1666.86 254.199Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1552.62 320.141L1514.55 298.156L1476.47 320.136L1514.55 342.12L1552.62 320.141Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1666.85 298.168L1628.78 276.183L1590.7 298.163L1628.77 320.148L1666.85 298.168Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.78 320.141L1590.71 298.156L1552.63 320.136L1590.7 342.12L1628.78 320.141Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1628.96 319.926L1590.89 297.941L1552.81 319.921L1590.88 341.906L1628.96 319.926Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1704.93 276.191L1666.86 254.207L1628.78 276.187L1666.85 298.171L1704.93 276.191Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M1590.69 342.137L1552.61 320.152L1514.54 342.132L1552.61 364.117L1590.69 342.137Z'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -768,7 +768,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint45_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -790,7 +790,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint48_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -833,7 +833,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint54_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -841,7 +841,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint55_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -849,7 +849,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint56_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -857,7 +857,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint57_linear_7041_70630)'
         stroke='#20232A'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -871,14 +871,14 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         d='M675.111 201.905L636.148 180.417L597.171 202.622L635.765 225.212L675.111 201.905Z'
         stroke='#282B33'
         strokeWidth='0.5625'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
         d='M791.406 122.152L753.713 99.3371L715.522 121.845L753.329 144.132L791.406 122.152Z'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -942,7 +942,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint67_linear_7041_70630)'
         stroke='#191B22'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -964,7 +964,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint70_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -972,7 +972,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint71_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -993,7 +993,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         d='M1857.07 144.645L1819.38 121.829L1781.19 144.337L1818.99 166.624L1857.07 144.645Z'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1001,7 +1001,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint74_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1009,7 +1009,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='#282B33'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1017,7 +1017,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint75_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1025,7 +1025,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint76_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1033,7 +1033,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint77_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1041,7 +1041,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint78_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1049,7 +1049,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint79_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1057,7 +1057,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint80_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1065,7 +1065,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint81_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1073,7 +1073,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint82_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1081,7 +1081,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint83_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1089,7 +1089,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint84_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1097,7 +1097,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint85_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1105,7 +1105,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint86_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1113,7 +1113,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint87_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1121,7 +1121,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint88_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1213,7 +1213,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint101_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1221,7 +1221,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint102_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1299,7 +1299,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint113_linear_7041_70630)'
         stroke='#1C1E26'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1307,7 +1307,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint114_linear_7041_70630)'
         stroke='#282B33'
         strokeWidth='0.75'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path
@@ -1336,7 +1336,7 @@ const BenefitsDark = (props: SVGProps<SVGSVGElement>) => (
         fill='url(#paint118_linear_7041_70630)'
         stroke='#191B22'
         strokeWidth='0.5625'
-        stroke-miterlimit='10'
+        strokeMiterlimit='10'
         strokeLinejoin='bevel'
       />
       <path

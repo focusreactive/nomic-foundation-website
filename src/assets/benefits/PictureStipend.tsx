@@ -97,7 +97,7 @@ const BenefitsPictureStipend = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='white'
+          stopColor='white'
           stopOpacity='0.5'
         />
         <stop
@@ -113,7 +113,7 @@ const BenefitsPictureStipend = (props: SVGProps<SVGSVGElement>) => (
         y2='19.1484'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='1'
           stopColor='#F3F3F3'

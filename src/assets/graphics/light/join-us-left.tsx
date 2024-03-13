@@ -14,25 +14,25 @@ const JoinUsLeft = (props: SVGProps<SVGSVGElement>) => (
       d='M57.5418 99.7784L57.5432 55.4153L95.4714 33.4355L95.6186 77.7986L57.5418 99.7784Z'
       fill='url(#paint0_linear_7080_75459)'
       stroke='#DCDCE1'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M19.6484 33.6133L57.7217 11.6288L95.7985 33.6085L57.7253 55.5931L19.6484 33.6133Z'
       fill='white'
       stroke='#DCDCE1'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <path
       d='M19.6292 33.6402L19.4805 77.7946L57.5574 99.7744L57.7061 55.6199L19.6292 33.6402Z'
       fill='url(#paint1_linear_7080_75459)'
       stroke='#DCDCE1'
-      stroke-width='0.75'
-      stroke-miterlimit='10'
-      stroke-linejoin='bevel'
+      strokeWidth='0.75'
+      strokeMiterlimit='10'
+      strokeLinejoin='bevel'
     />
     <defs>
       <linearGradient
@@ -43,10 +43,10 @@ const JoinUsLeft = (props: SVGProps<SVGSVGElement>) => (
         y2='49.9404'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='1'
-          stop-color='#F3F3F3'
+          stopColor='#F3F3F3'
         />
       </linearGradient>
       <linearGradient
@@ -57,11 +57,11 @@ const JoinUsLeft = (props: SVGProps<SVGSVGElement>) => (
         y2='88.5917'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#EDEDF0' />
+        <stop stopColor='#EDEDF0' />
         <stop
           offset='1'
-          stop-color='white'
-          stop-opacity='0.5'
+          stopColor='white'
+          stopOpacity='0.5'
         />
       </linearGradient>
     </defs>

@@ -157,10 +157,10 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         y2='48.4523'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#BEE4FA' />
+        <stop stopColor='#BEE4FA' />
         <stop
           offset='1'
-          stop-color='#607484'
+          stopColor='#607484'
         />
       </linearGradient>
       <linearGradient
@@ -171,10 +171,10 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         y2='23.281'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#758C9E' />
+        <stop stopColor='#758C9E' />
         <stop
           offset='0.755'
-          stop-color='#2B2B2F'
+          stopColor='#2B2B2F'
         />
       </linearGradient>
       <linearGradient
@@ -185,11 +185,11 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         y2='46.1885'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#AED7F2' />
+        <stop stopColor='#AED7F2' />
         <stop
           offset='1'
-          stop-color='#AED7F2'
-          stop-opacity='0'
+          stopColor='#AED7F2'
+          stopOpacity='0'
         />
       </linearGradient>
       <linearGradient
@@ -201,12 +201,12 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='#888890'
-          stop-opacity='0'
+          stopColor='#888890'
+          stopOpacity='0'
         />
         <stop
           offset='1'
-          stop-color='#888890'
+          stopColor='#888890'
         />
       </linearGradient>
       <linearGradient
@@ -218,12 +218,12 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits='userSpaceOnUse'
       >
         <stop
-          stop-color='#888890'
-          stop-opacity='0'
+          stopColor='#888890'
+          stopOpacity='0'
         />
         <stop
           offset='1'
-          stop-color='#888890'
+          stopColor='#888890'
         />
       </linearGradient>
       <linearGradient
@@ -234,11 +234,11 @@ const BenefitsPictureVestingDark = (props: SVGProps<SVGSVGElement>) => (
         y2='-2.72018'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='#AED7F2' />
+        <stop stopColor='#AED7F2' />
         <stop
           offset='1'
-          stop-color='#AED7F2'
-          stop-opacity='0'
+          stopColor='#AED7F2'
+          stopOpacity='0'
         />
       </linearGradient>
     </defs>

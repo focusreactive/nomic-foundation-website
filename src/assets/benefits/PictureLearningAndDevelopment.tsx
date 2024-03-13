@@ -105,10 +105,10 @@ const BenefitsPictureLearningAndDevelopment = (props: SVGProps<SVGSVGElement>) =
         y2='-1.42136'
         gradientUnits='userSpaceOnUse'
       >
-        <stop stop-color='white' />
+        <stop stopColor='white' />
         <stop
           offset='1'
-          stop-color='#F3F3F3'
+          stopColor='#F3F3F3'
         />
       </linearGradient>
     </defs>
