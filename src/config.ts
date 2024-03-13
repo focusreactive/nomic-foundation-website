@@ -1,4 +1,4 @@
-import MediumIcon from './assets/socials/medium';
+import LinkedinIcon from './assets/socials/linkedin';
 import TwitterIcon from './assets/socials/twitter';
 import { MenuItemType, SocialsEnum } from './types/commonTypes';
 
@@ -33,15 +33,15 @@ export const menuItemsList: MenuItemType[] = [
 ];
 
 export const SOCIALS_LINKS = {
-  [SocialsEnum.MEDIUM]: 'https://medium.com/nomic-foundation-blog',
+  [SocialsEnum.LINKEDIN]: 'https://www.linkedin.com/company/nomic-foundation/',
   [SocialsEnum.TWITTER]: 'https://twitter.com/NomicFoundation',
 };
 
 export const socialsItems = [
   {
-    name: SocialsEnum.MEDIUM,
-    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
-    Icon: MediumIcon,
+    name: SocialsEnum.LINKEDIN,
+    href: SOCIALS_LINKS[SocialsEnum.LINKEDIN],
+    Icon: LinkedinIcon,
   },
   {
     name: SocialsEnum.TWITTER,

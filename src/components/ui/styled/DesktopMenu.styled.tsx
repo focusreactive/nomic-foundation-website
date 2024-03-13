@@ -136,16 +136,24 @@ export const MenuItem = styled.li`
 export const SocialsContainer = styled.section`
   display: flex;
   align-items: center;
-  & a {
-    margin-right: 8px;
-    &:last-child {
-      margin-right: unset;
-    }
+  gap: 8px;
+  .icon {
+    width: 1em;
+    height: 1em;
+    font-size: 18px;
+  }
+  .icon-twitter {
+    font-size: 16px;
   }
 `;
 
 export const SocialItem = styled.div`
   font-size: 0px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   & svg {
     fill: ${appTheme.light.colors.font50};
   }

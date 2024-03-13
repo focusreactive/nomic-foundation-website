@@ -26,20 +26,9 @@ const {
   HardhatPictureMobileDark,
 } = HardhatAssets;
 
-const {
-  SlangIcon,
-  SlangPictureDesk,
-  SlangPictureDeskDark,
-  SlangPictureMobile,
-  SlangPictureMobileDark,
-} = SlangAssets;
-const {
-  RethnetIcon,
-  RethnetPictureDesk,
-  RethnetPictureDeskDark,
-  RethnetPictureMobile,
-  RethnetPictureMobileDark,
-} = RethnetAssets;
+const { SlangIcon, SlangPictureDesk, SlangPictureDeskDark, SlangPictureMobile, SlangPictureMobileDark } = SlangAssets;
+const { RethnetIcon, RethnetPictureDesk, RethnetPictureDeskDark, RethnetPictureMobile, RethnetPictureMobileDark } =
+  RethnetAssets;
 
 export const HERO_BLOCK_CONTENT = {
   cta: {
@@ -59,7 +48,7 @@ export const WHO_WE_ARE_BLOCK_CONTENT = {
 };
 
 export const FOOTER_CONTENT = {
-  copyright: 'Copyright 2022 Nomic Foundation',
+  copyright: 'Copyright 2024 Nomic Foundation',
   privacy: {
     text: 'Privacy Policy',
     href: '/',
