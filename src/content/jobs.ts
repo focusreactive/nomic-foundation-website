@@ -184,32 +184,45 @@ export const FAQ_BLOCK_CONTENT = {
   questions: [
     {
       title: 'How long does the interview process take?',
-      text: 'Our interview process takes on average 3-4 weeks to complete.',
+      text: '<p>It takes about 2 weeks to complete to core interviews and move forward to the offer & reference checks</p>',
     },
     {
       title: 'Which locations do you hire in?',
-      text: '',
+      text: '<p>We hire in locations  within UTC+1 to UTC-4 time zones.  Although we work asynchronously, hiring in these time zones allows for 3-4 hours of overlap between team members.</p>',
     },
     {
       title: 'How can I best prepare for interviewing with Nomic Foundation?',
-      text: '',
+      text: '<p>If you’re reading this you’re on your way there! We encourage you to get familiar with Nomic and our core values.  Additionally, looking into our open source projects will give you an idea of what we are building.  Once you get invited to interview with us, our talent team will share more information about the interviews, what to expect, and how to prepare.</p>',
     },
     {
       title: 'How does Nomic manage remote work?',
-      text: '',
-    },
-    {
-      title: 'What’s it like to operate as a non-profit organization',
-      text: '',
-    },
-    {
-      title: 'How are the teams structured?',
-      text: '',
+      text: '<p>We use <a href="http://deel.com/" rel="noopener noreferrer" tabindex="0">deel.com</a> to employ team members in various locations in a compliant way. Depending on where you are based, you would be able to choose to be employed through a local entity, or as a direct contractor. </p><p>Once you’re part of the team, you’ll quickly find out that we work mostly asynchronously.  In practice, this means that we rely heavily on written communication (Slack and Notion).  Our aim is to maximize the time we spend on deep, uninterrupted, focused work.  Nevertheless, we kick off each week on a Monday with a short team call.  Every 2 weeks we schedule an unstructured team social, and we meet in person twice a year.</p>',
     },
 
     {
+      title: 'How are the teams structured?',
+      text: '<p>Our teams are small, up to 4-5 people each.  All engineers.  We have team leads who also write code.  The Engineering team is led by the Head of Engineering.</p>',
+    },
+    {
       title: 'What kind of development processes does the Engineering team follow?',
-      text: '',
+      text: '<p>We loosely follow Scrum for sprint planning and OKRs for quarterly and yearly planning. </p>',
+    },
+    {
+      title: 'Why is Nomic a non-profit?',
+      text: '<p>The kind of open source infrastructure that we build aren’t really businesses.  Orgs that tend to build such things are massive and they work on these things to support their core businesses.  We saw the big need in Ethereum for us to work on this kind of project and it wouldn’t be realistic to do it as a for-profit company. If we remained a for-profit company, we’d have to focus to building things that could generate revenue.  The things we work on are public goods for the Ethereum ecosystem and as such they don’t align well with for-profit organizations.</p>',
+    },
+    {
+      title: 'How is Nomic funded?',
+      text: '<p>Through ecosystem donations from players who have built on top of our tools and understand the importance of developer experience, given that Ethereum’s core value proposition is a software development platform.</p>',
+    },
+    {
+      title: 'How do you operate as a non-profit?',
+      text: '<p>The same as any other tech startup, with the different incentives, motivations, and success definition.</p>',
+    },
+
+    {
+      title: 'How does being a non-profit influence goal setting and roadmap planning?',
+      text: '<p>The ultimate goal is impact and not revenue or profit - that’s the only difference. We care about what value we create for the users and not whether or not we’re capturing it. </p>',
     },
   ],
 };

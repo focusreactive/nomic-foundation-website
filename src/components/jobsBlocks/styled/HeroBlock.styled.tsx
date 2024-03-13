@@ -55,6 +55,8 @@ export const HeroBlockTitle = styled.h1`
 
   ${media.brp1440} {
     font-size: 40px;
+  }
+  ${media.brp1280} {
     text-wrap: balance;
     max-width: 360px;
   }

@@ -5,7 +5,7 @@ import MinusIcon from '../../assets/icons/minus';
 import { cx } from 'linaria';
 
 type Spoller = {
-  children: React.ReactNode | null;
+  children: string;
   title: string;
 };
 
@@ -26,7 +26,12 @@ const Spoller = ({ children, title }: Spoller) => {
           <MinusIcon className='minus' />
         </SpollerItemCaret>
       </SpollerItemTitle>
-      <SpollerItemBody className='spoller-body'>{children}</SpollerItemBody>
+      <SpollerItemBody
+        className='spoller-body'
+        dangerouslySetInnerHTML={{
+          __html: children,
+        }}
+      />
     </SpollerItem>
   );
 };

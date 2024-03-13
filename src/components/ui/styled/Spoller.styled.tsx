@@ -109,6 +109,19 @@ export const SpollerItemBody = styled.div`
   ${tmSelectors.dark} {
     color: ${appTheme.dark.colors.font50};
   }
+  p:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  a {
+    text-decoration: underline;
+    color: ${appTheme.light.colors.font150};
+    ${tmSelectors.dark} {
+      color: ${appTheme.dark.colors.font250};
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
 
   &.is-active {
     display: block;
