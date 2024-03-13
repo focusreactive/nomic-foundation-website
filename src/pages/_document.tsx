@@ -49,16 +49,6 @@ export default function Document() {
         />
         <Main />
         <NextScript />
-
-        {/* <script
-          dangerouslySetInnerHTML={{
-            __html: `window.__ashbyBaseJobBoardUrl = "https://jobs.ashbyhq.com/ashby-embed-demo-org"`,
-          }}
-        />
-        <script
-          id='ashby-script'
-          src='https://jobs.ashbyhq.com/ashby-embed-demo-org/embed'
-        ></script> */}
       </body>
     </Html>
   );
