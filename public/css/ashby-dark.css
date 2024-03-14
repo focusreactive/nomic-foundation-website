@@ -27,7 +27,7 @@ body {
   padding-right: 0;
   background: transparent;
 }
-[class*='._filtersOpen_'] {
+[class*='_filtersOpen_'] {
   background: var(--color-200);
   color: var(--color);
 }
