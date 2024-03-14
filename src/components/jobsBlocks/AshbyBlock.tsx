@@ -42,19 +42,6 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
         <ContainerSection title='Join us'>
           <div id='ashby_embed'></div>
 
-          {/* <script
-            key={theme}
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.__Ashby = {
-                settings: {
-                  ashbyBaseJobBoardUrl: "https://jobs.ashbyhq.com/${boardName}",
-                  customCssUrl: "https://focusreactive.github.io/nomic-foundation-website/public/css/${cssFile}.css",
-                }
-              } `,
-            }}
-          /> */}
-
           <AshbyBlockPictureWrapperLeft>
             <AshbyLeft className='light' />
             <AshbyLeftDark className='dark' />
@@ -69,9 +56,9 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
   );
 };
 
-const Container = () => {
+const AshbyBlockContainer = () => {
   const { theme } = useContext(ThemeContext);
   return <AshbyBlock key={theme} />;
 };
 
-export default Container;
+export default AshbyBlockContainer;
