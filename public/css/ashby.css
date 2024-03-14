@@ -1,13 +1,17 @@
-:root {
-  color-scheme: light dark;
-}
-
 body {
   background: transparent;
-  --color: light-dark(#2b2b2f, #ededf0);
-  --selectBg: light-dark(transparent, transparent);
-  --selectBorder: 1px solid light-dark(#b0b0b8, #404146);
-  --selectColor: light-dark(#515259, #cacad2);
+  --color: ;
+  --selectBg: transparent;
+  --selectBorder: 1px solid #b0b0b8;
+  --selectColor: #515259;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    --color: #ededf0;
+    --selectBg: transparent;
+    --selectBorder: 1px solid #404146;
+    --selectColor: #cacad2;
+  }
 }
 
 ._section_1qwfy_341 {
