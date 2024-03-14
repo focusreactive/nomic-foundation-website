@@ -18,8 +18,9 @@ import CultureBlock from '../components/jobsBlocks/CultureBlock';
 import BenefitsBlock from '../components/jobsBlocks/BenefitsBlock';
 import AshbyBlock from '../components/jobsBlocks/AshbyBlock';
 import FaqBlock from '../components/jobsBlocks/FaqBlock';
-import { appTheme } from '../themes';
+import { ThemeContext, appTheme } from '../themes';
 import HiringProcessBlock from '../components/jobsBlocks/HiringProcessBlock';
+import { useContext } from 'react';
 
 const Jobs: NextPage = () => {
   return (

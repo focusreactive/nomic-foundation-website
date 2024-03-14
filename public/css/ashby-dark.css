@@ -1,11 +1,12 @@
 body {
   background: transparent;
-  --color: #2b2b2f;
+  --color: #ededf0;
   --color-100: #888890;
   --selectBg: transparent;
-  --selectBorder: 1px solid #b0b0b8;
-  --selectColor: #515259;
+  --selectBorder: 1px solid #404146;
+  --selectColor: #cacad2;
 }
+
 ._section_1qwfy_341 {
   max-width: none;
 }
