@@ -50,11 +50,11 @@ body {
   color: var(--color);
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 [class*='_jobPosting_'] {
   background: transparent;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 8px 0 16px;
   box-shadow: none;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -73,4 +73,11 @@ body {
 
 footer {
   display: none !important;
+}
+
+@media screen and (767px) {
+  [class*='_jobPosting_'] [class*='_title_'],
+  [class*='_jobPosting_'] [class*='_details_'] {
+    font-size: 14px;
+  }
 }
