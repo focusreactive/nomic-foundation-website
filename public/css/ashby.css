@@ -15,20 +15,20 @@ body.DARK {
 ._section_1qwfy_341 {
   max-width: none;
 }
-[class^='._titles_'] {
+[class^='_titles_'] {
   display: none;
 }
 
-[class^='._container_'] {
+[class^='_container_'] {
   background: transparent;
 }
 
-[class^='._filter_'] {
+[class^='_filter_'] {
   padding: 12px 30px 12px 20px;
   background-color: var(--selectBg);
   border: var(--selectBorder);
   color: var(--selectColor);
 }
-[class^='._departmentHeadingLevel_'] {
+[class^='_departmentHeadingLevel_'] {
   color: var(--color);
 }
