@@ -16,10 +16,10 @@ import WhyNomicBlock from '../components/jobsBlocks/WhyNomicBlock';
 import OurValuesBlock from '../components/jobsBlocks/OurValuesBlock';
 import CultureBlock from '../components/jobsBlocks/CultureBlock';
 import BenefitsBlock from '../components/jobsBlocks/BenefitsBlock';
-import AshbyBlock from '../components/jobsBlocks/AshbyBlock';
 import FaqBlock from '../components/jobsBlocks/FaqBlock';
 import { appTheme } from '../themes';
 import HiringProcessBlock from '../components/jobsBlocks/HiringProcessBlock';
+import AshbyBlockContainer from '../components/jobsBlocks/AshbyBlock';
 
 const Jobs: NextPage = () => {
   return (
@@ -35,7 +35,7 @@ const Jobs: NextPage = () => {
       <OurValuesBlock content={OUR_VALUES_BLOCK_CONTENT} />
       <CultureBlock content={CULTURE_BLOCK_CONTENT} />
       <BenefitsBlock content={BENEFITS_BLOCK_CONTENT} />
-      <AshbyBlock />
+      <AshbyBlockContainer />
       <HiringProcessBlock content={HIRING_PROCESS_BLOCK_CONTENT} />
       <FaqBlock content={FAQ_BLOCK_CONTENT} />
     </LandingLayout>

@@ -6,19 +6,10 @@ export const HiringProcessSection = styled.section`
   margin-bottom: 64px;
   margin-top: 64px;
   position: relative;
-  padding-top: 72px;
   z-index: 2;
   ${media.brp1440} {
     margin-top: 56px;
     margin-bottom: 56px;
-    padding-top: 15px;
-  }
-  ${media.brp1280} {
-    padding-top: 0px;
-  }
-
-  ${media.brp1024} {
-    padding-top: 22px;
   }
 `;
 
