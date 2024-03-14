@@ -15,7 +15,7 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
   React.useEffect(() => {
     const scriptTag = document.createElement('script');
     scriptTag.id = 'ashby-script';
-    scriptTag.src = `https://jobs.ashbyhq.com/${boardName}/embed`;
+    scriptTag.src = `https://jobs.ashbyhq.com/${boardName}/embed?version=2`;
     document.body.appendChild(scriptTag);
   }, [boardName]);
 
@@ -31,7 +31,7 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
               window.__Ashby = {
                 settings: {
                   ashbyBaseJobBoardUrl: "https://jobs.ashbyhq.com/${boardName}",
-                  customCssUrl: "",
+                  customCssUrl: "../../../public/css/ashby.css",
                 }
               }`,
             }}
