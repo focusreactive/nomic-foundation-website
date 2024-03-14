@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
+const AshbyLeftDark = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={115}
@@ -81,4 +81,4 @@ const JoinUsLeftDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default JoinUsLeftDark;
+export default AshbyLeftDark;

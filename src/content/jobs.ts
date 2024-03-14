@@ -1,5 +1,3 @@
-import { appTheme } from '../themes';
-
 import JobsHeroImgLarge from '../../public/img/jobs-hero-img-large.webp';
 import JobsHeroImgVertical from '../../public/img/jobs-hero-img-vertical.webp';
 import JobsHeroImgHorizontal from '../../public/img/jobs-hero-img-horizontal.webp';
@@ -175,6 +173,61 @@ export const BENEFITS_BLOCK_CONTENT = {
       Picture: BenefitsPictureVesting,
       PictureDark: BenefitsPictureVestingDark,
       title: 'Vesting ETH package in your comp',
+    },
+  ],
+};
+
+export const HIRING_PROCESS_BLOCK_CONTENT = {
+  title: 'Hiring Process',
+  stepTitleFirst: 'Week 1',
+  stepTitleSecond: 'Week 2',
+  items: [
+    {
+      list: [
+        {
+          title: 'Application',
+        },
+      ],
+    },
+    {
+      list: [
+        {
+          title: 'Intro call',
+        },
+        {
+          title: 'Technical Screen',
+        },
+      ],
+    },
+    {
+      list: [
+        {
+          title: 'Project Review',
+        },
+        {
+          title: 'Architecture',
+        },
+        {
+          title: 'Coding',
+        },
+      ],
+    },
+    {
+      list: [
+        {
+          title: 'Leaderships Interviews',
+        },
+      ],
+    },
+    {
+      list: [
+        {
+          title: 'Offer',
+        },
+        {
+          title: 'Reference Checks',
+        },
+      ],
     },
   ],
 };

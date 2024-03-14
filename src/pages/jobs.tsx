@@ -8,6 +8,7 @@ import {
   CULTURE_BLOCK_CONTENT,
   FAQ_BLOCK_CONTENT,
   HERO_BLOCK_CONTENT,
+  HIRING_PROCESS_BLOCK_CONTENT,
   OUR_VALUES_BLOCK_CONTENT,
   WHY_NOMIC_BLOCK_CONTENT,
 } from '../content/jobs';
@@ -18,6 +19,7 @@ import BenefitsBlock from '../components/jobsBlocks/BenefitsBlock';
 import AshbyBlock from '../components/jobsBlocks/AshbyBlock';
 import FaqBlock from '../components/jobsBlocks/FaqBlock';
 import { appTheme } from '../themes';
+import HiringProcessBlock from '../components/jobsBlocks/HiringProcessBlock';
 
 const Jobs: NextPage = () => {
   return (
@@ -34,6 +36,7 @@ const Jobs: NextPage = () => {
       <CultureBlock content={CULTURE_BLOCK_CONTENT} />
       <BenefitsBlock content={BENEFITS_BLOCK_CONTENT} />
       <AshbyBlock />
+      <HiringProcessBlock content={HIRING_PROCESS_BLOCK_CONTENT} />
       <FaqBlock content={FAQ_BLOCK_CONTENT} />
     </LandingLayout>
   );
