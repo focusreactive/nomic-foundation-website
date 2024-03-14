@@ -31,7 +31,7 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
               window.__Ashby = {
                 settings: {
                   ashbyBaseJobBoardUrl: "https://jobs.ashbyhq.com/${boardName}",
-                  customCssUrl: "../../../public/css/ashby.css",
+                  customCssUrl: "https://focusreactive.github.io/nomic-foundation-website/public/css/ashby.css",
                 }
               }`,
             }}
