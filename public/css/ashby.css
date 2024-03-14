@@ -25,26 +25,30 @@ body {
   padding-right: 0;
 }
 
-[class^='_filter_'] {
+[class*='_filter_'] {
   padding: 12px 30px 12px 20px;
   background: var(--selectBg);
   border: var(--selectBorder);
   color: var(--selectColor);
 }
 
-[class^='_departmentHeadingLevel_'] {
+[class*='_departmentHeading_'] {
   color: var(--color);
+  margin-left: 0;
+  margin-right: 0;
 }
-[class^='_jobPosting_'] {
+[class*='_jobPosting_'] {
   background: transparent;
   padding-left: 0;
   padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
-[class^='_jobPosting_'] [class*='_title_'] {
+[class*='_jobPosting_'] [class*='_title_'] {
   color: var(--color);
 }
 
-[class^='_jobPosting_'] [class*='_details_'] {
+[class*='_jobPosting_'] [class*='_details_'] {
   color: var(--color-100);
 }
 
