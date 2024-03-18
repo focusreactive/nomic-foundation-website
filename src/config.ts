@@ -1,5 +1,4 @@
 import LinkedinIcon from './assets/socials/linkedin';
-import MediumIcon from './assets/socials/medium';
 import TwitterIcon from './assets/socials/twitter';
 import { EDR_URL, SLANG_URL } from './constants';
 import { MenuItemType, SocialsEnum } from './types/commonTypes';
@@ -24,13 +23,14 @@ export const menuItemsList: MenuItemType[] = [
     href: '/what-we-do',
   },
   {
-    label: 'Jobs',
-    href: 'https://jobs.ashbyhq.com/nomic.foundation',
+    label: 'jobs',
+    href: '/jobs',
   },
   {
     label: 'Blog',
     href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
   },
+
   {
     label: 'Hardhat',
     href: 'https://hardhat.org/',

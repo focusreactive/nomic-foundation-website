@@ -27,20 +27,8 @@ const {
   HardhatPictureMobileDark,
 } = HardhatAssets;
 
-const {
-  SlangIcon,
-  SlangPictureDesk,
-  SlangPictureDeskDark,
-  SlangPictureMobile,
-  SlangPictureMobileDark,
-} = SlangAssets;
-const {
-  EDRIcon,
-  EDRPictureDesk,
-  EDRPictureDeskDark,
-  EDRPictureMobile,
-  EDRPictureMobileDark,
-} = EDRAssets;
+const { SlangIcon, SlangPictureDesk, SlangPictureDeskDark, SlangPictureMobile, SlangPictureMobileDark } = SlangAssets;
+const { EDRIcon, EDRPictureDesk, EDRPictureDeskDark, EDRPictureMobile, EDRPictureMobileDark } = EDRAssets;
 
 export const HERO_BLOCK_CONTENT = {
   cta: {
@@ -60,7 +48,7 @@ export const WHO_WE_ARE_BLOCK_CONTENT = {
 };
 
 export const FOOTER_CONTENT = {
-  copyright: `Copyright ${(new Date()).getFullYear()} Nomic Foundation`,
+  copyright: `Copyright ${new Date().getFullYear()} Nomic Foundation`,
   privacy: {
     text: 'Privacy Policy',
     href: 'https://hardhat.org/privacy-policy.html',
@@ -69,7 +57,8 @@ export const FOOTER_CONTENT = {
 
 export const PROJECTS_BLOCK_CONTENT = {
   title: 'Projects',
-  subtitle: 'Our open-source projects directly address developer needs and create foundations for new developer tools to be built.',
+  subtitle:
+    'Our open-source projects directly address developer needs and create foundations for new developer tools to be built.',
   projects: [
     {
       title: 'Hardhat',

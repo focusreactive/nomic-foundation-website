@@ -49,9 +49,13 @@ export const MobileMenuContent = styled.div`
 
 export const MobileMenuItemsList = styled.ul`
   list-style-type: none;
-  padding: 114px 24px 0 32px;
+  padding: 134px 24px 0 32px;
   display: flex;
   flex-direction: column;
+  ${media.brp768} {
+    padding-left: 0;
+    padding-right: 0;
+  }
 `;
 
 export const MobileMenuItem = styled.li`
@@ -110,7 +114,7 @@ export const MobileMenuFooter = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 0 24px 46px;
-  ${media.brp428} {
-    padding: 0 24px 32px;
+  ${media.brp768} {
+    padding: 0 0 32px;
   }
 `;

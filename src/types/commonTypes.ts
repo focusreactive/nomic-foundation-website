@@ -20,4 +20,5 @@ export type CTAContent = {
   href: string;
   label: string;
   color?: string;
+  className?: string;
 };

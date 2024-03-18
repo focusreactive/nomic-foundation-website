@@ -5,6 +5,7 @@ export const StyledButton = styled.button<{ color?: string }>`
   --bgColor: ${appTheme.light.colors.ctaBg};
   --borderColor: ${({ color }) => (!!color ? color : "transparent")};
   position: relative;
+  z-index: 1;
   height: fit-content;
   cursor: pointer;
   line-height: 100%;
@@ -72,5 +73,26 @@ export const StyledButton = styled.button<{ color?: string }>`
     background-color: transparent;
     color: ${appTheme.dark.colors.font200};
     --bgColor: ${appTheme.dark.colors.ctaBg};
+  }
+
+  &.small {
+    height: 62px;
+    font-size: 14px;
+    padding: 0 40px;
+    letter-spacing: 0.095em;
+    ${media.brp1440} {
+      height: 54px;
+    }
+    ${media.brp1280} {
+      height: 44px;
+      font-size: 12px;
+      padding: 0 24px;
+    }
+    ${media.brp768} {
+      height: 38px;
+      font-size: 10px;
+      padding: 0 16px;
+      letter-spacing: 0.04em;
+    }
   }
 `;

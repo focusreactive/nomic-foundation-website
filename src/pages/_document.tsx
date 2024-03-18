@@ -13,6 +13,20 @@ export default function Document() {
           type='font/woff2'
           // crossOrigin='true'
         />
+        <link
+          rel='preload'
+          href='/fonts/EncodeSans-Light.woff2'
+          as='font'
+          type='font/woff2'
+          // crossOrigin='true'
+        />
+        <link
+          rel='preload'
+          href='/fonts/EncodeSans-Medium.woff2'
+          as='font'
+          type='font/woff2'
+          // crossOrigin='true'
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

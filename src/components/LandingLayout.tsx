@@ -3,17 +3,19 @@ import { styled } from '@linaria/react';
 import SEO from './SEO';
 import { bannerContent } from '../config';
 import TopBanner from './ui/TopBanner';
-import {appTheme, breakpoints, media, ThemeProvider, tmSelectors} from '../themes';
-import {Header, HeaderBg, HeaderWrapper} from './ui/styled/DesktopMenu.styled';
+import { appTheme, breakpoints, media, ThemeProvider, tmSelectors } from '../themes';
+import { Header, HeaderBg, HeaderWrapper } from './ui/styled/DesktopMenu.styled';
 import LandingNavigation from './LandingNavigation';
 import LandingFooter from './ui/LandingFooter';
 import { FOOTER_CONTENT } from '../content/landing';
 import React, { useEffect, useState } from 'react';
-import {cx} from "linaria";
-import {useScrollDirection} from "../hooks/useScrollDirection";
-import useWindowSize from "../hooks/useWindowSize";
+import { cx } from 'linaria';
+import { useScrollDirection } from '../hooks/useScrollDirection';
+import useWindowSize from '../hooks/useWindowSize';
 
-const Container = styled.div`
+const Container = styled.div<{
+  bodyBg?: string;
+}>`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -23,9 +25,9 @@ const Container = styled.div`
   transition: all 0.25s ease-in-out;
   overflow: hidden;
   main {
-    background: ${appTheme.light.colors.pageBackground};
-    overflow-x: hidden;
-    padding-top: 112px;
+    background: ${({ bodyBg }) => (bodyBg ? bodyBg : appTheme.light.colors.pageBackground)};
+    overflow: hidden;
+    padding-top: 106px;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -42,11 +44,14 @@ const Container = styled.div`
 type Props = React.PropsWithChildren<{
   isLanding: boolean;
   seo: SEOType;
+  bodyBg?: string;
 }>;
 
 const ContentContainer = styled.div`
   margin: 0 auto;
   max-width: 1440px;
+  width: 100%;
+
   ${media.brp1792} {
     max-width: 1200px;
   }
@@ -70,17 +75,18 @@ const ContentContainer = styled.div`
   }
 `;
 
-const LandingLayout = ({ children, seo, isLanding }: Props) => {
-  const [fixed, setFixed] = useState(false)
-  const [disableAnimation, setDisableAnimation] = useState(false)
-  const [isTopBarVisible, setIsTopBarVisible] = useState(true)
-  const [isHeaderVisible, setIsHeaderVisible] = useState(false)
+const LandingLayout = ({ children, seo, isLanding, bodyBg }: Props) => {
+  const [fixed, setFixed] = useState(false);
+  const [disableAnimation, setDisableAnimation] = useState(false);
+  const [isTopBarVisible, setIsTopBarVisible] = useState(true);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(false);
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const scrollDirection = useScrollDirection()
-  const windowSize = useWindowSize()
+  const scrollDirection = useScrollDirection();
+  const windowSize = useWindowSize();
 
   const headerHeight = windowSize.width < breakpoints.brp1024 ? 80 : 112;
-  const topBarHeight =  windowSize.width < breakpoints.brp1024 ? 46 : 55;
+  const topBarHeight = windowSize.width < breakpoints.brp1024 ? 46 : 55;
   const totalHeight = headerHeight + topBarHeight;
 
   useEffect(() => {
@@ -88,7 +94,7 @@ const LandingLayout = ({ children, seo, isLanding }: Props) => {
       const currentScrollPos = window.pageYOffset;
 
       if (scrollDirection === 'up') {
-        currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight)
+        currentScrollPos === 0 && setFixed(currentScrollPos > totalHeight);
       } else {
         if (!fixed && currentScrollPos > totalHeight) {
           setDisableAnimation(currentScrollPos > totalHeight);
@@ -99,7 +105,7 @@ const LandingLayout = ({ children, seo, isLanding }: Props) => {
         setFixed(currentScrollPos > totalHeight);
       }
 
-      setIsHeaderVisible(scrollDirection === 'up')
+      setIsHeaderVisible(scrollDirection === 'up');
 
       if (windowSize.width < breakpoints.brp1024) {
         setIsTopBarVisible(currentScrollPos < 10);
@@ -115,20 +121,34 @@ const LandingLayout = ({ children, seo, isLanding }: Props) => {
 
   return (
     <ThemeProvider>
-      <Container className='landing'>
+      <Container
+        className='landing'
+        bodyBg={bodyBg}
+      >
         <HeaderWrapper>
           <Header
-              className={cx(fixed && "fixed", disableAnimation && "disable-animation", isTopBarVisible && "visible-top-bar", (isHeaderVisible || isMobileMenuOpen) && "visible-header")}
+            className={cx(
+              fixed && 'fixed',
+              disableAnimation && 'disable-animation',
+              isTopBarVisible && 'visible-top-bar',
+              (isHeaderVisible || isMobileMenuOpen) && 'visible-header'
+            )}
           >
             <TopBanner content={bannerContent} />
             <HeaderBg className={'blur'} />
-            <LandingNavigation isOpen={isMobileMenuOpen} setIsOpen={setIsMobileMenuOpen} />
+            <LandingNavigation
+              isOpen={isMobileMenuOpen}
+              setIsOpen={setIsMobileMenuOpen}
+            />
           </Header>
         </HeaderWrapper>
         <SEO seo={seo} />
         <main id='main'>
           <ContentContainer>{children}</ContentContainer>
-          <LandingFooter content={FOOTER_CONTENT} isLanding={isLanding} />
+          <LandingFooter
+            content={FOOTER_CONTENT}
+            isLanding={isLanding}
+          />
         </main>
       </Container>
     </ThemeProvider>
