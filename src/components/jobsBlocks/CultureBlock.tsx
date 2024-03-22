@@ -44,6 +44,7 @@ type Props = {
 type Review = {
   text: string;
   name: string;
+  link: string;
   profession: string;
 };
 
@@ -107,7 +108,7 @@ const CultureBlock = ({ content }: Props) => {
           >
             {content.reviews.map((review, index) => (
               <SwiperSlide key={index}>
-                <ReviewsItem>
+                <ReviewsItem href={review.link}>
                   <ReviewsItemText>{review.text}</ReviewsItemText>
                   <ReviewsItemFooter>
                     <ReviewsItemName>{review.name},</ReviewsItemName>

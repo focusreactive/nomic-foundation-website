@@ -159,7 +159,7 @@ export const Reviews = styled.div`
   }
 `;
 
-export const ReviewsItem = styled.div`
+export const ReviewsItem = styled.a`
   position: relative;
   padding-right: 30px;
   display: flex;
