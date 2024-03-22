@@ -21,4 +21,5 @@ export type CTAContent = {
   label: string;
   color?: string;
   className?: string;
+  smooth?: boolean;
 };

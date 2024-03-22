@@ -21,7 +21,7 @@ const {
 
 export const HERO_BLOCK_CONTENT = {
   cta: {
-    href: '/what-we-do',
+    href: '#job-board',
     label: 'See current openings',
   },
   title: 'Our users are building the decentralized future',
@@ -103,16 +103,19 @@ export const CULTURE_BLOCK_CONTENT = {
     'We are an impact-driven remote team of 16 individuals coming from different walks of life. We look for alignment on mission and values as key aspects when we hire.',
   reviews: [
     {
+      link: '#',
       text: 'Flexibility. Being able to work at any time, as long as I coordinate with my team, is super nice. Working alongside such a group of crazy smart people is really inspiring. It constantly reminds me that there’s so much to learn, and I love it.',
       name: 'Luis Schaab',
       profession: 'Software Engineer',
     },
     {
+      link: '#',
       text: 'The team is as welcoming as it is diverse, so whether it’s technical or cultural, I feel like I’m learning new things constantly which is really amazing.',
       name: 'Zoey Morgan',
       profession: 'Software Engineer',
     },
     {
+      link: '#',
       text: 'Working at a non-profit means being 100% focused on the value we are creating, which is great. And the team is amazing: smart, kind, and fun people, even if they don’t share enough pictures of their pets.',
       name: 'Franco Victorio',
       profession: 'Software Engineer',

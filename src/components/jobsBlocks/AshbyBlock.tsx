@@ -38,7 +38,7 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
 
   return (
     <>
-      <AshbySection>
+      <AshbySection id='job-board'>
         <ContainerSection title='Join us'>
           <div id='ashby_embed'></div>
 

@@ -47,6 +47,7 @@ const HeroBlock = ({ content }: Props) => {
           <Button
             href={content.cta.href}
             label={content.cta.label}
+            smooth
             className='small'
           />
         </CTAWrapper>
