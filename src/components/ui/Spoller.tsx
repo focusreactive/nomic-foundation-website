@@ -15,11 +15,11 @@ const Spoller = ({ children, title }: Spoller) => {
     setSpoller(!spoller);
   };
   return (
-    <SpollerItem className={cx(spoller && 'is-active')}>
-      <SpollerItemTitle
-        onClick={toggleSpollerHandler}
-        className='spoller-title'
-      >
+    <SpollerItem
+      className={cx(spoller && 'is-active')}
+      onClick={toggleSpollerHandler}
+    >
+      <SpollerItemTitle className='spoller-title'>
         {title}
         <SpollerItemCaret className='spoller-caret'>
           <PlusIcon className='plus' />

@@ -4,6 +4,7 @@ import { appTheme, media, tmSelectors } from '../../../themes';
 export const SpollerItem = styled.div`
   position: relative;
   padding: 22px 0 21px;
+  cursor: pointer;
   border-bottom: 1px solid ${appTheme.light.colors.border200};
   ${tmSelectors.dark} {
     border-color: ${appTheme.dark.colors.border200};
