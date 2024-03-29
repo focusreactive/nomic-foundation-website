@@ -1,15 +1,10 @@
 body {
   background: transparent;
-  --color: #ededf0;
-  --color-100: #888890;
-  --color-200: #404146;
-  --selectBg: transparent;
-  --selectBorder: 1px solid #404146;
-  --selectColor: #cacad2;
-  --selectDropdownColor: #404146;
+  font-family: 'EncodeSans';
 }
 ._section_1qwfy_341 {
   max-width: none;
+  padding: 0 10px;
 }
 [class*='_titles_'] {
   display: none;
@@ -28,47 +23,80 @@ body {
   background: transparent;
 }
 [class*='_filtersOpen_'] {
-  background: var(--color-200);
-  color: var(--color);
+  background: #404146;
+  color: #ededf0;
 }
 
 [class*='_filter_'] {
   padding: 12px 30px 12px 20px;
-  background: var(--selectBg);
-  border: var(--selectBorder);
-  color: var(--selectColor);
+  background: transparent;
+  border: 1px solid #404146;
+  color: #cacad2;
 }
+[class*='_filter_']:focus-visible {
+  box-shadow: none;
+  border-color: #61626b;
+}
+[class*='_filterActive_'] {
+  box-shadow: none;
+  border-color: #61626b !important;
+  color: #cacad2 !important;
+}
+
 [class*='_filterDownIcon_'] {
-  color: var(--color);
+  display: none;
+}
+[class*='_filterIconContainer_'] {
+  right: 16px;
+}
+[class*='_filterIconContainer_']:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-bottom: 1px solid #ededf0;
+  border-right: 1px solid #ededf0;
+  transform: rotate(45deg) translate(-2px, 0);
 }
 
 [class*='_filter_'] option {
-  color: var(--selectDropdownColor);
+  color: #404146;
+}
+[class*='_filtersHeader_'] {
+  margin-bottom: 9px;
+}
+[class*='_filtersLabel_'] {
+  font-size: 16px;
+  font-weight: 500;
+  color: #888890;
 }
 
 [class*='_departmentHeading_'] {
-  color: var(--color);
+  color: #ededf0;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  font-size: 19px;
 }
 [class*='_jobPosting_'] {
   background: transparent;
-  padding: 8px 0 16px;
+  padding: 8px 0 8px;
   box-shadow: none;
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-top: 0;
+  margin-bottom: 18px;
 }
 [class*='_jobPosting_']:hover {
   background: transparent;
 }
 [class*='_jobPosting_'] [class*='_title_'] {
-  color: var(--color);
+  color: #ededf0;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 [class*='_jobPosting_'] [class*='_details_'] {
-  color: var(--color-100);
+  color: #888890;
   margin-top: 7px;
 }
 

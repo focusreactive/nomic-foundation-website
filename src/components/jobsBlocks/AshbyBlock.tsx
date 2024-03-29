@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AshbySection } from './styled/AshbyBlock.styled';
-import { AshbyBlockPictureWrapperLeft, AshbyBlockPictureWrapperRight } from './styled/AshbyBlock.styled';
+import { AshbyBlockPictureWrapperLeft, AshbyBlockPictureWrapperRight, JobBoard } from './styled/AshbyBlock.styled';
 import ContainerSection from '../Container';
 import AshbyLeft from '../../assets/graphics/light/ashby-left';
 import AshbyLeftDark from '../../assets/graphics/dark/ashby-left-dark';
@@ -40,7 +40,7 @@ const AshbyBlock = ({ boardName = 'nomic.foundation' }: Props) => {
     <>
       <AshbySection>
         <ContainerSection title='Join us'>
-          <div id='ashby_embed'></div>
+          <JobBoard id='ashby_embed'></JobBoard>
 
           <AshbyBlockPictureWrapperLeft>
             <AshbyLeft className='light' />

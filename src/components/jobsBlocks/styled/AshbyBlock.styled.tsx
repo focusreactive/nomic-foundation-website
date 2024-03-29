@@ -1,6 +1,9 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
+export const JobBoard = styled.div`
+  margin: 0 -10px;
+`;
 export const AshbySection = styled.section`
   width: 100%;
   margin-bottom: 64px;
