@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'EncodeSans';
+  src: url('https://nomic.foundation/fonts/EncodeSans-Light.woff2') format('woff2'),
+    url('https://nomic.foundation/fonts/EncodeSans-Light.woff') format('woff'),
+    url('https://nomic.foundation/fonts/EncodeSans-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EncodeSans';
+  src: url('https://nomic.foundation/fonts/EncodeSans.woff2') format('woff2'),
+    url('https://nomic.foundation/fonts/EncodeSans.woff') format('woff'),
+    url('https://nomic.foundation/fonts/EncodeSans.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EncodeSans';
+  src: url('https://nomic.foundation/fonts/EncodeSans-Medium.woff2') format('woff2'),
+    url('https://nomic.foundation/fonts/EncodeSans-Medium.woff') format('woff'),
+    url('https://nomic.foundation/fonts/EncodeSans-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background: transparent;
   font-family: 'EncodeSans';
