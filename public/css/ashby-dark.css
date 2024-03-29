@@ -98,6 +98,8 @@ body {
 }
 [class*='_filtersHeader_'] {
   margin-bottom: 9px;
+}
+[class*='_filtersHeader_'] > div {
   font-size: 16px;
   letter-spacing: 1.12px;
 }
@@ -137,7 +139,7 @@ body {
 
 [class*='_jobPosting_'] [class*='_details_'] {
   color: #888890;
-  margin-top: 12px;
+  margin-top: 11px;
   font-size: 16px;
   letter-spacing: 0.4px;
 }
