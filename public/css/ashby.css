@@ -157,7 +157,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 400px) {
   [class*='_jobPosting_'] [class*='_title_'],
   [class*='_jobPosting_'] [class*='_details_'] {
     font-size: 14px;
