@@ -127,6 +127,7 @@ body {
   letter-spacing: 1.33px;
   font-size: 19px;
 }
+
 [class*='_jobPosting_'] {
   background: transparent;
   padding: 8px 0 8px;
@@ -156,7 +157,14 @@ body {
 footer {
   display: none !important;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1279px) {
+  [class*='_departmentHeading_'] {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 359px) {
   [class*='_jobPosting_'] [class*='_title_'],
   [class*='_jobPosting_'] [class*='_details_'] {
     font-size: 14px;
