@@ -24,6 +24,17 @@ export const ContainerTitle = styled.h2`
   margin-bottom: 32px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  ${media.brp1440} {
+    font-size: 33px;
+    margin-bottom: 17px;
+  }
+  ${media.brp768} {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+`;
+
+export const ContainerTitleGradient = styled.span`
   background: ${appTheme.light.colors.titleBg};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -33,13 +44,5 @@ export const ContainerTitle = styled.h2`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-  }
-  ${media.brp1440} {
-    font-size: 33px;
-    margin-bottom: 17px;
-  }
-  ${media.brp768} {
-    font-size: 28px;
-    margin-bottom: 16px;
   }
 `;

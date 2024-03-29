@@ -3,6 +3,14 @@ import { appTheme, media, tmSelectors } from '../../../themes';
 
 export const JobBoard = styled.div`
   margin: 0 -10px;
+  iframe {
+    max-width: 818px;
+  }
+  ${media.brp1280} {
+    iframe {
+      max-width: 418px;
+    }
+  }
 `;
 export const AshbySection = styled.section`
   width: 100%;

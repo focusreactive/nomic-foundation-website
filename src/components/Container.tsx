@@ -1,4 +1,4 @@
-import { Container, ContainerTitle } from './styled/Container.styled';
+import { Container, ContainerTitle, ContainerTitleGradient } from './styled/Container.styled';
 
 type Props = {
   children: React.ReactNode;
@@ -8,7 +8,11 @@ type Props = {
 const ContainerSection = ({ children, title }: Props) => {
   return (
     <Container>
-      {title && <ContainerTitle>{title}</ContainerTitle>}
+      {title && (
+        <ContainerTitle>
+          <ContainerTitleGradient>{title}</ContainerTitleGradient>
+        </ContainerTitle>
+      )}
       {children}
     </Container>
   );

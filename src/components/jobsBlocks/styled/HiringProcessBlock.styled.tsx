@@ -1,20 +1,8 @@
 import { styled } from '@linaria/react';
 import { appTheme, media, tmSelectors } from '../../../themes';
 
-export const HiringProcessSection = styled.section`
-  width: 100%;
-  margin-bottom: 64px;
-  margin-top: 64px;
-  position: relative;
-  z-index: 2;
-  ${media.brp1440} {
-    margin-top: 56px;
-    margin-bottom: 56px;
-  }
-`;
-
 export const HiringProcessWrapper = styled.div`
-  margin-top: 40px;
+  margin-top: 65px;
   ${media.brp768} {
     overflow: hidden;
     overflow-x: auto;
@@ -35,6 +23,16 @@ export const HiringProcessWrapper = styled.div`
     padding-right: calc(((100vw - 312px) / 2));
     margin-left: calc(((100vw - 312px) / 2) * -1);
     padding-left: calc(((100vw - 312px) / 2) + 8px);
+  }
+`;
+export const HiringProcessTitle = styled.h3`
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0.69px;
+  margin-bottom: 40px;
+  color: ${appTheme.light.colors.font150};
+  ${tmSelectors.dark} {
+    color: ${appTheme.dark.colors.font100};
   }
 `;
 export const HiringProcessLines = styled.div`

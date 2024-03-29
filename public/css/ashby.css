@@ -56,7 +56,13 @@ body {
 }
 [class*='_filtersOpen_'] {
   background: #ffffff;
-  color: #2b2b2f;
+  color: #404146;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 32px;
+  letter-spacing: 1.4px;
+  border: 1px solid #b0b0b8;
+  box-shadow: 0px 6px 20px 0px rgba(239, 239, 239, 0.8);
 }
 
 [class*='_filter_'] {
