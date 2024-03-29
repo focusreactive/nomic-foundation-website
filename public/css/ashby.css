@@ -31,10 +31,10 @@
 body {
   background: transparent;
   font-family: 'EncodeSans';
+  padding: 0 10px;
 }
 ._section_1qwfy_341 {
   max-width: none;
-  padding: 0 10px;
 }
 [class*='_titles_'] {
   display: none;
