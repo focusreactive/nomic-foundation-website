@@ -33,7 +33,8 @@ body {
   font-family: 'EncodeSans';
   padding: 0 10px;
 }
-._section_1qwfy_341 {
+[class*='_section_'],
+[class*='_container_'] {
   max-width: none;
 }
 [class*='_titles_'] {
