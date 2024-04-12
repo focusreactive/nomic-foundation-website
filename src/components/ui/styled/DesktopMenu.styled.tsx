@@ -36,7 +36,7 @@ export const Header = styled.header`
       transform: translateY(0);
     }
   }
-  
+
   &.disable-animation {
     transition: none;
   }
@@ -104,6 +104,22 @@ export const MenuItem = styled.li`
   color: ${appTheme.light.colors.font50};
   margin-right: 32px;
   white-space: nowrap;
+  position: relative;
+  &.active {
+    color: ${appTheme.light.colors.font200};
+    ${tmSelectors.dark} {
+      color: ${appTheme.dark.colors.font300};
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, #cacad2 1.5%, rgba(202, 202, 210, 0) 91.74%);
+    }
+  }
   &:last-child {
     margin-right: unset;
   }
@@ -120,16 +136,24 @@ export const MenuItem = styled.li`
 export const SocialsContainer = styled.section`
   display: flex;
   align-items: center;
-  & a {
-    margin-right: 8px;
-    &:last-child {
-      margin-right: unset;
-    }
+  gap: 8px;
+  .icon {
+    width: 1em;
+    height: 1em;
+    font-size: 18px;
+  }
+  .icon-twitter {
+    font-size: 16px;
   }
 `;
 
 export const SocialItem = styled.div`
   font-size: 0px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   & svg {
     fill: ${appTheme.light.colors.font50};
   }

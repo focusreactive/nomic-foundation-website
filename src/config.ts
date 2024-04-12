@@ -1,9 +1,8 @@
-import MediumIcon from './assets/socials/medium';
+import LinkedinIcon from './assets/socials/linkedin';
 import TwitterIcon from './assets/socials/twitter';
 import { MenuItemType, SocialsEnum } from './types/commonTypes';
 
-export const BANNER_LINK =
-  'https://www.notion.so/Nomic-Foundation-jobs-991b37c547554f75b89a95f437fd5056';
+export const BANNER_LINK = 'https://www.notion.so/Nomic-Foundation-jobs-991b37c547554f75b89a95f437fd5056';
 
 export const bannerContent = {
   text: 'Announcing the Nomic Foundation',
@@ -20,6 +19,10 @@ export const menuItemsList: MenuItemType[] = [
     href: '/who-we-are',
   },
   {
+    label: 'jobs',
+    href: '/jobs',
+  },
+  {
     label: 'Hardhat',
     href: 'https://hardhat.org/',
   },
@@ -27,22 +30,18 @@ export const menuItemsList: MenuItemType[] = [
     label: 'Building Blocks',
     href: '/',
   },
-  // {
-  //   label: 'Jobs',
-  //   href: '/',
-  // },
 ];
 
 export const SOCIALS_LINKS = {
-  [SocialsEnum.MEDIUM]: 'https://medium.com/nomic-foundation-blog',
+  [SocialsEnum.LINKEDIN]: 'https://www.linkedin.com/company/nomic-foundation/',
   [SocialsEnum.TWITTER]: 'https://twitter.com/NomicFoundation',
 };
 
 export const socialsItems = [
   {
-    name: SocialsEnum.MEDIUM,
-    href: SOCIALS_LINKS[SocialsEnum.MEDIUM],
-    Icon: MediumIcon,
+    name: SocialsEnum.LINKEDIN,
+    href: SOCIALS_LINKS[SocialsEnum.LINKEDIN],
+    Icon: LinkedinIcon,
   },
   {
     name: SocialsEnum.TWITTER,

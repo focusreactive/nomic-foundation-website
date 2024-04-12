@@ -12,6 +12,7 @@ import {
   WHO_WE_ARE_BLOCK_CONTENT,
   WORK_WITH_US_CONTENT,
 } from '../content/landing';
+import { appTheme } from '../themes';
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         title: 'Nomic Foundation',
         description: 'Empowering developers to decentralize the world',
       }}
+      bodyBg={appTheme.light.colors.pageBackground}
     >
       <HeroBlock content={HERO_BLOCK_CONTENT} />
       <WhoWeAre content={WHO_WE_ARE_BLOCK_CONTENT} />

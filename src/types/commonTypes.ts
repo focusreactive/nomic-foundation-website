@@ -5,7 +5,7 @@ export type SEOType = {
 
 export enum SocialsEnum {
   TWITTER = 'TWITTER',
-  MEDIUM = 'MEDIUM',
+  LINKEDIN = 'LINKEDIN',
 }
 
 export type MenuItemType = {
@@ -19,4 +19,5 @@ export type CTAContent = {
   href: string;
   label: string;
   color?: string;
+  className?: string;
 };
